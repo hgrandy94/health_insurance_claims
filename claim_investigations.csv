@@ -1,0 +1,801 @@
+investigation_id,claim_id,review_created_date,risk_score,primary_flag,provider_claims_last_90_days,member_claims_last_90_days,duplicate_document_signal,identity_mismatch_signal,investigation_outcome,investigation_closed_date,analyst_notes
+INV0000001,CLM0000001,2025-02-26,46,Repeated provider/member pattern,1,1,Yes,Yes,No concern identified,2025-03-20,Synthetic demonstration record; review outcome is simulated.
+INV0000002,CLM0000002,2025-06-30,16,No automated concern,8,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000003,CLM0000003,2024-10-31,71,High-value claim,7,1,No,No,Evidence requested,2024-11-11,Synthetic demonstration record; review outcome is simulated.
+INV0000004,CLM0000004,2025-04-30,4,No automated concern,6,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000005,CLM0000005,2024-01-23,12,No automated concern,5,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000006,CLM0000006,2025-03-30,4,No automated concern,4,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000007,CLM0000007,2025-03-08,1,No automated concern,3,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000008,CLM0000008,2022-06-01,12,No automated concern,2,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000009,CLM0000009,2022-10-15,8,No automated concern,1,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000010,CLM0000010,2023-02-24,18,No automated concern,8,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000011,CLM0000011,2024-09-27,23,No automated concern,7,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000012,CLM0000012,2024-03-17,2,No automated concern,6,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000013,CLM0000013,2022-07-02,1,No automated concern,5,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000014,CLM0000014,2024-06-27,12,No automated concern,4,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000015,CLM0000015,2025-02-21,6,No automated concern,3,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000016,CLM0000016,2025-01-04,6,No automated concern,2,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000017,CLM0000017,2022-02-07,70,High-value claim; unusual amount,1,1,No,No,Referred to SIU,2022-02-21,Synthetic demonstration record; review outcome is simulated.
+INV0000018,CLM0000018,2024-03-06,25,No automated concern,8,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000019,CLM0000019,2023-01-02,15,No automated concern,7,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000020,CLM0000020,2022-12-07,4,No automated concern,6,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000021,CLM0000021,2023-01-26,9,No automated concern,5,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000022,CLM0000022,2024-11-20,11,No automated concern,4,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000023,CLM0000023,2025-01-01,9,No automated concern,3,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000024,CLM0000024,2023-02-09,45,High-value claim,2,1,No,No,Evidence requested,2023-02-28,Synthetic demonstration record; review outcome is simulated.
+INV0000025,CLM0000025,2023-08-15,5,No automated concern,1,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000026,CLM0000026,2024-11-18,26,No automated concern,8,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000027,CLM0000027,2025-10-22,23,No automated concern,7,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000028,CLM0000028,2023-06-10,5,No automated concern,6,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000029,CLM0000029,2022-04-17,10,No automated concern,5,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000030,CLM0000030,2025-05-06,25,No automated concern,4,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000031,CLM0000031,2022-08-24,11,No automated concern,3,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000032,CLM0000032,2025-01-22,47,Repeated provider/member pattern,2,1,No,No,No concern identified,2025-02-13,Synthetic demonstration record; review outcome is simulated.
+INV0000033,CLM0000033,2025-06-07,2,No automated concern,1,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000034,CLM0000034,2022-05-23,73,High-value claim; unusual amount,8,1,No,No,Referred to SIU,2022-06-16,Synthetic demonstration record; review outcome is simulated.
+INV0000035,CLM0000035,2025-03-08,20,No automated concern,7,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000036,CLM0000036,2024-09-28,4,No automated concern,6,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000037,CLM0000037,2023-08-30,11,No automated concern,5,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000038,CLM0000038,2025-09-04,5,No automated concern,4,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000039,CLM0000039,2022-10-29,4,No automated concern,3,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000040,CLM0000040,2023-03-23,1,No automated concern,2,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000041,CLM0000041,2025-08-02,0,No automated concern,1,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000042,CLM0000042,2023-05-16,20,No automated concern,8,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000043,CLM0000043,2024-05-01,16,No automated concern,7,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000044,CLM0000044,2024-01-31,9,No automated concern,6,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000045,CLM0000045,2024-04-03,6,No automated concern,5,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000046,CLM0000046,2023-11-19,7,No automated concern,4,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000047,CLM0000047,2025-03-22,0,No automated concern,3,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000048,CLM0000048,2022-09-29,5,No automated concern,2,1,Yes,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000049,CLM0000049,2024-07-16,2,No automated concern,1,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000050,CLM0000050,2022-08-15,24,No automated concern,8,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000051,CLM0000051,2022-03-19,75,High-value claim; unusual amount,7,1,No,No,Evidence requested,2022-04-10,Synthetic demonstration record; review outcome is simulated.
+INV0000052,CLM0000052,2025-02-08,11,No automated concern,6,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000053,CLM0000053,2025-06-20,10,No automated concern,5,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000054,CLM0000054,2025-09-18,6,No automated concern,4,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000055,CLM0000055,2023-01-10,6,No automated concern,3,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000056,CLM0000056,2025-02-07,5,No automated concern,2,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000057,CLM0000057,2023-06-02,2,No automated concern,1,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000058,CLM0000058,2024-08-18,19,No automated concern,8,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000059,CLM0000059,2022-12-02,36,No automated concern,7,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000060,CLM0000060,2025-06-06,3,No automated concern,6,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000061,CLM0000061,2025-04-19,6,No automated concern,5,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000062,CLM0000062,2023-11-05,12,No automated concern,4,1,No,Yes,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000063,CLM0000063,2022-02-23,39,Repeated provider/member pattern,3,1,No,No,No concern identified,2022-02-28,Synthetic demonstration record; review outcome is simulated.
+INV0000064,CLM0000064,2024-01-29,11,No automated concern,2,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000065,CLM0000065,2023-01-28,1,No automated concern,1,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000066,CLM0000066,2024-07-14,21,No automated concern,8,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000067,CLM0000067,2024-04-06,22,No automated concern,7,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000068,CLM0000068,2022-04-05,74,High-value claim; unusual amount,6,1,No,No,Referred to SIU,2022-04-29,Synthetic demonstration record; review outcome is simulated.
+INV0000069,CLM0000069,2024-06-15,1,No automated concern,5,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000070,CLM0000070,2025-06-26,5,No automated concern,4,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000071,CLM0000071,2024-11-04,8,No automated concern,3,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000072,CLM0000072,2022-02-23,12,No automated concern,2,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000073,CLM0000073,2024-07-18,2,No automated concern,1,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000074,CLM0000074,2025-09-21,19,No automated concern,8,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000075,CLM0000075,2023-05-13,16,No automated concern,7,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000076,CLM0000076,2024-01-11,0,No automated concern,6,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000077,CLM0000077,2023-12-12,2,No automated concern,5,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000078,CLM0000078,2022-11-14,1,No automated concern,4,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000079,CLM0000079,2022-06-21,12,No automated concern,3,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000080,CLM0000080,2022-03-16,5,No automated concern,2,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000081,CLM0000081,2023-12-02,2,No automated concern,1,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000082,CLM0000082,2023-02-07,65,High-value claim,8,1,No,No,Evidence requested,2023-03-13,Synthetic demonstration record; review outcome is simulated.
+INV0000083,CLM0000083,2024-04-07,22,No automated concern,7,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000084,CLM0000084,2024-02-24,8,No automated concern,6,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000085,CLM0000085,2024-12-14,77,High-value claim; unusual amount,5,1,No,No,Referred to SIU,2025-01-09,Synthetic demonstration record; review outcome is simulated.
+INV0000086,CLM0000086,2025-12-31,7,No automated concern,4,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000087,CLM0000087,2023-08-26,1,No automated concern,3,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000088,CLM0000088,2022-08-17,28,No automated concern,2,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000089,CLM0000089,2022-11-13,7,No automated concern,1,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000090,CLM0000090,2024-12-10,22,No automated concern,8,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000091,CLM0000091,2022-03-22,22,No automated concern,7,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000092,CLM0000092,2024-02-27,7,No automated concern,6,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000093,CLM0000093,2024-05-14,2,No automated concern,5,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000094,CLM0000094,2024-12-03,37,Repeated provider/member pattern,4,1,No,No,No concern identified,2025-01-08,Synthetic demonstration record; review outcome is simulated.
+INV0000095,CLM0000095,2024-03-18,6,No automated concern,3,1,Yes,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000096,CLM0000096,2023-07-18,4,No automated concern,2,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000097,CLM0000097,2023-12-15,12,No automated concern,1,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000098,CLM0000098,2025-09-15,22,No automated concern,8,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000099,CLM0000099,2024-10-24,27,No automated concern,7,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000100,CLM0000100,2024-11-15,2,No automated concern,6,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000101,CLM0000101,2025-07-10,4,No automated concern,5,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000102,CLM0000102,2022-10-04,73,High-value claim; unusual amount,4,1,No,No,Evidence requested,2022-11-16,Synthetic demonstration record; review outcome is simulated.
+INV0000103,CLM0000103,2022-08-11,0,No automated concern,3,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000104,CLM0000104,2023-09-28,2,No automated concern,2,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000105,CLM0000105,2025-05-24,11,No automated concern,1,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000106,CLM0000106,2023-09-28,18,No automated concern,8,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000107,CLM0000107,2024-09-14,19,No automated concern,7,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000108,CLM0000108,2024-12-24,4,No automated concern,6,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000109,CLM0000109,2022-05-22,12,No automated concern,5,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000110,CLM0000110,2024-06-08,56,High-value claim,4,1,No,No,Evidence requested,2024-07-11,Synthetic demonstration record; review outcome is simulated.
+INV0000111,CLM0000111,2024-04-18,4,No automated concern,3,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000112,CLM0000112,2022-06-21,12,No automated concern,2,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000113,CLM0000113,2022-06-30,12,No automated concern,1,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000114,CLM0000114,2022-06-30,22,No automated concern,8,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000115,CLM0000115,2025-02-17,16,No automated concern,7,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000116,CLM0000116,2025-06-02,7,No automated concern,6,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000117,CLM0000117,2026-01-12,32,No automated concern,5,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000118,CLM0000118,2023-06-21,6,No automated concern,4,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000119,CLM0000119,2023-10-02,71,High-value claim; unusual amount,3,1,No,No,Referred to SIU,2023-11-11,Synthetic demonstration record; review outcome is simulated.
+INV0000120,CLM0000120,2025-10-20,9,No automated concern,2,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000121,CLM0000121,2025-02-18,5,No automated concern,1,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000122,CLM0000122,2025-09-12,22,No automated concern,8,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000123,CLM0000123,2022-06-20,27,No automated concern,7,1,No,Yes,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000124,CLM0000124,2022-04-12,2,No automated concern,6,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000125,CLM0000125,2024-01-14,46,High-value claim,5,1,No,No,Evidence requested,2024-02-11,Synthetic demonstration record; review outcome is simulated.
+INV0000126,CLM0000126,2025-05-23,6,No automated concern,4,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000127,CLM0000127,2024-12-02,5,No automated concern,3,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000128,CLM0000128,2024-04-13,10,No automated concern,2,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000129,CLM0000129,2025-10-14,11,No automated concern,1,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000130,CLM0000130,2022-12-20,24,No automated concern,8,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000131,CLM0000131,2022-07-19,25,No automated concern,7,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000132,CLM0000132,2024-05-18,8,No automated concern,6,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000133,CLM0000133,2024-04-22,1,No automated concern,5,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000134,CLM0000134,2024-11-16,9,No automated concern,4,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000135,CLM0000135,2024-10-24,3,No automated concern,3,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000136,CLM0000136,2025-08-14,66,High-value claim; unusual amount,2,1,No,No,Referred to SIU,2025-08-17,Synthetic demonstration record; review outcome is simulated.
+INV0000137,CLM0000137,2022-09-25,6,No automated concern,1,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000138,CLM0000138,2023-03-19,16,No automated concern,8,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000139,CLM0000139,2025-04-27,23,No automated concern,7,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000140,CLM0000140,2023-08-12,0,No automated concern,6,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000141,CLM0000141,2025-08-07,10,No automated concern,5,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000142,CLM0000142,2022-06-05,12,No automated concern,4,1,Yes,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000143,CLM0000143,2022-12-04,7,No automated concern,3,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000144,CLM0000144,2024-10-11,5,No automated concern,2,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000145,CLM0000145,2024-09-13,8,No automated concern,1,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000146,CLM0000146,2022-03-26,39,No automated concern,8,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000147,CLM0000147,2022-10-06,19,No automated concern,7,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000148,CLM0000148,2024-03-15,0,No automated concern,6,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000149,CLM0000149,2022-02-25,6,No automated concern,5,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000150,CLM0000150,2025-03-01,7,No automated concern,4,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000151,CLM0000151,2022-04-28,12,No automated concern,3,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000152,CLM0000152,2026-01-03,0,No automated concern,2,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000153,CLM0000153,2025-09-22,77,High-value claim; unusual amount,1,1,No,No,Evidence requested,2025-11-06,Synthetic demonstration record; review outcome is simulated.
+INV0000154,CLM0000154,2024-08-31,27,No automated concern,8,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000155,CLM0000155,2023-01-06,18,No automated concern,7,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000156,CLM0000156,2023-10-23,45,Repeated provider/member pattern,6,1,No,No,No concern identified,2023-10-29,Synthetic demonstration record; review outcome is simulated.
+INV0000157,CLM0000157,2022-06-13,9,No automated concern,5,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000158,CLM0000158,2023-09-13,1,No automated concern,4,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000159,CLM0000159,2024-10-07,3,No automated concern,3,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000160,CLM0000160,2022-07-23,8,No automated concern,2,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000161,CLM0000161,2022-07-01,4,No automated concern,1,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000162,CLM0000162,2022-06-13,23,No automated concern,8,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000163,CLM0000163,2025-06-16,19,No automated concern,7,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000164,CLM0000164,2025-03-23,7,No automated concern,6,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000165,CLM0000165,2024-09-04,5,No automated concern,5,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000166,CLM0000166,2025-03-17,5,No automated concern,4,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000167,CLM0000167,2025-05-15,5,No automated concern,3,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000168,CLM0000168,2024-01-17,7,No automated concern,2,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000169,CLM0000169,2023-10-24,8,No automated concern,1,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000170,CLM0000170,2025-10-27,67,High-value claim; unusual amount,8,1,No,No,Referred to SIU,2025-11-27,Synthetic demonstration record; review outcome is simulated.
+INV0000171,CLM0000171,2024-02-09,15,No automated concern,7,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000172,CLM0000172,2025-05-19,10,No automated concern,6,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000173,CLM0000173,2024-09-06,0,No automated concern,5,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000174,CLM0000174,2023-11-30,5,No automated concern,4,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000175,CLM0000175,2024-07-03,24,No automated concern,3,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000176,CLM0000176,2026-01-02,3,No automated concern,2,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000177,CLM0000177,2023-04-29,11,No automated concern,1,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000178,CLM0000178,2022-04-12,20,No automated concern,8,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000179,CLM0000179,2022-07-20,21,No automated concern,7,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000180,CLM0000180,2025-09-28,0,No automated concern,6,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000181,CLM0000181,2022-03-09,49,High-value claim,5,1,No,No,Evidence requested,2022-03-25,Synthetic demonstration record; review outcome is simulated.
+INV0000182,CLM0000182,2022-08-07,6,No automated concern,4,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000183,CLM0000183,2025-03-19,7,No automated concern,3,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000184,CLM0000184,2022-03-25,0,No automated concern,2,1,No,Yes,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000185,CLM0000185,2024-07-15,12,No automated concern,1,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000186,CLM0000186,2024-12-20,17,No automated concern,8,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000187,CLM0000187,2023-10-04,75,High-value claim; unusual amount,7,1,No,No,Referred to SIU,2023-10-06,Synthetic demonstration record; review outcome is simulated.
+INV0000188,CLM0000188,2026-01-19,11,No automated concern,6,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000189,CLM0000189,2024-05-20,7,No automated concern,5,1,Yes,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000190,CLM0000190,2023-05-27,9,No automated concern,4,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000191,CLM0000191,2025-06-24,3,No automated concern,3,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000192,CLM0000192,2024-11-30,4,No automated concern,2,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000193,CLM0000193,2024-07-24,1,No automated concern,1,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000194,CLM0000194,2025-09-13,22,No automated concern,8,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000195,CLM0000195,2024-07-22,19,No automated concern,7,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000196,CLM0000196,2025-02-19,4,No automated concern,6,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000197,CLM0000197,2022-08-19,7,No automated concern,5,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000198,CLM0000198,2024-10-31,3,No automated concern,4,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000199,CLM0000199,2025-10-03,7,No automated concern,3,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000200,CLM0000200,2024-06-30,5,No automated concern,2,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000201,CLM0000201,2023-10-06,0,No automated concern,1,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000202,CLM0000202,2022-07-23,27,No automated concern,8,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000203,CLM0000203,2024-09-30,15,No automated concern,7,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000204,CLM0000204,2022-12-31,75,High-value claim; unusual amount,6,1,No,No,Evidence requested,2023-01-10,Synthetic demonstration record; review outcome is simulated.
+INV0000205,CLM0000205,2024-06-25,0,No automated concern,5,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000206,CLM0000206,2024-03-26,10,No automated concern,4,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000207,CLM0000207,2023-01-17,9,No automated concern,3,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000208,CLM0000208,2024-10-13,6,No automated concern,2,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000209,CLM0000209,2022-07-31,53,High-value claim,1,1,No,No,Evidence requested,2022-08-26,Synthetic demonstration record; review outcome is simulated.
+INV0000210,CLM0000210,2024-11-04,15,No automated concern,8,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000211,CLM0000211,2024-01-18,22,No automated concern,7,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000212,CLM0000212,2023-10-25,4,No automated concern,6,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000213,CLM0000213,2025-12-15,7,No automated concern,5,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000214,CLM0000214,2022-09-30,0,No automated concern,4,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000215,CLM0000215,2025-03-05,10,No automated concern,3,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000216,CLM0000216,2024-02-11,2,No automated concern,2,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000217,CLM0000217,2022-06-29,0,No automated concern,1,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000218,CLM0000218,2025-09-23,38,Repeated provider/member pattern,8,1,No,No,No concern identified,2025-10-21,Synthetic demonstration record; review outcome is simulated.
+INV0000219,CLM0000219,2024-07-07,19,No automated concern,7,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000220,CLM0000220,2022-08-17,2,No automated concern,6,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000221,CLM0000221,2023-06-27,70,High-value claim; unusual amount,5,1,No,No,Referred to SIU,2023-07-09,Synthetic demonstration record; review outcome is simulated.
+INV0000222,CLM0000222,2023-09-15,12,No automated concern,4,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000223,CLM0000223,2023-06-07,2,No automated concern,3,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000224,CLM0000224,2024-11-18,10,No automated concern,2,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000225,CLM0000225,2024-01-13,0,No automated concern,1,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000226,CLM0000226,2026-01-14,20,No automated concern,8,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000227,CLM0000227,2025-09-30,17,No automated concern,7,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000228,CLM0000228,2025-10-08,5,No automated concern,6,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000229,CLM0000229,2024-06-14,2,No automated concern,5,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000230,CLM0000230,2023-11-04,10,No automated concern,4,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000231,CLM0000231,2024-07-28,1,No automated concern,3,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000232,CLM0000232,2025-09-30,0,No automated concern,2,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000233,CLM0000233,2025-03-29,21,No automated concern,1,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000234,CLM0000234,2023-10-06,18,No automated concern,8,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000235,CLM0000235,2024-12-07,25,No automated concern,7,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000236,CLM0000236,2023-11-18,9,No automated concern,6,1,Yes,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000237,CLM0000237,2024-10-07,4,No automated concern,5,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000238,CLM0000238,2022-05-05,77,High-value claim; unusual amount,4,1,No,No,Referred to SIU,2022-05-18,Synthetic demonstration record; review outcome is simulated.
+INV0000239,CLM0000239,2024-09-21,8,No automated concern,3,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000240,CLM0000240,2022-09-12,3,No automated concern,2,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000241,CLM0000241,2023-04-07,6,No automated concern,1,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000242,CLM0000242,2025-03-18,20,No automated concern,8,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000243,CLM0000243,2022-06-02,25,No automated concern,7,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000244,CLM0000244,2026-01-14,1,No automated concern,6,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000245,CLM0000245,2024-08-31,9,No automated concern,5,1,No,Yes,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000246,CLM0000246,2022-04-07,2,No automated concern,4,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000247,CLM0000247,2022-11-19,0,No automated concern,3,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000248,CLM0000248,2023-12-14,8,No automated concern,2,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000249,CLM0000249,2024-03-29,43,Repeated provider/member pattern,1,1,No,No,No concern identified,2024-04-07,Synthetic demonstration record; review outcome is simulated.
+INV0000250,CLM0000250,2022-10-19,26,No automated concern,8,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000251,CLM0000251,2025-07-05,20,No automated concern,7,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000252,CLM0000252,2022-12-04,4,No automated concern,6,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000253,CLM0000253,2025-06-16,7,No automated concern,5,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000254,CLM0000254,2023-04-05,3,No automated concern,4,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000255,CLM0000255,2022-03-15,74,High-value claim; unusual amount,3,1,No,No,Evidence requested,2022-03-27,Synthetic demonstration record; review outcome is simulated.
+INV0000256,CLM0000256,2022-03-20,9,No automated concern,2,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000257,CLM0000257,2025-01-05,5,No automated concern,1,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000258,CLM0000258,2025-02-08,15,No automated concern,8,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000259,CLM0000259,2025-02-17,21,No automated concern,7,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000260,CLM0000260,2022-08-13,7,No automated concern,6,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000261,CLM0000261,2025-01-10,6,No automated concern,5,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000262,CLM0000262,2026-01-06,24,No automated concern,4,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000263,CLM0000263,2025-01-31,8,No automated concern,3,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000264,CLM0000264,2022-05-26,1,No automated concern,2,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000265,CLM0000265,2023-03-19,3,No automated concern,1,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000266,CLM0000266,2022-08-09,24,No automated concern,8,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000267,CLM0000267,2022-04-11,21,No automated concern,7,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000268,CLM0000268,2024-03-16,2,No automated concern,6,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000269,CLM0000269,2024-12-31,7,No automated concern,5,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000270,CLM0000270,2023-02-03,57,High-value claim,4,1,No,No,Evidence requested,2023-03-11,Synthetic demonstration record; review outcome is simulated.
+INV0000271,CLM0000271,2026-01-09,5,No automated concern,3,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000272,CLM0000272,2024-01-16,72,High-value claim; unusual amount,2,1,No,No,Referred to SIU,2024-02-21,Synthetic demonstration record; review outcome is simulated.
+INV0000273,CLM0000273,2025-05-17,9,No automated concern,1,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000274,CLM0000274,2023-11-12,15,No automated concern,8,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000275,CLM0000275,2023-07-08,18,No automated concern,7,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000276,CLM0000276,2024-05-30,4,No automated concern,6,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000277,CLM0000277,2025-09-26,8,No automated concern,5,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000278,CLM0000278,2023-12-19,4,No automated concern,4,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000279,CLM0000279,2022-09-21,4,No automated concern,3,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000280,CLM0000280,2022-09-19,43,Repeated provider/member pattern,2,1,No,No,No concern identified,2022-10-08,Synthetic demonstration record; review outcome is simulated.
+INV0000281,CLM0000281,2024-12-10,0,No automated concern,1,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000282,CLM0000282,2022-12-02,25,No automated concern,8,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000283,CLM0000283,2025-07-07,21,No automated concern,7,1,Yes,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000284,CLM0000284,2022-08-16,48,High-value claim,6,1,No,No,Evidence requested,2022-08-31,Synthetic demonstration record; review outcome is simulated.
+INV0000285,CLM0000285,2025-02-06,7,No automated concern,5,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000286,CLM0000286,2022-04-04,2,No automated concern,4,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000287,CLM0000287,2023-07-04,8,No automated concern,3,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000288,CLM0000288,2024-09-14,2,No automated concern,2,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000289,CLM0000289,2025-03-16,68,High-value claim; unusual amount,1,1,No,No,Referred to SIU,2025-04-07,Synthetic demonstration record; review outcome is simulated.
+INV0000290,CLM0000290,2024-02-24,66,High-value claim,8,1,No,No,Evidence requested,2024-03-10,Synthetic demonstration record; review outcome is simulated.
+INV0000291,CLM0000291,2025-03-15,40,No automated concern,7,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000292,CLM0000292,2024-12-02,0,No automated concern,6,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000293,CLM0000293,2022-03-22,12,No automated concern,5,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000294,CLM0000294,2025-10-26,6,No automated concern,4,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000295,CLM0000295,2025-05-23,6,No automated concern,3,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000296,CLM0000296,2022-07-05,10,No automated concern,2,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000297,CLM0000297,2025-05-14,4,No automated concern,1,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000298,CLM0000298,2023-01-13,22,No automated concern,8,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000299,CLM0000299,2022-04-03,18,No automated concern,7,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000300,CLM0000300,2022-10-26,12,No automated concern,6,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000301,CLM0000301,2023-03-31,8,No automated concern,5,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000302,CLM0000302,2023-06-29,2,No automated concern,4,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000303,CLM0000303,2024-08-01,2,No automated concern,3,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000304,CLM0000304,2023-11-11,7,No automated concern,2,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000305,CLM0000305,2024-12-22,8,No automated concern,1,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000306,CLM0000306,2024-07-13,71,High-value claim; unusual amount,8,1,No,Yes,Evidence requested,2024-08-11,Synthetic demonstration record; review outcome is simulated.
+INV0000307,CLM0000307,2025-03-22,26,No automated concern,7,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000308,CLM0000308,2025-01-18,4,No automated concern,6,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000309,CLM0000309,2024-03-22,6,No automated concern,5,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000310,CLM0000310,2023-12-05,4,No automated concern,4,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000311,CLM0000311,2022-02-07,37,Repeated provider/member pattern,3,1,No,No,No concern identified,2022-02-27,Synthetic demonstration record; review outcome is simulated.
+INV0000312,CLM0000312,2023-02-27,4,No automated concern,2,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000313,CLM0000313,2023-12-07,51,High-value claim,1,1,No,No,Evidence requested,2023-12-16,Synthetic demonstration record; review outcome is simulated.
+INV0000314,CLM0000314,2023-12-09,17,No automated concern,8,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000315,CLM0000315,2025-08-07,27,No automated concern,7,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000316,CLM0000316,2025-05-22,12,No automated concern,6,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000317,CLM0000317,2022-08-17,5,No automated concern,5,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000318,CLM0000318,2022-08-13,0,No automated concern,4,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000319,CLM0000319,2024-09-24,2,No automated concern,3,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000320,CLM0000320,2025-02-26,27,No automated concern,2,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000321,CLM0000321,2025-02-28,12,No automated concern,1,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000322,CLM0000322,2022-08-27,18,No automated concern,8,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000323,CLM0000323,2025-08-04,71,High-value claim; unusual amount,7,1,No,No,Referred to SIU,2025-09-13,Synthetic demonstration record; review outcome is simulated.
+INV0000324,CLM0000324,2024-05-14,10,No automated concern,6,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000325,CLM0000325,2024-05-13,3,No automated concern,5,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000326,CLM0000326,2024-07-22,8,No automated concern,4,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000327,CLM0000327,2024-09-27,11,No automated concern,3,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000328,CLM0000328,2026-01-10,9,No automated concern,2,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000329,CLM0000329,2023-06-22,12,No automated concern,1,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000330,CLM0000330,2022-07-29,17,No automated concern,8,1,Yes,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000331,CLM0000331,2024-12-30,19,No automated concern,7,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000332,CLM0000332,2022-04-13,8,No automated concern,6,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000333,CLM0000333,2023-09-19,2,No automated concern,5,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000334,CLM0000334,2022-10-08,5,No automated concern,4,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000335,CLM0000335,2022-08-16,3,No automated concern,3,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000336,CLM0000336,2024-01-23,1,No automated concern,2,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000337,CLM0000337,2025-07-09,5,No automated concern,1,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000338,CLM0000338,2024-07-06,23,No automated concern,8,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000339,CLM0000339,2025-01-17,27,No automated concern,7,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000340,CLM0000340,2024-03-14,67,High-value claim; unusual amount,6,1,No,No,Referred to SIU,2024-03-18,Synthetic demonstration record; review outcome is simulated.
+INV0000341,CLM0000341,2022-04-06,5,No automated concern,5,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000342,CLM0000342,2022-05-06,39,Repeated provider/member pattern,4,1,No,No,No concern identified,2022-05-29,Synthetic demonstration record; review outcome is simulated.
+INV0000343,CLM0000343,2023-12-18,10,No automated concern,3,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000344,CLM0000344,2023-04-03,8,No automated concern,2,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000345,CLM0000345,2024-11-06,9,No automated concern,1,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000346,CLM0000346,2023-09-12,62,High-value claim,8,1,No,No,Evidence requested,2023-09-29,Synthetic demonstration record; review outcome is simulated.
+INV0000347,CLM0000347,2022-03-29,26,No automated concern,7,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000348,CLM0000348,2023-12-03,8,No automated concern,6,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000349,CLM0000349,2023-02-18,23,No automated concern,5,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000350,CLM0000350,2023-08-02,11,No automated concern,4,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000351,CLM0000351,2022-11-19,10,No automated concern,3,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000352,CLM0000352,2023-01-02,5,No automated concern,2,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000353,CLM0000353,2024-06-20,10,No automated concern,1,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000354,CLM0000354,2025-10-27,25,No automated concern,8,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000355,CLM0000355,2024-01-19,27,No automated concern,7,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000356,CLM0000356,2022-06-19,10,No automated concern,6,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000357,CLM0000357,2022-09-19,74,High-value claim; unusual amount,5,1,No,No,Evidence requested,2022-10-07,Synthetic demonstration record; review outcome is simulated.
+INV0000358,CLM0000358,2024-08-14,0,No automated concern,4,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000359,CLM0000359,2024-08-06,7,No automated concern,3,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000360,CLM0000360,2023-01-24,12,No automated concern,2,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000361,CLM0000361,2023-02-12,2,No automated concern,1,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000362,CLM0000362,2025-07-11,26,No automated concern,8,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000363,CLM0000363,2022-10-08,25,No automated concern,7,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000364,CLM0000364,2023-09-03,7,No automated concern,6,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000365,CLM0000365,2023-02-28,1,No automated concern,5,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000366,CLM0000366,2024-07-21,12,No automated concern,4,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000367,CLM0000367,2025-08-22,7,No automated concern,3,1,No,Yes,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000368,CLM0000368,2024-08-14,9,No automated concern,2,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000369,CLM0000369,2025-04-13,6,No automated concern,1,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000370,CLM0000370,2025-01-20,18,No automated concern,8,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000371,CLM0000371,2023-11-19,24,No automated concern,7,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000372,CLM0000372,2024-01-23,11,No automated concern,6,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000373,CLM0000373,2022-12-05,40,Repeated provider/member pattern,5,1,No,No,No concern identified,2022-12-25,Synthetic demonstration record; review outcome is simulated.
+INV0000374,CLM0000374,2024-10-19,75,High-value claim; unusual amount,4,1,No,No,Referred to SIU,2024-11-05,Synthetic demonstration record; review outcome is simulated.
+INV0000375,CLM0000375,2024-04-08,5,No automated concern,3,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000376,CLM0000376,2022-11-02,11,No automated concern,2,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000377,CLM0000377,2022-06-25,9,No automated concern,1,1,Yes,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000378,CLM0000378,2022-03-15,42,No automated concern,8,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000379,CLM0000379,2025-12-30,25,No automated concern,7,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000380,CLM0000380,2026-01-04,4,No automated concern,6,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000381,CLM0000381,2023-01-09,12,No automated concern,5,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000382,CLM0000382,2023-05-09,11,No automated concern,4,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000383,CLM0000383,2024-07-30,5,No automated concern,3,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000384,CLM0000384,2022-09-28,10,No automated concern,2,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000385,CLM0000385,2022-10-17,3,No automated concern,1,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000386,CLM0000386,2024-09-25,20,No automated concern,8,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000387,CLM0000387,2022-07-27,21,No automated concern,7,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000388,CLM0000388,2022-04-05,3,No automated concern,6,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000389,CLM0000389,2024-12-24,11,No automated concern,5,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000390,CLM0000390,2023-08-31,5,No automated concern,4,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000391,CLM0000391,2024-10-19,69,High-value claim; unusual amount,3,1,No,No,Referred to SIU,2024-11-13,Synthetic demonstration record; review outcome is simulated.
+INV0000392,CLM0000392,2024-04-03,2,No automated concern,2,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000393,CLM0000393,2025-07-01,5,No automated concern,1,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000394,CLM0000394,2022-05-29,19,No automated concern,8,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000395,CLM0000395,2024-07-07,24,No automated concern,7,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000396,CLM0000396,2024-09-26,4,No automated concern,6,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000397,CLM0000397,2023-12-11,6,No automated concern,5,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000398,CLM0000398,2025-05-21,10,No automated concern,4,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000399,CLM0000399,2024-03-03,3,No automated concern,3,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000400,CLM0000400,2023-06-07,0,No automated concern,2,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000401,CLM0000401,2022-06-03,8,No automated concern,1,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000402,CLM0000402,2023-06-11,24,No automated concern,8,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000403,CLM0000403,2023-09-10,21,No automated concern,7,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000404,CLM0000404,2024-12-28,37,Repeated provider/member pattern,6,1,No,No,No concern identified,2025-02-03,Synthetic demonstration record; review outcome is simulated.
+INV0000405,CLM0000405,2023-11-17,10,No automated concern,5,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000406,CLM0000406,2022-12-17,7,No automated concern,4,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000407,CLM0000407,2025-03-01,30,No automated concern,3,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000408,CLM0000408,2023-03-22,77,High-value claim; unusual amount,2,1,No,No,Evidence requested,2023-04-16,Synthetic demonstration record; review outcome is simulated.
+INV0000409,CLM0000409,2023-10-04,3,No automated concern,1,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000410,CLM0000410,2025-08-25,21,No automated concern,8,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000411,CLM0000411,2023-08-04,26,No automated concern,7,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000412,CLM0000412,2023-10-28,56,High-value claim,6,1,No,No,Evidence requested,2023-11-05,Synthetic demonstration record; review outcome is simulated.
+INV0000413,CLM0000413,2023-04-30,8,No automated concern,5,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000414,CLM0000414,2025-08-12,9,No automated concern,4,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000415,CLM0000415,2022-05-02,0,No automated concern,3,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000416,CLM0000416,2025-01-01,7,No automated concern,2,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000417,CLM0000417,2024-05-31,6,No automated concern,1,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000418,CLM0000418,2024-02-02,20,No automated concern,8,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000419,CLM0000419,2025-12-29,25,No automated concern,7,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000420,CLM0000420,2025-03-15,3,No automated concern,6,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000421,CLM0000421,2024-11-29,4,No automated concern,5,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000422,CLM0000422,2022-09-19,1,No automated concern,4,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000423,CLM0000423,2024-09-24,8,No automated concern,3,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000424,CLM0000424,2025-08-31,7,No automated concern,2,1,Yes,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000425,CLM0000425,2025-11-10,75,High-value claim; unusual amount,1,1,No,No,Referred to SIU,2025-12-04,Synthetic demonstration record; review outcome is simulated.
+INV0000426,CLM0000426,2025-07-27,18,No automated concern,8,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000427,CLM0000427,2024-01-13,20,No automated concern,7,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000428,CLM0000428,2024-12-24,4,No automated concern,6,1,No,Yes,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000429,CLM0000429,2023-08-21,7,No automated concern,5,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000430,CLM0000430,2025-10-11,11,No automated concern,4,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000431,CLM0000431,2023-06-18,8,No automated concern,3,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000432,CLM0000432,2023-02-04,7,No automated concern,2,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000433,CLM0000433,2025-08-31,10,No automated concern,1,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000434,CLM0000434,2025-11-17,22,No automated concern,8,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000435,CLM0000435,2023-08-01,38,Repeated provider/member pattern,7,1,No,No,No concern identified,2023-08-20,Synthetic demonstration record; review outcome is simulated.
+INV0000436,CLM0000436,2022-03-13,23,No automated concern,6,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000437,CLM0000437,2023-07-03,11,No automated concern,5,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000438,CLM0000438,2022-04-14,0,No automated concern,4,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000439,CLM0000439,2022-09-29,4,No automated concern,3,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000440,CLM0000440,2025-04-20,57,High-value claim,2,1,No,No,Evidence requested,2025-05-04,Synthetic demonstration record; review outcome is simulated.
+INV0000441,CLM0000441,2024-04-09,9,No automated concern,1,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000442,CLM0000442,2023-08-03,71,High-value claim; unusual amount,8,1,No,No,Referred to SIU,2023-08-30,Synthetic demonstration record; review outcome is simulated.
+INV0000443,CLM0000443,2025-09-15,18,No automated concern,7,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000444,CLM0000444,2025-01-18,9,No automated concern,6,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000445,CLM0000445,2024-02-04,8,No automated concern,5,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000446,CLM0000446,2025-08-03,5,No automated concern,4,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000447,CLM0000447,2024-03-29,10,No automated concern,3,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000448,CLM0000448,2025-08-12,4,No automated concern,2,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000449,CLM0000449,2023-07-12,4,No automated concern,1,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000450,CLM0000450,2023-10-28,27,No automated concern,8,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000451,CLM0000451,2024-10-26,25,No automated concern,7,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000452,CLM0000452,2025-12-10,2,No automated concern,6,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000453,CLM0000453,2024-09-06,46,High-value claim,5,1,No,No,Evidence requested,2024-09-15,Synthetic demonstration record; review outcome is simulated.
+INV0000454,CLM0000454,2025-02-12,5,No automated concern,4,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000455,CLM0000455,2024-07-10,7,No automated concern,3,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000456,CLM0000456,2024-09-10,12,No automated concern,2,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000457,CLM0000457,2022-09-07,8,No automated concern,1,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000458,CLM0000458,2023-10-11,27,No automated concern,8,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000459,CLM0000459,2022-07-20,74,High-value claim; unusual amount,7,1,No,No,Evidence requested,2022-08-02,Synthetic demonstration record; review outcome is simulated.
+INV0000460,CLM0000460,2024-05-02,2,No automated concern,6,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000461,CLM0000461,2023-11-01,12,No automated concern,5,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000462,CLM0000462,2022-07-17,49,High-value claim,4,1,No,No,Evidence requested,2022-08-13,Synthetic demonstration record; review outcome is simulated.
+INV0000463,CLM0000463,2025-07-15,1,No automated concern,3,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000464,CLM0000464,2025-05-10,5,No automated concern,2,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000465,CLM0000465,2023-11-28,21,No automated concern,1,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000466,CLM0000466,2025-02-01,46,Repeated provider/member pattern,8,1,No,No,No concern identified,2025-03-13,Synthetic demonstration record; review outcome is simulated.
+INV0000467,CLM0000467,2023-11-11,18,No automated concern,7,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000468,CLM0000468,2025-02-17,4,No automated concern,6,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000469,CLM0000469,2024-02-01,11,No automated concern,5,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000470,CLM0000470,2022-05-12,4,No automated concern,4,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000471,CLM0000471,2022-01-20,1,No automated concern,3,1,Yes,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000472,CLM0000472,2025-03-01,0,No automated concern,2,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000473,CLM0000473,2023-12-29,11,No automated concern,1,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000474,CLM0000474,2025-10-15,18,No automated concern,8,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000475,CLM0000475,2022-09-22,25,No automated concern,7,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000476,CLM0000476,2025-08-22,72,High-value claim; unusual amount,6,1,No,No,Referred to SIU,2025-09-08,Synthetic demonstration record; review outcome is simulated.
+INV0000477,CLM0000477,2023-07-29,3,No automated concern,5,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000478,CLM0000478,2025-05-01,11,No automated concern,4,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000479,CLM0000479,2023-03-08,11,No automated concern,3,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000480,CLM0000480,2022-10-25,5,No automated concern,2,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000481,CLM0000481,2023-12-22,5,No automated concern,1,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000482,CLM0000482,2024-12-25,27,No automated concern,8,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000483,CLM0000483,2023-03-30,26,No automated concern,7,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000484,CLM0000484,2022-12-20,7,No automated concern,6,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000485,CLM0000485,2025-03-15,3,No automated concern,5,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000486,CLM0000486,2024-02-25,3,No automated concern,4,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000487,CLM0000487,2023-06-20,6,No automated concern,3,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000488,CLM0000488,2022-03-31,12,No automated concern,2,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000489,CLM0000489,2026-01-26,8,No automated concern,1,1,No,Yes,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000490,CLM0000490,2023-06-10,17,No automated concern,8,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000491,CLM0000491,2022-05-21,24,No automated concern,7,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000492,CLM0000492,2024-07-20,7,No automated concern,6,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000493,CLM0000493,2024-03-02,71,High-value claim; unusual amount,5,1,No,No,Referred to SIU,2024-04-01,Synthetic demonstration record; review outcome is simulated.
+INV0000494,CLM0000494,2023-01-17,24,No automated concern,4,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000495,CLM0000495,2023-05-22,2,No automated concern,3,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000496,CLM0000496,2022-10-19,11,No automated concern,2,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000497,CLM0000497,2025-06-26,45,Repeated provider/member pattern,1,1,No,No,No concern identified,2025-07-20,Synthetic demonstration record; review outcome is simulated.
+INV0000498,CLM0000498,2024-09-05,17,No automated concern,8,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000499,CLM0000499,2023-03-24,25,No automated concern,7,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000500,CLM0000500,2022-09-11,1,No automated concern,6,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000501,CLM0000501,2022-05-14,51,High-value claim,5,1,No,No,Evidence requested,2022-06-08,Synthetic demonstration record; review outcome is simulated.
+INV0000502,CLM0000502,2023-12-11,2,No automated concern,4,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000503,CLM0000503,2024-08-08,3,No automated concern,3,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000504,CLM0000504,2024-01-08,6,No automated concern,2,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000505,CLM0000505,2024-04-26,6,No automated concern,1,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000506,CLM0000506,2025-02-25,17,No automated concern,8,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000507,CLM0000507,2022-12-25,18,No automated concern,7,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000508,CLM0000508,2025-11-25,10,No automated concern,6,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000509,CLM0000509,2023-11-14,12,No automated concern,5,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000510,CLM0000510,2022-06-15,72,High-value claim; unusual amount,4,1,No,No,Evidence requested,2022-07-25,Synthetic demonstration record; review outcome is simulated.
+INV0000511,CLM0000511,2025-04-20,0,No automated concern,3,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000512,CLM0000512,2023-01-25,7,No automated concern,2,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000513,CLM0000513,2023-02-09,7,No automated concern,1,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000514,CLM0000514,2025-03-26,27,No automated concern,8,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000515,CLM0000515,2025-04-03,20,No automated concern,7,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000516,CLM0000516,2024-01-27,9,No automated concern,6,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000517,CLM0000517,2024-07-05,4,No automated concern,5,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000518,CLM0000518,2022-04-15,6,No automated concern,4,1,Yes,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000519,CLM0000519,2023-09-21,7,No automated concern,3,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000520,CLM0000520,2024-12-14,8,No automated concern,2,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000521,CLM0000521,2022-03-18,1,No automated concern,1,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000522,CLM0000522,2022-04-25,24,No automated concern,8,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000523,CLM0000523,2024-06-18,42,No automated concern,7,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000524,CLM0000524,2022-10-25,12,No automated concern,6,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000525,CLM0000525,2023-11-18,12,No automated concern,5,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000526,CLM0000526,2024-03-11,12,No automated concern,4,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000527,CLM0000527,2023-04-12,75,High-value claim; unusual amount,3,1,No,No,Referred to SIU,2023-04-25,Synthetic demonstration record; review outcome is simulated.
+INV0000528,CLM0000528,2025-05-21,39,Repeated provider/member pattern,2,1,No,No,No concern identified,2025-06-17,Synthetic demonstration record; review outcome is simulated.
+INV0000529,CLM0000529,2023-08-06,11,No automated concern,1,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000530,CLM0000530,2025-08-03,24,No automated concern,8,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000531,CLM0000531,2024-05-31,17,No automated concern,7,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000532,CLM0000532,2023-07-29,7,No automated concern,6,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000533,CLM0000533,2024-08-29,4,No automated concern,5,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000534,CLM0000534,2026-01-08,1,No automated concern,4,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000535,CLM0000535,2022-07-17,7,No automated concern,3,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000536,CLM0000536,2022-04-15,12,No automated concern,2,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000537,CLM0000537,2023-10-31,11,No automated concern,1,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000538,CLM0000538,2022-03-28,15,No automated concern,8,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000539,CLM0000539,2024-10-31,19,No automated concern,7,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000540,CLM0000540,2022-09-18,4,No automated concern,6,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000541,CLM0000541,2024-11-21,0,No automated concern,5,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000542,CLM0000542,2024-02-05,3,No automated concern,4,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000543,CLM0000543,2025-01-01,11,No automated concern,3,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000544,CLM0000544,2026-01-16,66,High-value claim; unusual amount,2,1,No,No,Referred to SIU,2026-02-14,Synthetic demonstration record; review outcome is simulated.
+INV0000545,CLM0000545,2025-06-05,7,No automated concern,1,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000546,CLM0000546,2022-02-09,23,No automated concern,8,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000547,CLM0000547,2024-06-13,20,No automated concern,7,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000548,CLM0000548,2023-12-02,55,High-value claim,6,1,No,No,Evidence requested,2023-12-22,Synthetic demonstration record; review outcome is simulated.
+INV0000549,CLM0000549,2024-03-09,0,No automated concern,5,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000550,CLM0000550,2024-01-12,0,No automated concern,4,1,No,Yes,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000551,CLM0000551,2023-07-30,9,No automated concern,3,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000552,CLM0000552,2024-06-20,28,No automated concern,2,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000553,CLM0000553,2024-10-23,12,No automated concern,1,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000554,CLM0000554,2023-04-14,21,No automated concern,8,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000555,CLM0000555,2024-07-03,22,No automated concern,7,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000556,CLM0000556,2023-08-17,8,No automated concern,6,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000557,CLM0000557,2023-10-12,4,No automated concern,5,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000558,CLM0000558,2024-06-17,6,No automated concern,4,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000559,CLM0000559,2022-02-09,53,High-value claim,3,1,No,No,Evidence requested,2022-02-17,Synthetic demonstration record; review outcome is simulated.
+INV0000560,CLM0000560,2025-03-10,6,No automated concern,2,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000561,CLM0000561,2025-05-15,67,High-value claim; unusual amount,1,1,No,No,Evidence requested,2025-06-19,Synthetic demonstration record; review outcome is simulated.
+INV0000562,CLM0000562,2025-07-14,18,No automated concern,8,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000563,CLM0000563,2024-08-26,17,No automated concern,7,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000564,CLM0000564,2026-01-14,12,No automated concern,6,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000565,CLM0000565,2024-07-04,5,No automated concern,5,1,Yes,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000566,CLM0000566,2023-01-24,8,No automated concern,4,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000567,CLM0000567,2025-08-21,10,No automated concern,3,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000568,CLM0000568,2023-09-15,9,No automated concern,2,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000569,CLM0000569,2025-01-10,7,No automated concern,1,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000570,CLM0000570,2024-10-26,17,No automated concern,8,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000571,CLM0000571,2024-05-24,20,No automated concern,7,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000572,CLM0000572,2025-12-29,7,No automated concern,6,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000573,CLM0000573,2022-08-07,8,No automated concern,5,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000574,CLM0000574,2023-07-08,3,No automated concern,4,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000575,CLM0000575,2024-03-14,5,No automated concern,3,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000576,CLM0000576,2024-06-05,1,No automated concern,2,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000577,CLM0000577,2025-10-17,3,No automated concern,1,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000578,CLM0000578,2023-05-30,75,High-value claim; unusual amount,8,1,No,No,Referred to SIU,2023-07-05,Synthetic demonstration record; review outcome is simulated.
+INV0000579,CLM0000579,2023-04-08,20,No automated concern,7,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000580,CLM0000580,2022-04-12,10,No automated concern,6,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000581,CLM0000581,2026-01-09,23,No automated concern,5,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000582,CLM0000582,2025-12-14,2,No automated concern,4,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000583,CLM0000583,2023-12-17,4,No automated concern,3,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000584,CLM0000584,2026-01-07,4,No automated concern,2,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000585,CLM0000585,2024-10-06,7,No automated concern,1,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000586,CLM0000586,2023-02-26,23,No automated concern,8,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000587,CLM0000587,2024-04-22,21,No automated concern,7,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000588,CLM0000588,2024-01-13,10,No automated concern,6,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000589,CLM0000589,2024-12-16,8,No automated concern,5,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000590,CLM0000590,2023-06-26,40,Repeated provider/member pattern,4,1,No,No,No concern identified,2023-07-28,Synthetic demonstration record; review outcome is simulated.
+INV0000591,CLM0000591,2024-11-28,9,No automated concern,3,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000592,CLM0000592,2025-01-08,11,No automated concern,2,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000593,CLM0000593,2023-11-16,7,No automated concern,1,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000594,CLM0000594,2022-05-28,23,No automated concern,8,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000595,CLM0000595,2024-01-27,70,High-value claim; unusual amount,7,1,No,No,Referred to SIU,2024-03-06,Synthetic demonstration record; review outcome is simulated.
+INV0000596,CLM0000596,2023-06-30,8,No automated concern,6,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000597,CLM0000597,2022-07-22,3,No automated concern,5,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000598,CLM0000598,2025-10-05,55,High-value claim,4,1,No,No,Evidence requested,2025-10-23,Synthetic demonstration record; review outcome is simulated.
+INV0000599,CLM0000599,2023-03-30,6,No automated concern,3,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000600,CLM0000600,2023-06-18,0,No automated concern,2,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000601,CLM0000601,2024-04-01,57,High-value claim,1,1,No,No,Evidence requested,2024-05-11,Synthetic demonstration record; review outcome is simulated.
+INV0000602,CLM0000602,2024-01-14,17,No automated concern,8,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000603,CLM0000603,2022-04-04,15,No automated concern,7,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000604,CLM0000604,2025-11-16,10,No automated concern,6,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000605,CLM0000605,2024-05-25,11,No automated concern,5,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000606,CLM0000606,2024-05-06,7,No automated concern,4,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000607,CLM0000607,2025-08-01,4,No automated concern,3,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000608,CLM0000608,2024-07-22,6,No automated concern,2,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000609,CLM0000609,2022-08-10,11,No automated concern,1,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000610,CLM0000610,2022-06-19,46,No automated concern,8,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000611,CLM0000611,2024-09-27,18,No automated concern,7,1,No,Yes,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000612,CLM0000612,2023-08-07,75,High-value claim; unusual amount,6,1,Yes,No,Evidence requested,2023-09-15,Synthetic demonstration record; review outcome is simulated.
+INV0000613,CLM0000613,2025-02-24,0,No automated concern,5,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000614,CLM0000614,2025-01-14,7,No automated concern,4,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000615,CLM0000615,2025-06-05,7,No automated concern,3,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000616,CLM0000616,2024-10-30,6,No automated concern,2,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000617,CLM0000617,2024-06-25,10,No automated concern,1,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000618,CLM0000618,2025-01-16,16,No automated concern,8,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000619,CLM0000619,2024-04-03,15,No automated concern,7,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000620,CLM0000620,2022-02-04,10,No automated concern,6,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000621,CLM0000621,2024-12-27,42,Repeated provider/member pattern,5,1,No,No,No concern identified,2025-01-26,Synthetic demonstration record; review outcome is simulated.
+INV0000622,CLM0000622,2022-10-22,7,No automated concern,4,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000623,CLM0000623,2024-02-11,1,No automated concern,3,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000624,CLM0000624,2025-12-01,4,No automated concern,2,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000625,CLM0000625,2025-12-11,8,No automated concern,1,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000626,CLM0000626,2022-05-10,20,No automated concern,8,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000627,CLM0000627,2023-06-26,15,No automated concern,7,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000628,CLM0000628,2023-10-15,11,No automated concern,6,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000629,CLM0000629,2025-08-02,75,High-value claim; unusual amount,5,1,No,No,Referred to SIU,2025-08-14,Synthetic demonstration record; review outcome is simulated.
+INV0000630,CLM0000630,2024-04-14,8,No automated concern,4,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000631,CLM0000631,2026-01-03,7,No automated concern,3,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000632,CLM0000632,2023-07-08,1,No automated concern,2,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000633,CLM0000633,2022-12-26,1,No automated concern,1,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000634,CLM0000634,2024-08-19,15,No automated concern,8,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000635,CLM0000635,2025-07-20,24,No automated concern,7,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000636,CLM0000636,2025-01-15,5,No automated concern,6,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000637,CLM0000637,2022-03-15,7,No automated concern,5,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000638,CLM0000638,2025-02-09,5,No automated concern,4,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000639,CLM0000639,2024-09-01,28,No automated concern,3,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000640,CLM0000640,2024-12-08,3,No automated concern,2,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000641,CLM0000641,2022-07-12,7,No automated concern,1,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000642,CLM0000642,2025-04-27,17,No automated concern,8,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000643,CLM0000643,2022-10-09,26,No automated concern,7,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000644,CLM0000644,2025-08-29,54,High-value claim,6,1,No,No,Evidence requested,2025-09-17,Synthetic demonstration record; review outcome is simulated.
+INV0000645,CLM0000645,2023-10-25,2,No automated concern,5,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000646,CLM0000646,2025-10-21,73,High-value claim; unusual amount,4,1,No,No,Referred to SIU,2025-11-16,Synthetic demonstration record; review outcome is simulated.
+INV0000647,CLM0000647,2024-11-10,3,No automated concern,3,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000648,CLM0000648,2025-10-11,9,No automated concern,2,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000649,CLM0000649,2022-08-02,8,No automated concern,1,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000650,CLM0000650,2024-07-02,15,No automated concern,8,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000651,CLM0000651,2024-07-16,20,No automated concern,7,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000652,CLM0000652,2025-03-20,37,Repeated provider/member pattern,6,1,No,No,No concern identified,2025-04-16,Synthetic demonstration record; review outcome is simulated.
+INV0000653,CLM0000653,2025-10-26,7,No automated concern,5,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000654,CLM0000654,2024-08-24,11,No automated concern,4,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000655,CLM0000655,2023-12-06,8,No automated concern,3,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000656,CLM0000656,2025-05-07,4,No automated concern,2,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000657,CLM0000657,2023-07-07,10,No automated concern,1,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000658,CLM0000658,2022-09-07,26,No automated concern,8,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000659,CLM0000659,2025-05-24,20,No automated concern,7,1,Yes,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000660,CLM0000660,2024-07-17,11,No automated concern,6,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000661,CLM0000661,2023-10-19,8,No automated concern,5,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000662,CLM0000662,2024-10-19,7,No automated concern,4,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000663,CLM0000663,2025-12-02,67,High-value claim; unusual amount,3,1,No,No,Evidence requested,2026-01-07,Synthetic demonstration record; review outcome is simulated.
+INV0000664,CLM0000664,2023-06-09,8,No automated concern,2,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000665,CLM0000665,2023-03-23,11,No automated concern,1,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000666,CLM0000666,2022-07-09,17,No automated concern,8,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000667,CLM0000667,2024-06-13,17,No automated concern,7,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000668,CLM0000668,2022-04-03,22,No automated concern,6,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000669,CLM0000669,2025-12-10,7,No automated concern,5,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000670,CLM0000670,2023-11-08,10,No automated concern,4,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000671,CLM0000671,2023-05-06,10,No automated concern,3,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000672,CLM0000672,2022-10-27,9,No automated concern,2,1,No,Yes,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000673,CLM0000673,2024-02-03,10,No automated concern,1,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000674,CLM0000674,2022-03-25,20,No automated concern,8,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000675,CLM0000675,2022-06-03,17,No automated concern,7,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000676,CLM0000676,2023-10-17,5,No automated concern,6,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000677,CLM0000677,2024-01-02,8,No automated concern,5,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000678,CLM0000678,2022-08-08,12,No automated concern,4,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000679,CLM0000679,2022-10-02,6,No automated concern,3,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000680,CLM0000680,2025-12-31,77,High-value claim; unusual amount,2,1,No,No,Referred to SIU,2026-02-14,Synthetic demonstration record; review outcome is simulated.
+INV0000681,CLM0000681,2025-09-03,0,No automated concern,1,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000682,CLM0000682,2022-07-12,19,No automated concern,8,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000683,CLM0000683,2025-05-05,42,Repeated provider/member pattern,7,1,No,No,No concern identified,2025-06-10,Synthetic demonstration record; review outcome is simulated.
+INV0000684,CLM0000684,2024-05-31,5,No automated concern,6,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000685,CLM0000685,2023-11-01,1,No automated concern,5,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000686,CLM0000686,2024-12-11,4,No automated concern,4,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000687,CLM0000687,2025-03-23,5,No automated concern,3,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000688,CLM0000688,2022-07-01,8,No automated concern,2,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000689,CLM0000689,2025-02-17,2,No automated concern,1,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000690,CLM0000690,2024-11-30,16,No automated concern,8,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000691,CLM0000691,2024-04-08,24,No automated concern,7,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000692,CLM0000692,2022-09-29,6,No automated concern,6,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000693,CLM0000693,2024-08-17,7,No automated concern,5,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000694,CLM0000694,2025-06-09,7,No automated concern,4,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000695,CLM0000695,2023-11-30,5,No automated concern,3,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000696,CLM0000696,2022-01-29,8,No automated concern,2,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000697,CLM0000697,2025-04-23,66,High-value claim; unusual amount,1,1,No,No,Referred to SIU,2025-05-08,Synthetic demonstration record; review outcome is simulated.
+INV0000698,CLM0000698,2025-11-04,19,No automated concern,8,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000699,CLM0000699,2025-07-05,16,No automated concern,7,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000700,CLM0000700,2025-01-10,12,No automated concern,6,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000701,CLM0000701,2025-09-26,6,No automated concern,5,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000702,CLM0000702,2024-06-01,10,No automated concern,4,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000703,CLM0000703,2022-09-23,12,No automated concern,3,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000704,CLM0000704,2023-11-24,5,No automated concern,2,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000705,CLM0000705,2024-09-15,2,No automated concern,1,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000706,CLM0000706,2022-11-16,16,No automated concern,8,1,Yes,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000707,CLM0000707,2024-11-26,25,No automated concern,7,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000708,CLM0000708,2022-11-17,6,No automated concern,6,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000709,CLM0000709,2022-03-12,5,No automated concern,5,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000710,CLM0000710,2024-10-04,11,No automated concern,4,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000711,CLM0000711,2022-06-29,1,No automated concern,3,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000712,CLM0000712,2023-05-27,11,No automated concern,2,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000713,CLM0000713,2023-11-21,12,No automated concern,1,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000714,CLM0000714,2023-01-29,73,High-value claim; unusual amount,8,1,No,No,Evidence requested,2023-03-08,Synthetic demonstration record; review outcome is simulated.
+INV0000715,CLM0000715,2023-03-01,25,No automated concern,7,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000716,CLM0000716,2022-07-08,5,No automated concern,6,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000717,CLM0000717,2025-08-07,6,No automated concern,5,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000718,CLM0000718,2023-06-09,2,No automated concern,4,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000719,CLM0000719,2023-01-01,12,No automated concern,3,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000720,CLM0000720,2022-09-26,12,No automated concern,2,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000721,CLM0000721,2024-06-17,1,No automated concern,1,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000722,CLM0000722,2022-04-15,24,No automated concern,8,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000723,CLM0000723,2023-11-11,27,No automated concern,7,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000724,CLM0000724,2025-08-03,10,No automated concern,6,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000725,CLM0000725,2024-12-30,9,No automated concern,5,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000726,CLM0000726,2023-08-10,27,No automated concern,4,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000727,CLM0000727,2024-11-06,6,No automated concern,3,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000728,CLM0000728,2025-08-29,0,No automated concern,2,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000729,CLM0000729,2024-05-14,11,No automated concern,1,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000730,CLM0000730,2022-07-30,20,No automated concern,8,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000731,CLM0000731,2024-03-13,67,High-value claim; unusual amount,7,1,No,No,Referred to SIU,2024-04-05,Synthetic demonstration record; review outcome is simulated.
+INV0000732,CLM0000732,2024-02-10,11,No automated concern,6,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000733,CLM0000733,2025-03-01,1,No automated concern,5,1,No,Yes,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000734,CLM0000734,2024-02-13,5,No automated concern,4,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000735,CLM0000735,2025-12-12,6,No automated concern,3,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000736,CLM0000736,2024-06-03,3,No automated concern,2,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000737,CLM0000737,2024-09-18,9,No automated concern,1,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000738,CLM0000738,2025-09-11,23,No automated concern,8,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000739,CLM0000739,2024-05-10,21,No automated concern,7,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000740,CLM0000740,2022-12-18,6,No automated concern,6,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000741,CLM0000741,2023-06-15,2,No automated concern,5,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000742,CLM0000742,2023-07-13,8,No automated concern,4,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000743,CLM0000743,2023-10-19,5,No automated concern,3,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000744,CLM0000744,2022-03-13,6,No automated concern,2,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000745,CLM0000745,2025-12-13,41,Repeated provider/member pattern,1,1,No,No,No concern identified,2026-01-18,Synthetic demonstration record; review outcome is simulated.
+INV0000746,CLM0000746,2024-08-29,23,No automated concern,8,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000747,CLM0000747,2023-09-07,18,No automated concern,7,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000748,CLM0000748,2023-03-08,69,High-value claim; unusual amount,6,1,No,No,Referred to SIU,2023-03-23,Synthetic demonstration record; review outcome is simulated.
+INV0000749,CLM0000749,2025-04-13,0,No automated concern,5,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000750,CLM0000750,2022-02-24,7,No automated concern,4,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000751,CLM0000751,2025-09-29,10,No automated concern,3,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000752,CLM0000752,2025-01-23,11,No automated concern,2,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000753,CLM0000753,2023-09-30,9,No automated concern,1,1,Yes,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000754,CLM0000754,2024-10-02,27,No automated concern,8,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000755,CLM0000755,2024-12-08,37,No automated concern,7,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000756,CLM0000756,2022-01-14,7,No automated concern,6,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000757,CLM0000757,2023-02-15,5,No automated concern,5,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000758,CLM0000758,2024-01-02,10,No automated concern,4,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000759,CLM0000759,2022-03-25,12,No automated concern,3,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000760,CLM0000760,2024-10-02,3,No automated concern,2,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000761,CLM0000761,2023-10-23,4,No automated concern,1,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000762,CLM0000762,2024-05-22,24,No automated concern,8,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000763,CLM0000763,2024-01-11,23,No automated concern,7,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000764,CLM0000764,2023-06-24,4,No automated concern,6,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000765,CLM0000765,2025-04-26,77,High-value claim; unusual amount,5,1,No,No,Evidence requested,2025-05-27,Synthetic demonstration record; review outcome is simulated.
+INV0000766,CLM0000766,2024-10-02,2,No automated concern,4,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000767,CLM0000767,2023-02-11,10,No automated concern,3,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000768,CLM0000768,2024-02-14,11,No automated concern,2,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000769,CLM0000769,2024-03-29,4,No automated concern,1,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000770,CLM0000770,2024-06-14,15,No automated concern,8,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000771,CLM0000771,2024-10-09,20,No automated concern,7,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000772,CLM0000772,2024-05-11,8,No automated concern,6,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000773,CLM0000773,2024-05-28,3,No automated concern,5,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000774,CLM0000774,2022-01-29,1,No automated concern,4,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000775,CLM0000775,2025-05-31,10,No automated concern,3,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000776,CLM0000776,2025-05-18,43,Repeated provider/member pattern,2,1,No,No,No concern identified,2025-06-07,Synthetic demonstration record; review outcome is simulated.
+INV0000777,CLM0000777,2023-04-05,9,No automated concern,1,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000778,CLM0000778,2022-03-27,23,No automated concern,8,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000779,CLM0000779,2022-10-15,26,No automated concern,7,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000780,CLM0000780,2025-02-18,7,No automated concern,6,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000781,CLM0000781,2024-01-12,7,No automated concern,5,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000782,CLM0000782,2022-07-02,74,High-value claim; unusual amount,4,1,No,No,Referred to SIU,2022-08-04,Synthetic demonstration record; review outcome is simulated.
+INV0000783,CLM0000783,2024-01-20,0,No automated concern,3,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000784,CLM0000784,2022-12-17,30,No automated concern,2,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000785,CLM0000785,2025-04-11,0,No automated concern,1,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000786,CLM0000786,2025-10-27,26,No automated concern,8,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000787,CLM0000787,2024-02-21,22,No automated concern,7,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000788,CLM0000788,2022-08-27,7,No automated concern,6,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000789,CLM0000789,2023-11-22,8,No automated concern,5,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000790,CLM0000790,2025-02-28,4,No automated concern,4,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000791,CLM0000791,2025-02-25,6,No automated concern,3,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000792,CLM0000792,2022-02-23,6,No automated concern,2,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000793,CLM0000793,2023-08-25,2,No automated concern,1,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000794,CLM0000794,2025-01-25,15,No automated concern,8,1,No,Yes,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000795,CLM0000795,2022-10-28,20,No automated concern,7,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000796,CLM0000796,2025-06-23,2,No automated concern,6,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000797,CLM0000797,2022-02-20,1,No automated concern,5,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000798,CLM0000798,2023-07-03,3,No automated concern,4,1,No,No,Cleared,,Synthetic demonstration record; no concern identified.
+INV0000799,CLM0000799,2025-01-30,70,High-value claim; unusual amount,3,1,No,No,Referred to SIU,2025-03-07,Synthetic demonstration record; review outcome is simulated.
+INV0000800,CLM0000800,2022-06-25,6,No automated concern,2,1,Yes,No,Cleared,,Synthetic demonstration record; no concern identified.

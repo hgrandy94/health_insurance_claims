@@ -1,0 +1,801 @@
+claim_id,policyholder_id,provider_id,provider_name,provider_region,service_date,submitted_date,claim_type,diagnosis_code,billed_amount_gbp,approved_amount_gbp,claim_status,submission_channel,provider_region_match
+CLM0000001,PH00014,PRV004,Westmoor Orthopaedics,West Midlands,2025-02-12,2025-02-23,Consultation,M25.5,541.09,485.32,Paid,Member portal,Yes
+CLM0000002,PH00129,PRV001,Northbridge Private Hospital,London,2025-06-19,2025-06-28,Cardiology review,I10,457.02,339.05,Paid,Provider portal,No
+CLM0000003,PH00040,PRV003,Cedar Grove Clinic,South West,2024-09-24,2024-10-27,Cancer treatment,C50.9,9616.06,7873.44,Paid,Member portal,No
+CLM0000004,PH00083,PRV001,Northbridge Private Hospital,London,2025-04-07,2025-04-28,Mental health therapy,F41.9,215.19,159.84,Paid,Member portal,No
+CLM0000005,PH00211,PRV008,Oakfield Imaging Centre,East of England,2024-01-01,2024-01-19,Consultation,M25.5,431.13,325.13,Paid,Member portal,No
+CLM0000006,PH00238,PRV007,Kingswell Cardiology Group,Scotland,2025-03-10,2025-03-29,Cardiology review,I10,399.63,340.69,Partially paid,Member portal,No
+CLM0000007,PH00108,PRV008,Oakfield Imaging Centre,East of England,2025-02-21,2025-03-08,Minor surgery,L98.9,1693.41,1347.02,Paid,Telephone,No
+CLM0000008,PH00215,PRV002,Riverside Diagnostics,South East,2022-05-03,2022-05-29,Physiotherapy,M25.5,309.00,234.87,Withdrawn,Provider portal,No
+CLM0000009,PH00077,PRV004,Westmoor Orthopaedics,West Midlands,2022-09-08,2022-10-12,Physiotherapy,M25.5,170.92,148.52,Paid,Telephone,No
+CLM0000010,PH00285,PRV001,Northbridge Private Hospital,London,2023-02-21,2023-02-23,Cardiology review,I10,610.49,562.73,Partially paid,Member portal,No
+CLM0000011,PH00023,PRV002,Riverside Diagnostics,South East,2024-09-18,2024-09-26,Minor surgery,L98.9,1485.27,1467.41,Partially paid,Telephone,Yes
+CLM0000012,PH00185,PRV009,Southbank Physiotherapy Network,London,2024-03-08,2024-03-12,Physiotherapy,M25.5,340.69,272.05,Paid,Provider portal,No
+CLM0000013,PH00223,PRV008,Oakfield Imaging Centre,East of England,2022-06-24,2022-07-01,Cancer treatment,C50.9,3315.30,3057.94,Paid,Provider portal,Yes
+CLM0000014,PH00291,PRV003,Cedar Grove Clinic,South West,2024-06-23,2024-06-27,Day-case surgery,K40.9,4933.67,4295.50,Paid,Provider portal,No
+CLM0000015,PH00030,PRV004,Westmoor Orthopaedics,West Midlands,2025-01-29,2025-02-21,Consultation,M25.5,546.57,399.96,Paid,Member portal,No
+CLM0000016,PH00216,PRV004,Westmoor Orthopaedics,West Midlands,2024-12-17,2025-01-03,Cataract procedure,H25.9,2420.70,2200.64,Paid,Member portal,No
+CLM0000017,PH00253,PRV001,Northbridge Private Hospital,London,2022-02-04,2022-02-06,Cancer treatment,C50.9,9925.00,2481.25,Paid,Provider portal,No
+CLM0000018,PH00201,PRV010,Lakeside Surgical Centre,North East,2024-02-20,2024-03-02,Cardiology review,I10,721.62,707.71,Partially paid,Member portal,No
+CLM0000019,PH00254,PRV010,Lakeside Surgical Centre,North East,2022-12-04,2022-12-30,Mental health therapy,F41.9,832.41,607.90,Declined,Provider portal,No
+CLM0000020,PH00242,PRV009,Southbank Physiotherapy Network,London,2022-11-27,2022-12-06,Day-case surgery,K40.9,1981.25,1908.64,Paid,Member portal,No
+CLM0000021,PH00063,PRV010,Lakeside Surgical Centre,North East,2023-01-12,2023-01-26,Consultation,M25.5,220.97,202.03,Paid,Provider portal,Yes
+CLM0000022,PH00207,PRV002,Riverside Diagnostics,South East,2024-10-14,2024-11-15,Physiotherapy,M25.5,264.05,217.15,Paid,Member portal,No
+CLM0000023,PH00213,PRV009,Southbank Physiotherapy Network,London,2024-12-29,2025-01-01,Cancer treatment,C50.9,5163.92,4491.15,Declined,Provider portal,No
+CLM0000024,PH00225,PRV010,Lakeside Surgical Centre,North East,2023-02-01,2023-02-06,Cancer treatment,C50.9,11826.09,11507.96,Paid,Provider portal,No
+CLM0000025,PH00217,PRV009,Southbank Physiotherapy Network,London,2023-08-06,2023-08-11,Mental health therapy,F41.9,486.09,417.82,Paid,Post,No
+CLM0000026,PH00189,PRV001,Northbridge Private Hospital,London,2024-10-24,2024-11-18,Physiotherapy,M25.5,134.69,115.07,Paid,Post,Yes
+CLM0000027,PH00270,PRV009,Southbank Physiotherapy Network,London,2025-09-26,2025-10-19,MRI scan,M54.5,743.85,619.35,Paid,Telephone,No
+CLM0000028,PH00130,PRV009,Southbank Physiotherapy Network,London,2023-05-26,2023-06-08,Mental health therapy,F41.9,578.36,496.88,Paid,Member portal,No
+CLM0000029,PH00175,PRV007,Kingswell Cardiology Group,Scotland,2022-03-31,2022-04-12,Cancer treatment,C50.9,6326.06,5286.45,Paid,Member portal,No
+CLM0000030,PH00054,PRV002,Riverside Diagnostics,South East,2025-04-13,2025-05-02,Physiotherapy,M25.5,314.42,261.96,Paid,Provider portal,No
+CLM0000031,PH00215,PRV003,Cedar Grove Clinic,South West,2022-08-16,2022-08-20,Cardiology review,I10,365.80,360.91,Paid,Telephone,No
+CLM0000032,PH00159,PRV009,Southbank Physiotherapy Network,London,2025-01-15,2025-01-20,MRI scan,M54.5,588.51,473.46,Declined,Member portal,No
+CLM0000033,PH00026,PRV001,Northbridge Private Hospital,London,2025-06-04,2025-06-06,Day-case surgery,K40.9,4680.02,4070.84,Paid,Provider portal,No
+CLM0000034,PH00175,PRV005,Harbourview Specialist Centre,North West,2022-05-17,2022-05-19,Cancer treatment,C50.9,10050.00,2512.50,Partially paid,Provider portal,No
+CLM0000035,PH00033,PRV005,Harbourview Specialist Centre,North West,2025-02-04,2025-03-07,Consultation,M25.5,471.52,415.53,Paid,Provider portal,No
+CLM0000036,PH00158,PRV005,Harbourview Specialist Centre,North West,2024-09-13,2024-09-28,Cancer treatment,C50.9,5299.57,4283.00,Partially paid,Member portal,No
+CLM0000037,PH00029,PRV008,Oakfield Imaging Centre,East of England,2023-08-23,2023-08-27,Minor surgery,L98.9,2065.70,1560.52,Partially paid,Member portal,No
+CLM0000038,PH00160,PRV001,Northbridge Private Hospital,London,2025-08-13,2025-09-01,MRI scan,M54.5,634.45,560.24,Paid,Provider portal,No
+CLM0000039,PH00185,PRV003,Cedar Grove Clinic,South West,2022-10-15,2022-10-28,MRI scan,M54.5,890.44,848.44,Paid,Provider portal,No
+CLM0000040,PH00067,PRV001,Northbridge Private Hospital,London,2023-03-19,2023-03-22,MRI scan,M54.5,564.32,421.06,Paid,Member portal,No
+CLM0000041,PH00020,PRV006,Meadowlands Day Hospital,Yorkshire and the Humber,2025-07-08,2025-07-29,Day-case surgery,K40.9,3897.61,2990.87,Paid,Telephone,Yes
+CLM0000042,PH00113,PRV007,Kingswell Cardiology Group,Scotland,2023-05-03,2023-05-11,Day-case surgery,K40.9,2301.43,1891.75,Paid,Member portal,Yes
+CLM0000043,PH00210,PRV009,Southbank Physiotherapy Network,London,2024-03-24,2024-04-27,Day-case surgery,K40.9,3554.27,2955.30,Paid,Telephone,No
+CLM0000044,PH00152,PRV006,Meadowlands Day Hospital,Yorkshire and the Humber,2023-12-25,2024-01-27,Minor surgery,L98.9,1298.64,1157.85,Paid,Member portal,No
+CLM0000045,PH00165,PRV010,Lakeside Surgical Centre,North East,2024-03-12,2024-03-30,Mental health therapy,F41.9,443.82,343.01,Paid,Member portal,No
+CLM0000046,PH00056,PRV009,Southbank Physiotherapy Network,London,2023-11-09,2023-11-18,Cataract procedure,H25.9,2279.32,1791.53,Declined,Member portal,No
+CLM0000047,PH00060,PRV005,Harbourview Specialist Centre,North West,2025-03-13,2025-03-17,Cardiology review,I10,307.24,257.59,Paid,Member portal,No
+CLM0000048,PH00115,PRV002,Riverside Diagnostics,South East,2022-09-01,2022-09-29,Physiotherapy,M25.5,309.29,289.59,Partially paid,Member portal,No
+CLM0000049,PH00073,PRV010,Lakeside Surgical Centre,North East,2024-06-25,2024-07-11,MRI scan,M54.5,651.81,529.99,Partially paid,Member portal,No
+CLM0000050,PH00275,PRV004,Westmoor Orthopaedics,West Midlands,2022-07-25,2022-08-13,MRI scan,M54.5,499.88,414.26,Partially paid,Telephone,No
+CLM0000051,PH00279,PRV009,Southbank Physiotherapy Network,London,2022-03-15,2022-03-17,MRI scan,M54.5,10175.00,2543.75,Paid,Provider portal,No
+CLM0000052,PH00030,PRV003,Cedar Grove Clinic,South West,2025-01-11,2025-02-06,Consultation,M25.5,444.79,418.23,Paid,Provider portal,No
+CLM0000053,PH00084,PRV010,Lakeside Surgical Centre,North East,2025-06-03,2025-06-18,MRI scan,M54.5,672.10,509.74,Paid,Member portal,No
+CLM0000054,PH00159,PRV010,Lakeside Surgical Centre,North East,2025-08-14,2025-09-18,Cancer treatment,C50.9,4294.10,3239.62,Paid,Member portal,No
+CLM0000055,PH00250,PRV008,Oakfield Imaging Centre,East of England,2022-12-02,2023-01-05,Cardiology review,I10,754.66,711.10,Paid,Provider portal,No
+CLM0000056,PH00010,PRV003,Cedar Grove Clinic,South West,2025-01-29,2025-02-06,Minor surgery,L98.9,2099.60,1887.95,Paid,Member portal,No
+CLM0000057,PH00092,PRV007,Kingswell Cardiology Group,Scotland,2023-05-17,2023-05-29,Physiotherapy,M25.5,327.21,288.47,Paid,Provider portal,No
+CLM0000058,PH00271,PRV003,Cedar Grove Clinic,South West,2024-08-08,2024-08-13,Cancer treatment,C50.9,3606.78,2973.11,Paid,Telephone,No
+CLM0000059,PH00048,PRV002,Riverside Diagnostics,South East,2022-11-14,2022-11-29,MRI scan,M54.5,488.85,475.45,Declined,Provider portal,No
+CLM0000060,PH00172,PRV006,Meadowlands Day Hospital,Yorkshire and the Humber,2025-05-18,2025-06-03,MRI scan,M54.5,544.11,466.15,Paid,Telephone,No
+CLM0000061,PH00129,PRV006,Meadowlands Day Hospital,Yorkshire and the Humber,2025-03-24,2025-04-15,Mental health therapy,F41.9,806.21,714.09,Paid,Member portal,No
+CLM0000062,PH00020,PRV008,Oakfield Imaging Centre,East of England,2023-10-05,2023-11-02,MRI scan,M54.5,938.54,694.13,Partially paid,Provider portal,No
+CLM0000063,PH00037,PRV010,Lakeside Surgical Centre,North East,2022-01-16,2022-02-19,Physiotherapy,M25.5,290.40,235.17,Partially paid,Member portal,No
+CLM0000064,PH00143,PRV001,Northbridge Private Hospital,London,2023-12-28,2024-01-29,Cataract procedure,H25.9,4114.83,3952.94,Paid,Member portal,No
+CLM0000065,PH00008,PRV008,Oakfield Imaging Centre,East of England,2022-12-25,2023-01-28,Day-case surgery,K40.9,3878.20,3024.69,Paid,Member portal,No
+CLM0000066,PH00255,PRV004,Westmoor Orthopaedics,West Midlands,2024-07-02,2024-07-09,MRI scan,M54.5,912.25,711.63,Paid,Provider portal,No
+CLM0000067,PH00010,PRV004,Westmoor Orthopaedics,West Midlands,2024-03-17,2024-04-05,Minor surgery,L98.9,1384.80,1029.84,Paid,Member portal,No
+CLM0000068,PH00103,PRV010,Lakeside Surgical Centre,North East,2022-04-03,2022-04-05,Mental health therapy,F41.9,10300.00,2575.00,Paid,Provider portal,No
+CLM0000069,PH00120,PRV001,Northbridge Private Hospital,London,2024-05-23,2024-06-14,Cancer treatment,C50.9,6112.00,5567.62,Paid,Provider portal,No
+CLM0000070,PH00006,PRV007,Kingswell Cardiology Group,Scotland,2025-05-30,2025-06-22,Mental health therapy,F41.9,688.65,585.17,Paid,Member portal,No
+CLM0000071,PH00070,PRV007,Kingswell Cardiology Group,Scotland,2024-10-27,2024-11-04,Consultation,M25.5,495.09,483.44,Partially paid,Telephone,No
+CLM0000072,PH00277,PRV004,Westmoor Orthopaedics,West Midlands,2022-02-01,2022-02-20,Day-case surgery,K40.9,3921.17,3880.53,Paid,Provider portal,No
+CLM0000073,PH00283,PRV009,Southbank Physiotherapy Network,London,2024-07-02,2024-07-14,Minor surgery,L98.9,1874.28,1491.75,Paid,Provider portal,No
+CLM0000074,PH00188,PRV006,Meadowlands Day Hospital,Yorkshire and the Humber,2025-09-12,2025-09-16,Day-case surgery,K40.9,1841.54,1729.46,Partially paid,Member portal,No
+CLM0000075,PH00214,PRV009,Southbank Physiotherapy Network,London,2023-04-07,2023-05-08,Physiotherapy,M25.5,163.05,141.17,Paid,Provider portal,No
+CLM0000076,PH00124,PRV008,Oakfield Imaging Centre,East of England,2023-12-28,2024-01-08,Cataract procedure,H25.9,3555.68,2648.78,Paid,Provider portal,No
+CLM0000077,PH00016,PRV005,Harbourview Specialist Centre,North West,2023-11-09,2023-12-07,Mental health therapy,F41.9,489.88,388.48,Paid,Telephone,No
+CLM0000078,PH00128,PRV002,Riverside Diagnostics,South East,2022-11-13,2022-11-14,MRI scan,M54.5,843.70,771.79,Paid,Member portal,No
+CLM0000079,PH00182,PRV004,Westmoor Orthopaedics,West Midlands,2022-05-15,2022-06-19,Physiotherapy,M25.5,112.06,86.97,Paid,Member portal,Yes
+CLM0000080,PH00201,PRV009,Southbank Physiotherapy Network,London,2022-03-11,2022-03-14,Mental health therapy,F41.9,107.30,83.68,Paid,Member portal,No
+CLM0000081,PH00265,PRV008,Oakfield Imaging Centre,East of England,2023-11-11,2023-11-30,MRI scan,M54.5,861.93,642.92,Paid,Provider portal,No
+CLM0000082,PH00016,PRV008,Oakfield Imaging Centre,East of England,2023-01-17,2023-02-06,Cancer treatment,C50.9,10093.68,8842.51,Paid,Member portal,No
+CLM0000083,PH00122,PRV005,Harbourview Specialist Centre,North West,2024-03-22,2024-04-03,Cardiology review,I10,504.80,478.05,Paid,Member portal,No
+CLM0000084,PH00224,PRV007,Kingswell Cardiology Group,Scotland,2024-01-28,2024-02-22,Minor surgery,L98.9,929.48,776.73,Partially paid,Member portal,No
+CLM0000085,PH00283,PRV001,Northbridge Private Hospital,London,2024-12-12,2024-12-14,Physiotherapy,M25.5,10425.00,2606.25,Paid,Provider portal,No
+CLM0000086,PH00295,PRV009,Southbank Physiotherapy Network,London,2025-12-15,2025-12-31,Physiotherapy,M25.5,248.68,185.44,Paid,Provider portal,No
+CLM0000087,PH00176,PRV005,Harbourview Specialist Centre,North West,2023-07-20,2023-08-21,Mental health therapy,F41.9,484.73,417.79,Paid,Provider portal,No
+CLM0000088,PH00076,PRV001,Northbridge Private Hospital,London,2022-08-06,2022-08-12,Physiotherapy,M25.5,240.97,223.18,Paid,Member portal,No
+CLM0000089,PH00007,PRV002,Riverside Diagnostics,South East,2022-10-17,2022-11-09,MRI scan,M54.5,881.47,636.79,Paid,Member portal,No
+CLM0000090,PH00125,PRV009,Southbank Physiotherapy Network,London,2024-11-26,2024-12-06,Minor surgery,L98.9,2714.16,2242.26,Paid,Provider portal,Yes
+CLM0000091,PH00293,PRV004,Westmoor Orthopaedics,West Midlands,2022-02-23,2022-03-20,Day-case surgery,K40.9,2228.66,1752.42,Paid,Provider portal,No
+CLM0000092,PH00078,PRV009,Southbank Physiotherapy Network,London,2024-02-14,2024-02-25,Physiotherapy,M25.5,249.74,217.69,Partially paid,Provider portal,No
+CLM0000093,PH00061,PRV002,Riverside Diagnostics,South East,2024-04-21,2024-05-13,Cataract procedure,H25.9,2191.02,1631.22,Paid,Provider portal,No
+CLM0000094,PH00137,PRV008,Oakfield Imaging Centre,East of England,2024-11-29,2024-12-03,Cataract procedure,H25.9,3450.19,2818.00,Paid,Member portal,No
+CLM0000095,PH00247,PRV006,Meadowlands Day Hospital,Yorkshire and the Humber,2024-03-02,2024-03-17,Minor surgery,L98.9,2372.82,1741.96,Paid,Member portal,Yes
+CLM0000096,PH00020,PRV005,Harbourview Specialist Centre,North West,2023-07-08,2023-07-18,Consultation,M25.5,630.37,557.30,Paid,Member portal,No
+CLM0000097,PH00126,PRV009,Southbank Physiotherapy Network,London,2023-12-06,2023-12-11,MRI scan,M54.5,850.63,717.08,Paid,Member portal,No
+CLM0000098,PH00220,PRV005,Harbourview Specialist Centre,North West,2025-09-03,2025-09-10,Minor surgery,L98.9,1390.97,1104.47,Paid,Provider portal,No
+CLM0000099,PH00016,PRV010,Lakeside Surgical Centre,North East,2024-09-27,2024-10-21,Day-case surgery,K40.9,4199.27,3346.94,Paid,Provider portal,No
+CLM0000100,PH00225,PRV006,Meadowlands Day Hospital,Yorkshire and the Humber,2024-11-05,2024-11-13,Day-case surgery,K40.9,4499.38,4234.98,Paid,Member portal,No
+CLM0000101,PH00296,PRV009,Southbank Physiotherapy Network,London,2025-06-16,2025-07-08,Physiotherapy,M25.5,89.67,75.11,Paid,Provider portal,No
+CLM0000102,PH00025,PRV008,Oakfield Imaging Centre,East of England,2022-09-30,2022-10-02,Cataract procedure,H25.9,10550.00,2637.50,Paid,Provider portal,No
+CLM0000103,PH00042,PRV008,Oakfield Imaging Centre,East of England,2022-08-03,2022-08-09,Mental health therapy,F41.9,822.84,601.85,Paid,Member portal,No
+CLM0000104,PH00171,PRV009,Southbank Physiotherapy Network,London,2023-09-16,2023-09-24,Day-case surgery,K40.9,1733.11,1623.49,Paid,Member portal,No
+CLM0000105,PH00225,PRV005,Harbourview Specialist Centre,North West,2025-04-21,2025-05-24,Consultation,M25.5,391.61,345.11,Paid,Provider portal,No
+CLM0000106,PH00043,PRV001,Northbridge Private Hospital,London,2023-09-18,2023-09-23,Consultation,M25.5,247.70,197.31,Paid,Provider portal,No
+CLM0000107,PH00188,PRV007,Kingswell Cardiology Group,Scotland,2024-09-05,2024-09-14,Mental health therapy,F41.9,207.73,206.80,Paid,Telephone,No
+CLM0000108,PH00296,PRV008,Oakfield Imaging Centre,East of England,2024-11-18,2024-12-20,Mental health therapy,F41.9,743.81,677.57,Partially paid,Member portal,No
+CLM0000109,PH00154,PRV005,Harbourview Specialist Centre,North West,2022-04-25,2022-05-18,Day-case surgery,K40.9,1854.14,1375.72,Partially paid,Member portal,No
+CLM0000110,PH00275,PRV006,Meadowlands Day Hospital,Yorkshire and the Humber,2024-05-08,2024-06-06,Cancer treatment,C50.9,9567.29,7063.29,Paid,Provider portal,No
+CLM0000111,PH00048,PRV010,Lakeside Surgical Centre,North East,2024-04-02,2024-04-15,Cataract procedure,H25.9,4107.74,3898.25,Paid,Provider portal,No
+CLM0000112,PH00182,PRV006,Meadowlands Day Hospital,Yorkshire and the Humber,2022-06-03,2022-06-17,Physiotherapy,M25.5,402.31,330.05,Partially paid,Post,No
+CLM0000113,PH00183,PRV008,Oakfield Imaging Centre,East of England,2022-06-01,2022-06-25,Consultation,M25.5,442.21,396.70,Paid,Post,No
+CLM0000114,PH00165,PRV008,Oakfield Imaging Centre,East of England,2022-06-17,2022-06-27,Physiotherapy,M25.5,360.99,351.91,Partially paid,Member portal,No
+CLM0000115,PH00263,PRV001,Northbridge Private Hospital,London,2025-01-25,2025-02-16,Consultation,M25.5,561.55,484.09,Declined,Provider portal,No
+CLM0000116,PH00258,PRV009,Southbank Physiotherapy Network,London,2025-05-01,2025-05-31,Cataract procedure,H25.9,1802.33,1644.07,Partially paid,Member portal,No
+CLM0000117,PH00100,PRV007,Kingswell Cardiology Group,Scotland,2025-12-30,2026-01-07,MRI scan,M54.5,722.68,564.22,Paid,Member portal,No
+CLM0000118,PH00159,PRV008,Oakfield Imaging Centre,East of England,2023-06-17,2023-06-21,Minor surgery,L98.9,2620.40,2360.73,Declined,Member portal,No
+CLM0000119,PH00161,PRV005,Harbourview Specialist Centre,North West,2023-09-29,2023-10-01,Cardiology review,I10,10675.00,2668.75,Partially paid,Provider portal,No
+CLM0000120,PH00056,PRV009,Southbank Physiotherapy Network,London,2025-10-03,2025-10-18,Cancer treatment,C50.9,6023.26,4974.30,Paid,Member portal,No
+CLM0000121,PH00264,PRV004,Westmoor Orthopaedics,West Midlands,2025-01-24,2025-02-16,Mental health therapy,F41.9,238.25,227.89,Paid,Member portal,No
+CLM0000122,PH00153,PRV010,Lakeside Surgical Centre,North East,2025-08-08,2025-09-10,Minor surgery,L98.9,2281.81,1664.50,Declined,Provider portal,No
+CLM0000123,PH00064,PRV008,Oakfield Imaging Centre,East of England,2022-06-09,2022-06-20,Consultation,M25.5,182.72,146.54,Declined,Telephone,No
+CLM0000124,PH00253,PRV010,Lakeside Surgical Centre,North East,2022-03-15,2022-04-08,Cataract procedure,H25.9,1908.58,1899.45,Declined,Provider portal,No
+CLM0000125,PH00278,PRV003,Cedar Grove Clinic,South West,2023-12-25,2024-01-13,Cancer treatment,C50.9,9479.25,8091.48,Paid,Post,No
+CLM0000126,PH00169,PRV005,Harbourview Specialist Centre,North West,2025-04-26,2025-05-22,Mental health therapy,F41.9,745.64,580.58,Paid,Member portal,No
+CLM0000127,PH00148,PRV006,Meadowlands Day Hospital,Yorkshire and the Humber,2024-11-20,2024-12-01,Physiotherapy,M25.5,137.99,133.40,Declined,Provider portal,No
+CLM0000128,PH00248,PRV001,Northbridge Private Hospital,London,2024-04-04,2024-04-10,Cataract procedure,H25.9,2213.03,1662.27,Paid,Provider portal,No
+CLM0000129,PH00039,PRV005,Harbourview Specialist Centre,North West,2025-09-13,2025-10-14,Physiotherapy,M25.5,202.37,156.83,Paid,Provider portal,No
+CLM0000130,PH00251,PRV003,Cedar Grove Clinic,South West,2022-11-19,2022-12-19,Mental health therapy,F41.9,347.91,298.04,Paid,Member portal,No
+CLM0000131,PH00180,PRV009,Southbank Physiotherapy Network,London,2022-06-13,2022-07-15,Day-case surgery,K40.9,4831.99,4325.75,Partially paid,Member portal,No
+CLM0000132,PH00106,PRV010,Lakeside Surgical Centre,North East,2024-04-30,2024-05-14,Cataract procedure,H25.9,1853.62,1619.44,Paid,Member portal,No
+CLM0000133,PH00121,PRV007,Kingswell Cardiology Group,Scotland,2024-04-09,2024-04-18,Mental health therapy,F41.9,146.39,127.22,Paid,Member portal,No
+CLM0000134,PH00006,PRV002,Riverside Diagnostics,South East,2024-10-17,2024-11-14,Consultation,M25.5,632.56,521.73,Partially paid,Telephone,No
+CLM0000135,PH00232,PRV001,Northbridge Private Hospital,London,2024-10-16,2024-10-21,Physiotherapy,M25.5,154.80,146.06,Paid,Member portal,No
+CLM0000136,PH00113,PRV010,Lakeside Surgical Centre,North East,2025-08-09,2025-08-11,Consultation,M25.5,10800.00,2700.00,Paid,Provider portal,No
+CLM0000137,PH00038,PRV009,Southbank Physiotherapy Network,London,2022-09-06,2022-09-20,Physiotherapy,M25.5,115.29,103.94,Partially paid,Member portal,No
+CLM0000138,PH00160,PRV005,Harbourview Specialist Centre,North West,2023-03-05,2023-03-19,Physiotherapy,M25.5,332.52,329.17,Paid,Provider portal,No
+CLM0000139,PH00021,PRV006,Meadowlands Day Hospital,Yorkshire and the Humber,2025-04-03,2025-04-22,Cataract procedure,H25.9,2255.27,2224.64,Partially paid,Member portal,No
+CLM0000140,PH00012,PRV010,Lakeside Surgical Centre,North East,2023-07-29,2023-08-09,Minor surgery,L98.9,1147.65,1125.63,Paid,Member portal,No
+CLM0000141,PH00292,PRV004,Westmoor Orthopaedics,West Midlands,2025-07-02,2025-08-03,Minor surgery,L98.9,2369.98,2107.06,Partially paid,Provider portal,No
+CLM0000142,PH00114,PRV001,Northbridge Private Hospital,London,2022-05-03,2022-06-03,Cancer treatment,C50.9,5464.03,4482.04,Partially paid,Member portal,No
+CLM0000143,PH00251,PRV005,Harbourview Specialist Centre,North West,2022-11-03,2022-11-30,Minor surgery,L98.9,1329.46,1144.16,Paid,Provider portal,No
+CLM0000144,PH00248,PRV002,Riverside Diagnostics,South East,2024-09-19,2024-10-09,Cataract procedure,H25.9,3249.08,2758.40,Paid,Member portal,No
+CLM0000145,PH00162,PRV004,Westmoor Orthopaedics,West Midlands,2024-09-03,2024-09-11,Mental health therapy,F41.9,476.18,396.67,Paid,Member portal,No
+CLM0000146,PH00279,PRV007,Kingswell Cardiology Group,Scotland,2022-02-23,2022-03-22,Day-case surgery,K40.9,3141.45,3024.49,Paid,Member portal,No
+CLM0000147,PH00126,PRV008,Oakfield Imaging Centre,East of England,2022-08-31,2022-10-01,Mental health therapy,F41.9,564.03,513.87,Paid,Provider portal,No
+CLM0000148,PH00125,PRV002,Riverside Diagnostics,South East,2024-02-23,2024-03-10,Day-case surgery,K40.9,1643.43,1459.92,Paid,Member portal,No
+CLM0000149,PH00091,PRV002,Riverside Diagnostics,South East,2022-02-12,2022-02-23,Day-case surgery,K40.9,3594.58,3424.29,Paid,Provider portal,No
+CLM0000150,PH00114,PRV007,Kingswell Cardiology Group,Scotland,2025-02-11,2025-02-25,Mental health therapy,F41.9,431.21,331.64,Paid,Member portal,No
+CLM0000151,PH00233,PRV010,Lakeside Surgical Centre,North East,2022-03-31,2022-04-23,Cataract procedure,H25.9,2681.35,2570.34,Declined,Member portal,No
+CLM0000152,PH00294,PRV004,Westmoor Orthopaedics,West Midlands,2025-12-02,2026-01-03,Consultation,M25.5,617.69,561.62,Paid,Member portal,No
+CLM0000153,PH00263,PRV006,Meadowlands Day Hospital,Yorkshire and the Humber,2025-09-20,2025-09-22,Physiotherapy,M25.5,10925.00,2731.25,Paid,Provider portal,No
+CLM0000154,PH00043,PRV001,Northbridge Private Hospital,London,2024-08-21,2024-08-26,Physiotherapy,M25.5,409.92,330.16,Paid,Provider portal,No
+CLM0000155,PH00129,PRV001,Northbridge Private Hospital,London,2022-11-30,2023-01-02,Day-case surgery,K40.9,2552.65,1930.43,Withdrawn,Member portal,No
+CLM0000156,PH00131,PRV005,Harbourview Specialist Centre,North West,2023-10-14,2023-10-20,Cancer treatment,C50.9,3620.33,3001.63,Declined,Member portal,No
+CLM0000157,PH00066,PRV004,Westmoor Orthopaedics,West Midlands,2022-06-05,2022-06-10,Minor surgery,L98.9,2501.09,2497.82,Paid,Telephone,No
+CLM0000158,PH00095,PRV004,Westmoor Orthopaedics,West Midlands,2023-08-28,2023-09-10,Cardiology review,I10,532.24,458.10,Partially paid,Provider portal,No
+CLM0000159,PH00203,PRV010,Lakeside Surgical Centre,North East,2024-09-29,2024-10-05,Physiotherapy,M25.5,206.55,160.40,Paid,Member portal,No
+CLM0000160,PH00227,PRV009,Southbank Physiotherapy Network,London,2022-06-17,2022-07-22,Minor surgery,L98.9,1395.11,1275.31,Paid,Post,Yes
+CLM0000161,PH00091,PRV004,Westmoor Orthopaedics,West Midlands,2022-06-28,2022-06-29,Physiotherapy,M25.5,400.42,389.86,Paid,Provider portal,No
+CLM0000162,PH00119,PRV010,Lakeside Surgical Centre,North East,2022-05-11,2022-06-09,Cataract procedure,H25.9,4183.19,3164.04,Declined,Provider portal,No
+CLM0000163,PH00277,PRV005,Harbourview Specialist Centre,North West,2025-05-08,2025-06-12,Day-case surgery,K40.9,1502.98,1308.71,Paid,Provider portal,No
+CLM0000164,PH00045,PRV006,Meadowlands Day Hospital,Yorkshire and the Humber,2025-03-11,2025-03-22,MRI scan,M54.5,465.78,405.96,Partially paid,Member portal,No
+CLM0000165,PH00291,PRV002,Riverside Diagnostics,South East,2024-08-02,2024-09-03,Cardiology review,I10,244.36,237.24,Paid,Provider portal,No
+CLM0000166,PH00167,PRV007,Kingswell Cardiology Group,Scotland,2025-02-14,2025-03-16,Physiotherapy,M25.5,158.29,119.14,Paid,Post,No
+CLM0000167,PH00035,PRV003,Cedar Grove Clinic,South West,2025-04-22,2025-05-15,Physiotherapy,M25.5,226.64,173.70,Paid,Member portal,No
+CLM0000168,PH00026,PRV005,Harbourview Specialist Centre,North West,2023-12-11,2024-01-13,Day-case surgery,K40.9,1939.04,1401.21,Partially paid,Provider portal,Yes
+CLM0000169,PH00017,PRV002,Riverside Diagnostics,South East,2023-10-05,2023-10-23,Minor surgery,L98.9,2532.37,2471.48,Partially paid,Member portal,No
+CLM0000170,PH00058,PRV001,Northbridge Private Hospital,London,2025-10-20,2025-10-22,Cardiology review,I10,11050.00,2762.50,Paid,Provider portal,No
+CLM0000171,PH00026,PRV007,Kingswell Cardiology Group,Scotland,2024-01-08,2024-02-08,MRI scan,M54.5,698.64,607.18,Paid,Post,No
+CLM0000172,PH00251,PRV009,Southbank Physiotherapy Network,London,2025-04-21,2025-05-14,Cardiology review,I10,469.02,403.68,Paid,Member portal,No
+CLM0000173,PH00293,PRV004,Westmoor Orthopaedics,West Midlands,2024-08-15,2024-09-04,Minor surgery,L98.9,2115.81,1995.27,Partially paid,Member portal,No
+CLM0000174,PH00218,PRV001,Northbridge Private Hospital,London,2023-11-05,2023-11-30,MRI scan,M54.5,854.72,684.42,Partially paid,Telephone,No
+CLM0000175,PH00078,PRV005,Harbourview Specialist Centre,North West,2024-06-13,2024-06-30,Consultation,M25.5,564.94,531.77,Paid,Provider portal,No
+CLM0000176,PH00072,PRV005,Harbourview Specialist Centre,North West,2025-12-26,2025-12-31,Mental health therapy,F41.9,260.64,233.85,Paid,Member portal,No
+CLM0000177,PH00148,PRV009,Southbank Physiotherapy Network,London,2023-04-25,2023-04-28,Cataract procedure,H25.9,3103.94,2349.04,Paid,Member portal,No
+CLM0000178,PH00231,PRV007,Kingswell Cardiology Group,Scotland,2022-04-02,2022-04-10,Cataract procedure,H25.9,1814.61,1415.67,Declined,Member portal,No
+CLM0000179,PH00181,PRV009,Southbank Physiotherapy Network,London,2022-06-17,2022-07-16,Day-case surgery,K40.9,2920.33,2747.43,Paid,Provider portal,No
+CLM0000180,PH00079,PRV002,Riverside Diagnostics,South East,2025-09-04,2025-09-23,MRI scan,M54.5,847.23,738.03,Paid,Member portal,Yes
+CLM0000181,PH00071,PRV005,Harbourview Specialist Centre,North West,2022-02-09,2022-03-09,Cancer treatment,C50.9,9881.05,7724.49,Paid,Telephone,No
+CLM0000182,PH00191,PRV009,Southbank Physiotherapy Network,London,2022-07-12,2022-08-05,Physiotherapy,M25.5,231.59,205.39,Paid,Telephone,No
+CLM0000183,PH00292,PRV004,Westmoor Orthopaedics,West Midlands,2025-02-24,2025-03-18,Minor surgery,L98.9,1266.76,1049.25,Paid,Member portal,No
+CLM0000184,PH00061,PRV010,Lakeside Surgical Centre,North East,2022-03-02,2022-03-25,Mental health therapy,F41.9,327.00,236.27,Paid,Post,No
+CLM0000185,PH00019,PRV007,Kingswell Cardiology Group,Scotland,2024-06-24,2024-07-10,Consultation,M25.5,595.97,467.16,Paid,Member portal,Yes
+CLM0000186,PH00157,PRV005,Harbourview Specialist Centre,North West,2024-12-12,2024-12-19,Cataract procedure,H25.9,2850.97,2583.37,Paid,Post,No
+CLM0000187,PH00029,PRV002,Riverside Diagnostics,South East,2023-09-28,2023-09-30,Cardiology review,I10,11175.00,2793.75,Paid,Provider portal,No
+CLM0000188,PH00007,PRV001,Northbridge Private Hospital,London,2025-12-31,2026-01-18,MRI scan,M54.5,862.13,669.83,Partially paid,Provider portal,No
+CLM0000189,PH00086,PRV002,Riverside Diagnostics,South East,2024-04-27,2024-05-17,Consultation,M25.5,551.85,515.60,Partially paid,Member portal,No
+CLM0000190,PH00054,PRV006,Meadowlands Day Hospital,Yorkshire and the Humber,2023-04-23,2023-05-22,Minor surgery,L98.9,931.20,696.80,Paid,Member portal,No
+CLM0000191,PH00067,PRV008,Oakfield Imaging Centre,East of England,2025-06-02,2025-06-21,Cancer treatment,C50.9,4466.27,4430.00,Paid,Provider portal,No
+CLM0000192,PH00076,PRV007,Kingswell Cardiology Group,Scotland,2024-11-20,2024-11-26,MRI scan,M54.5,680.53,512.34,Paid,Provider portal,Yes
+CLM0000193,PH00268,PRV001,Northbridge Private Hospital,London,2024-06-17,2024-07-20,Cataract procedure,H25.9,1804.13,1760.11,Paid,Provider portal,No
+CLM0000194,PH00236,PRV010,Lakeside Surgical Centre,North East,2025-08-31,2025-09-08,MRI scan,M54.5,755.35,721.35,Paid,Member portal,No
+CLM0000195,PH00083,PRV007,Kingswell Cardiology Group,Scotland,2024-06-20,2024-07-17,Mental health therapy,F41.9,170.74,146.67,Partially paid,Member portal,No
+CLM0000196,PH00299,PRV006,Meadowlands Day Hospital,Yorkshire and the Humber,2025-01-26,2025-02-15,Cardiology review,I10,436.10,429.74,Paid,Member portal,Yes
+CLM0000197,PH00274,PRV005,Harbourview Specialist Centre,North West,2022-08-06,2022-08-18,Cataract procedure,H25.9,2977.43,2332.95,Paid,Member portal,No
+CLM0000198,PH00267,PRV002,Riverside Diagnostics,South East,2024-10-09,2024-10-31,Day-case surgery,K40.9,3260.63,2944.95,Paid,Provider portal,No
+CLM0000199,PH00086,PRV004,Westmoor Orthopaedics,West Midlands,2025-09-11,2025-10-03,Cardiology review,I10,388.63,327.89,Withdrawn,Member portal,No
+CLM0000200,PH00109,PRV001,Northbridge Private Hospital,London,2024-06-13,2024-06-30,Minor surgery,L98.9,1741.98,1405.44,Paid,Member portal,Yes
+CLM0000201,PH00241,PRV005,Harbourview Specialist Centre,North West,2023-09-25,2023-10-06,Mental health therapy,F41.9,790.68,785.98,Partially paid,Member portal,No
+CLM0000202,PH00292,PRV010,Lakeside Surgical Centre,North East,2022-07-09,2022-07-21,Mental health therapy,F41.9,848.06,635.05,Paid,Member portal,No
+CLM0000203,PH00105,PRV002,Riverside Diagnostics,South East,2024-09-13,2024-09-28,Consultation,M25.5,542.72,399.62,Paid,Member portal,No
+CLM0000204,PH00042,PRV002,Riverside Diagnostics,South East,2022-12-28,2022-12-30,Cataract procedure,H25.9,11300.00,2825.00,Partially paid,Provider portal,No
+CLM0000205,PH00200,PRV009,Southbank Physiotherapy Network,London,2024-05-25,2024-06-25,MRI scan,M54.5,573.70,524.97,Partially paid,Provider portal,Yes
+CLM0000206,PH00289,PRV003,Cedar Grove Clinic,South West,2024-02-27,2024-03-26,Cancer treatment,C50.9,4886.17,3540.00,Partially paid,Member portal,No
+CLM0000207,PH00113,PRV005,Harbourview Specialist Centre,North West,2023-01-09,2023-01-13,Cardiology review,I10,516.30,508.18,Paid,Member portal,No
+CLM0000208,PH00130,PRV004,Westmoor Orthopaedics,West Midlands,2024-09-23,2024-10-12,Minor surgery,L98.9,2410.20,2133.91,Paid,Member portal,No
+CLM0000209,PH00106,PRV004,Westmoor Orthopaedics,West Midlands,2022-07-25,2022-07-28,Cancer treatment,C50.9,11149.91,10015.53,Paid,Post,No
+CLM0000210,PH00288,PRV002,Riverside Diagnostics,South East,2024-09-30,2024-11-04,Consultation,M25.5,643.86,582.34,Paid,Provider portal,No
+CLM0000211,PH00297,PRV002,Riverside Diagnostics,South East,2024-01-01,2024-01-18,Physiotherapy,M25.5,376.69,305.41,Paid,Member portal,No
+CLM0000212,PH00001,PRV004,Westmoor Orthopaedics,West Midlands,2023-10-21,2023-10-22,Consultation,M25.5,283.58,275.95,Paid,Member portal,No
+CLM0000213,PH00132,PRV001,Northbridge Private Hospital,London,2025-11-17,2025-12-15,Cancer treatment,C50.9,6451.00,4906.85,Partially paid,Provider portal,No
+CLM0000214,PH00042,PRV003,Cedar Grove Clinic,South West,2022-09-12,2022-09-25,Day-case surgery,K40.9,2127.89,2047.76,Paid,Provider portal,No
+CLM0000215,PH00217,PRV001,Northbridge Private Hospital,London,2025-02-10,2025-03-04,Mental health therapy,F41.9,308.61,282.40,Paid,Member portal,No
+CLM0000216,PH00281,PRV008,Oakfield Imaging Centre,East of England,2024-01-08,2024-02-09,Cataract procedure,H25.9,2699.89,2569.51,Partially paid,Telephone,No
+CLM0000217,PH00171,PRV007,Kingswell Cardiology Group,Scotland,2022-05-25,2022-06-25,Consultation,M25.5,334.82,255.05,Paid,Member portal,No
+CLM0000218,PH00102,PRV001,Northbridge Private Hospital,London,2025-08-16,2025-09-19,Cataract procedure,H25.9,3957.40,3299.06,Paid,Provider portal,No
+CLM0000219,PH00203,PRV004,Westmoor Orthopaedics,West Midlands,2024-06-21,2024-07-06,Cardiology review,I10,659.69,593.49,Paid,Provider portal,Yes
+CLM0000220,PH00255,PRV002,Riverside Diagnostics,South East,2022-07-24,2022-08-16,Cardiology review,I10,483.75,447.52,Paid,Member portal,No
+CLM0000221,PH00286,PRV001,Northbridge Private Hospital,London,2023-06-20,2023-06-22,Cardiology review,I10,11425.00,2856.25,Paid,Provider portal,No
+CLM0000222,PH00199,PRV009,Southbank Physiotherapy Network,London,2023-08-29,2023-09-14,Physiotherapy,M25.5,320.06,303.70,Paid,Member portal,No
+CLM0000223,PH00248,PRV009,Southbank Physiotherapy Network,London,2023-05-28,2023-06-05,Cataract procedure,H25.9,3914.25,3645.63,Paid,Telephone,No
+CLM0000224,PH00048,PRV008,Oakfield Imaging Centre,East of England,2024-10-31,2024-11-13,Minor surgery,L98.9,1218.08,1161.23,Paid,Member portal,No
+CLM0000225,PH00164,PRV003,Cedar Grove Clinic,South West,2023-12-25,2024-01-09,Physiotherapy,M25.5,351.76,295.58,Partially paid,Post,No
+CLM0000226,PH00164,PRV004,Westmoor Orthopaedics,West Midlands,2025-12-19,2026-01-11,Cancer treatment,C50.9,5245.96,5160.21,Paid,Member portal,Yes
+CLM0000227,PH00211,PRV008,Oakfield Imaging Centre,East of England,2025-09-10,2025-09-29,Mental health therapy,F41.9,94.61,69.39,Paid,Member portal,No
+CLM0000228,PH00026,PRV004,Westmoor Orthopaedics,West Midlands,2025-09-29,2025-10-07,Cataract procedure,H25.9,3383.84,3081.26,Paid,Provider portal,No
+CLM0000229,PH00172,PRV008,Oakfield Imaging Centre,East of England,2024-05-21,2024-06-12,MRI scan,M54.5,651.72,476.60,Partially paid,Provider portal,Yes
+CLM0000230,PH00225,PRV010,Lakeside Surgical Centre,North East,2023-10-05,2023-11-01,Consultation,M25.5,577.18,463.76,Paid,Provider portal,No
+CLM0000231,PH00155,PRV009,Southbank Physiotherapy Network,London,2024-07-08,2024-07-24,Physiotherapy,M25.5,343.56,324.62,Declined,Member portal,Yes
+CLM0000232,PH00150,PRV009,Southbank Physiotherapy Network,London,2025-09-01,2025-09-30,Mental health therapy,F41.9,136.62,128.36,Paid,Provider portal,No
+CLM0000233,PH00129,PRV006,Meadowlands Day Hospital,Yorkshire and the Humber,2025-03-08,2025-03-29,Day-case surgery,K40.9,3746.17,3150.40,Paid,Member portal,No
+CLM0000234,PH00275,PRV008,Oakfield Imaging Centre,East of England,2023-09-17,2023-10-03,Physiotherapy,M25.5,366.91,283.42,Partially paid,Member portal,No
+CLM0000235,PH00008,PRV003,Cedar Grove Clinic,South West,2024-11-23,2024-12-05,Mental health therapy,F41.9,396.95,360.14,Paid,Member portal,No
+CLM0000236,PH00111,PRV004,Westmoor Orthopaedics,West Midlands,2023-10-20,2023-11-17,Minor surgery,L98.9,1860.70,1634.40,Partially paid,Member portal,No
+CLM0000237,PH00187,PRV004,Westmoor Orthopaedics,West Midlands,2024-09-29,2024-10-02,Physiotherapy,M25.5,215.96,192.45,Paid,Member portal,No
+CLM0000238,PH00168,PRV006,Meadowlands Day Hospital,Yorkshire and the Humber,2022-05-03,2022-05-05,Minor surgery,L98.9,11550.00,2887.50,Paid,Provider portal,No
+CLM0000239,PH00040,PRV010,Lakeside Surgical Centre,North East,2024-08-24,2024-09-19,Mental health therapy,F41.9,436.58,365.45,Paid,Member portal,No
+CLM0000240,PH00064,PRV010,Lakeside Surgical Centre,North East,2022-08-25,2022-09-07,Physiotherapy,M25.5,403.38,313.13,Paid,Member portal,No
+CLM0000241,PH00240,PRV003,Cedar Grove Clinic,South West,2023-03-23,2023-04-04,Physiotherapy,M25.5,346.72,279.21,Paid,Member portal,No
+CLM0000242,PH00164,PRV003,Cedar Grove Clinic,South West,2025-02-23,2025-03-16,Minor surgery,L98.9,1979.97,1566.48,Paid,Member portal,No
+CLM0000243,PH00297,PRV003,Cedar Grove Clinic,South West,2022-05-16,2022-05-28,Cataract procedure,H25.9,3538.54,3216.38,Withdrawn,Provider portal,Yes
+CLM0000244,PH00059,PRV008,Oakfield Imaging Centre,East of England,2025-12-11,2026-01-14,Day-case surgery,K40.9,3793.11,3243.81,Paid,Member portal,No
+CLM0000245,PH00062,PRV002,Riverside Diagnostics,South East,2024-08-23,2024-08-29,Physiotherapy,M25.5,397.49,330.68,Paid,Member portal,No
+CLM0000246,PH00246,PRV004,Westmoor Orthopaedics,West Midlands,2022-03-17,2022-04-03,Day-case surgery,K40.9,1814.49,1441.00,Paid,Post,No
+CLM0000247,PH00098,PRV006,Meadowlands Day Hospital,Yorkshire and the Humber,2022-10-19,2022-11-17,Consultation,M25.5,187.55,169.32,Withdrawn,Member portal,No
+CLM0000248,PH00017,PRV004,Westmoor Orthopaedics,West Midlands,2023-12-07,2023-12-14,Cardiology review,I10,748.36,644.43,Paid,Telephone,No
+CLM0000249,PH00118,PRV008,Oakfield Imaging Centre,East of England,2024-03-03,2024-03-28,MRI scan,M54.5,526.23,487.07,Paid,Member portal,No
+CLM0000250,PH00071,PRV007,Kingswell Cardiology Group,Scotland,2022-09-26,2022-10-17,Cancer treatment,C50.9,6744.33,5653.06,Paid,Provider portal,No
+CLM0000251,PH00245,PRV004,Westmoor Orthopaedics,West Midlands,2025-06-30,2025-07-04,Cancer treatment,C50.9,4947.81,4022.47,Paid,Post,No
+CLM0000252,PH00048,PRV004,Westmoor Orthopaedics,West Midlands,2022-11-23,2022-12-04,Minor surgery,L98.9,2035.30,1566.15,Withdrawn,Provider portal,No
+CLM0000253,PH00129,PRV009,Southbank Physiotherapy Network,London,2025-05-25,2025-06-12,Day-case surgery,K40.9,1760.00,1713.04,Paid,Provider portal,No
+CLM0000254,PH00176,PRV004,Westmoor Orthopaedics,West Midlands,2023-03-06,2023-03-31,Minor surgery,L98.9,1705.28,1548.96,Paid,Member portal,Yes
+CLM0000255,PH00033,PRV002,Riverside Diagnostics,South East,2022-03-08,2022-03-10,MRI scan,M54.5,11675.00,2918.75,Declined,Provider portal,No
+CLM0000256,PH00043,PRV006,Meadowlands Day Hospital,Yorkshire and the Humber,2022-02-23,2022-03-18,Cancer treatment,C50.9,3121.41,2379.63,Paid,Member portal,No
+CLM0000257,PH00176,PRV010,Lakeside Surgical Centre,North East,2024-12-07,2025-01-04,Consultation,M25.5,620.84,524.33,Paid,Provider portal,No
+CLM0000258,PH00220,PRV007,Kingswell Cardiology Group,Scotland,2025-02-03,2025-02-06,Cardiology review,I10,235.31,230.60,Declined,Member portal,No
+CLM0000259,PH00255,PRV001,Northbridge Private Hospital,London,2025-01-25,2025-02-12,Consultation,M25.5,486.29,397.55,Paid,Telephone,No
+CLM0000260,PH00104,PRV003,Cedar Grove Clinic,South West,2022-07-22,2022-08-13,Cancer treatment,C50.9,7190.19,5602.49,Paid,Provider portal,Yes
+CLM0000261,PH00269,PRV003,Cedar Grove Clinic,South West,2025-01-04,2025-01-10,Mental health therapy,F41.9,237.39,182.95,Partially paid,Telephone,No
+CLM0000262,PH00200,PRV006,Meadowlands Day Hospital,Yorkshire and the Humber,2025-12-28,2026-01-06,Cardiology review,I10,768.02,675.78,Paid,Member portal,No
+CLM0000263,PH00194,PRV010,Lakeside Surgical Centre,North East,2025-01-17,2025-01-27,Minor surgery,L98.9,1872.29,1628.66,Partially paid,Provider portal,No
+CLM0000264,PH00173,PRV004,Westmoor Orthopaedics,West Midlands,2022-05-21,2022-05-23,Day-case surgery,K40.9,4025.58,3714.32,Paid,Provider portal,No
+CLM0000265,PH00187,PRV006,Meadowlands Day Hospital,Yorkshire and the Humber,2023-03-08,2023-03-15,Cardiology review,I10,269.04,221.07,Paid,Provider portal,Yes
+CLM0000266,PH00259,PRV010,Lakeside Surgical Centre,North East,2022-08-07,2022-08-08,Physiotherapy,M25.5,84.78,81.84,Paid,Provider portal,No
+CLM0000267,PH00032,PRV005,Harbourview Specialist Centre,North West,2022-03-20,2022-04-09,Cataract procedure,H25.9,3871.93,3665.70,Paid,Member portal,No
+CLM0000268,PH00141,PRV004,Westmoor Orthopaedics,West Midlands,2024-02-28,2024-03-16,Consultation,M25.5,485.59,448.46,Partially paid,Member portal,No
+CLM0000269,PH00181,PRV002,Riverside Diagnostics,South East,2024-12-27,2024-12-30,MRI scan,M54.5,450.91,382.83,Withdrawn,Member portal,No
+CLM0000270,PH00225,PRV007,Kingswell Cardiology Group,Scotland,2023-01-17,2023-02-03,Cancer treatment,C50.9,10747.68,7791.99,Paid,Post,Yes
+CLM0000271,PH00159,PRV010,Lakeside Surgical Centre,North East,2025-12-04,2026-01-05,Cataract procedure,H25.9,3096.45,2582.87,Partially paid,Provider portal,No
+CLM0000272,PH00140,PRV010,Lakeside Surgical Centre,North East,2024-01-14,2024-01-16,Day-case surgery,K40.9,11800.00,2950.00,Paid,Provider portal,Yes
+CLM0000273,PH00215,PRV010,Lakeside Surgical Centre,North East,2025-05-08,2025-05-15,Day-case surgery,K40.9,3487.86,2604.28,Paid,Member portal,No
+CLM0000274,PH00005,PRV005,Harbourview Specialist Centre,North West,2023-10-20,2023-11-09,Consultation,M25.5,602.18,440.58,Paid,Provider portal,No
+CLM0000275,PH00293,PRV007,Kingswell Cardiology Group,Scotland,2023-06-10,2023-07-06,Cardiology review,I10,617.07,597.97,Paid,Provider portal,No
+CLM0000276,PH00151,PRV006,Meadowlands Day Hospital,Yorkshire and the Humber,2024-04-23,2024-05-28,Physiotherapy,M25.5,131.16,120.83,Paid,Provider portal,No
+CLM0000277,PH00259,PRV003,Cedar Grove Clinic,South West,2025-08-27,2025-09-22,Minor surgery,L98.9,992.99,830.65,Paid,Provider portal,No
+CLM0000278,PH00031,PRV002,Riverside Diagnostics,South East,2023-12-13,2023-12-17,Cardiology review,I10,636.72,476.72,Paid,Member portal,No
+CLM0000279,PH00110,PRV007,Kingswell Cardiology Group,Scotland,2022-09-02,2022-09-16,Cardiology review,I10,781.81,691.66,Partially paid,Provider portal,No
+CLM0000280,PH00059,PRV002,Riverside Diagnostics,South East,2022-09-13,2022-09-15,Mental health therapy,F41.9,319.46,254.98,Paid,Provider portal,No
+CLM0000281,PH00277,PRV003,Cedar Grove Clinic,South West,2024-11-18,2024-12-06,Mental health therapy,F41.9,345.82,317.14,Paid,Member portal,No
+CLM0000282,PH00074,PRV006,Meadowlands Day Hospital,Yorkshire and the Humber,2022-10-28,2022-11-30,Mental health therapy,F41.9,97.78,82.24,Paid,Member portal,No
+CLM0000283,PH00251,PRV010,Lakeside Surgical Centre,North East,2025-06-22,2025-07-06,Cardiology review,I10,362.18,297.71,Paid,Provider portal,Yes
+CLM0000284,PH00160,PRV001,Northbridge Private Hospital,London,2022-08-03,2022-08-14,Cancer treatment,C50.9,11879.83,10007.96,Paid,Provider portal,No
+CLM0000285,PH00069,PRV010,Lakeside Surgical Centre,North East,2025-01-03,2025-02-02,Mental health therapy,F41.9,604.88,524.52,Withdrawn,Member portal,No
+CLM0000286,PH00034,PRV005,Harbourview Specialist Centre,North West,2022-03-23,2022-04-04,MRI scan,M54.5,868.16,661.86,Paid,Member portal,No
+CLM0000287,PH00250,PRV003,Cedar Grove Clinic,South West,2023-06-27,2023-07-02,Mental health therapy,F41.9,204.96,204.78,Partially paid,Provider portal,No
+CLM0000288,PH00167,PRV009,Southbank Physiotherapy Network,London,2024-09-13,2024-09-14,Consultation,M25.5,412.17,367.25,Paid,Telephone,No
+CLM0000289,PH00017,PRV010,Lakeside Surgical Centre,North East,2025-03-13,2025-03-15,Cataract procedure,H25.9,11925.00,2981.25,Declined,Provider portal,No
+CLM0000290,PH00195,PRV010,Lakeside Surgical Centre,North East,2024-02-16,2024-02-19,Cancer treatment,C50.9,9652.21,6999.80,Paid,Telephone,No
+CLM0000291,PH00018,PRV010,Lakeside Surgical Centre,North East,2025-03-11,2025-03-13,Minor surgery,L98.9,2620.68,1918.12,Declined,Post,No
+CLM0000292,PH00248,PRV002,Riverside Diagnostics,South East,2024-11-17,2024-11-30,Physiotherapy,M25.5,384.66,366.27,Paid,Post,No
+CLM0000293,PH00041,PRV007,Kingswell Cardiology Group,Scotland,2022-02-20,2022-03-20,MRI scan,M54.5,879.31,679.05,Withdrawn,Member portal,No
+CLM0000294,PH00153,PRV010,Lakeside Surgical Centre,North East,2025-09-19,2025-10-22,Day-case surgery,K40.9,3776.64,3145.44,Paid,Provider portal,No
+CLM0000295,PH00121,PRV002,Riverside Diagnostics,South East,2025-05-07,2025-05-19,Consultation,M25.5,368.97,332.26,Paid,Member portal,No
+CLM0000296,PH00157,PRV009,Southbank Physiotherapy Network,London,2022-06-01,2022-07-04,Physiotherapy,M25.5,357.35,340.97,Paid,Member portal,No
+CLM0000297,PH00005,PRV008,Oakfield Imaging Centre,East of England,2025-04-17,2025-05-14,Day-case surgery,K40.9,4385.83,4362.07,Paid,Member portal,No
+CLM0000298,PH00163,PRV009,Southbank Physiotherapy Network,London,2022-12-25,2023-01-08,Mental health therapy,F41.9,382.95,284.04,Declined,Telephone,No
+CLM0000299,PH00120,PRV002,Riverside Diagnostics,South East,2022-03-15,2022-03-30,Cardiology review,I10,598.09,534.05,Paid,Provider portal,No
+CLM0000300,PH00054,PRV003,Cedar Grove Clinic,South West,2022-10-21,2022-10-22,Cancer treatment,C50.9,5054.47,3855.95,Paid,Provider portal,No
+CLM0000301,PH00100,PRV010,Lakeside Surgical Centre,North East,2023-03-14,2023-03-31,Day-case surgery,K40.9,4524.81,4127.73,Paid,Member portal,No
+CLM0000302,PH00166,PRV006,Meadowlands Day Hospital,Yorkshire and the Humber,2023-05-25,2023-06-29,Mental health therapy,F41.9,797.94,665.94,Paid,Member portal,No
+CLM0000303,PH00124,PRV003,Cedar Grove Clinic,South West,2024-07-19,2024-07-30,Cancer treatment,C50.9,8605.35,7444.85,Paid,Member portal,Yes
+CLM0000304,PH00211,PRV004,Westmoor Orthopaedics,West Midlands,2023-10-27,2023-11-06,Mental health therapy,F41.9,838.99,774.39,Declined,Telephone,No
+CLM0000305,PH00249,PRV003,Cedar Grove Clinic,South West,2024-12-05,2024-12-22,Minor surgery,L98.9,2178.34,1618.99,Withdrawn,Member portal,No
+CLM0000306,PH00282,PRV005,Harbourview Specialist Centre,North West,2024-07-09,2024-07-11,Cardiology review,I10,12050.00,3012.50,Paid,Provider portal,No
+CLM0000307,PH00080,PRV003,Cedar Grove Clinic,South West,2025-03-15,2025-03-18,Cardiology review,I10,729.67,675.44,Paid,Member portal,No
+CLM0000308,PH00233,PRV001,Northbridge Private Hospital,London,2025-01-05,2025-01-17,Cardiology review,I10,709.25,639.94,Paid,Member portal,No
+CLM0000309,PH00092,PRV001,Northbridge Private Hospital,London,2024-03-09,2024-03-21,Mental health therapy,F41.9,570.70,555.88,Declined,Member portal,No
+CLM0000310,PH00091,PRV002,Riverside Diagnostics,South East,2023-11-21,2023-11-30,Minor surgery,L98.9,1835.55,1526.14,Paid,Telephone,No
+CLM0000311,PH00063,PRV007,Kingswell Cardiology Group,Scotland,2022-01-02,2022-02-06,Day-case surgery,K40.9,2384.72,2187.47,Partially paid,Member portal,No
+CLM0000312,PH00261,PRV005,Harbourview Specialist Centre,North West,2023-01-31,2023-02-26,MRI scan,M54.5,928.28,768.23,Paid,Provider portal,No
+CLM0000313,PH00199,PRV007,Kingswell Cardiology Group,Scotland,2023-11-10,2023-12-05,Cancer treatment,C50.9,9579.59,8866.94,Declined,Member portal,No
+CLM0000314,PH00017,PRV008,Oakfield Imaging Centre,East of England,2023-11-03,2023-12-08,MRI scan,M54.5,543.77,515.10,Paid,Member portal,No
+CLM0000315,PH00087,PRV005,Harbourview Specialist Centre,North West,2025-07-20,2025-08-04,Day-case surgery,K40.9,3670.04,3587.90,Paid,Member portal,No
+CLM0000316,PH00244,PRV004,Westmoor Orthopaedics,West Midlands,2025-05-13,2025-05-22,MRI scan,M54.5,885.36,649.80,Paid,Member portal,No
+CLM0000317,PH00262,PRV005,Harbourview Specialist Centre,North West,2022-07-25,2022-08-15,Cancer treatment,C50.9,5840.39,5419.00,Paid,Provider portal,No
+CLM0000318,PH00028,PRV009,Southbank Physiotherapy Network,London,2022-08-04,2022-08-12,Cancer treatment,C50.9,7487.04,6622.22,Paid,Member portal,No
+CLM0000319,PH00003,PRV002,Riverside Diagnostics,South East,2024-09-19,2024-09-21,Cancer treatment,C50.9,4818.41,3847.30,Paid,Member portal,Yes
+CLM0000320,PH00200,PRV006,Meadowlands Day Hospital,Yorkshire and the Humber,2025-02-24,2025-02-25,Cancer treatment,C50.9,4850.45,4203.63,Paid,Post,No
+CLM0000321,PH00258,PRV003,Cedar Grove Clinic,South West,2025-02-22,2025-02-23,Minor surgery,L98.9,1071.32,948.55,Declined,Provider portal,No
+CLM0000322,PH00285,PRV006,Meadowlands Day Hospital,Yorkshire and the Humber,2022-07-24,2022-08-23,Consultation,M25.5,558.44,545.76,Paid,Provider portal,No
+CLM0000323,PH00071,PRV007,Kingswell Cardiology Group,Scotland,2025-07-28,2025-07-30,Consultation,M25.5,12175.00,3043.75,Paid,Provider portal,No
+CLM0000324,PH00222,PRV006,Meadowlands Day Hospital,Yorkshire and the Humber,2024-05-01,2024-05-09,Mental health therapy,F41.9,626.75,523.77,Paid,Provider portal,No
+CLM0000325,PH00148,PRV008,Oakfield Imaging Centre,East of England,2024-04-18,2024-05-13,Minor surgery,L98.9,2322.60,2290.48,Paid,Member portal,No
+CLM0000326,PH00215,PRV004,Westmoor Orthopaedics,West Midlands,2024-06-26,2024-07-18,Mental health therapy,F41.9,644.17,580.47,Paid,Provider portal,No
+CLM0000327,PH00192,PRV006,Meadowlands Day Hospital,Yorkshire and the Humber,2024-09-10,2024-09-25,Consultation,M25.5,545.19,527.46,Paid,Member portal,No
+CLM0000328,PH00256,PRV002,Riverside Diagnostics,South East,2025-12-26,2026-01-08,Cataract procedure,H25.9,2678.37,2076.49,Paid,Telephone,No
+CLM0000329,PH00259,PRV009,Southbank Physiotherapy Network,London,2023-06-15,2023-06-20,Physiotherapy,M25.5,388.10,307.40,Paid,Provider portal,No
+CLM0000330,PH00144,PRV009,Southbank Physiotherapy Network,London,2022-06-27,2022-07-24,Day-case surgery,K40.9,2644.88,2324.94,Paid,Member portal,No
+CLM0000331,PH00257,PRV003,Cedar Grove Clinic,South West,2024-12-01,2024-12-25,Consultation,M25.5,618.42,604.01,Paid,Member portal,No
+CLM0000332,PH00130,PRV003,Cedar Grove Clinic,South West,2022-03-19,2022-04-10,Day-case surgery,K40.9,3229.70,2553.11,Partially paid,Member portal,Yes
+CLM0000333,PH00136,PRV003,Cedar Grove Clinic,South West,2023-08-23,2023-09-19,Physiotherapy,M25.5,356.65,353.73,Paid,Member portal,No
+CLM0000334,PH00256,PRV008,Oakfield Imaging Centre,East of England,2022-09-26,2022-10-06,Consultation,M25.5,472.43,406.89,Declined,Provider portal,Yes
+CLM0000335,PH00121,PRV003,Cedar Grove Clinic,South West,2022-08-03,2022-08-14,MRI scan,M54.5,803.37,689.95,Partially paid,Member portal,No
+CLM0000336,PH00187,PRV009,Southbank Physiotherapy Network,London,2024-01-08,2024-01-23,Mental health therapy,F41.9,639.57,523.07,Paid,Member portal,No
+CLM0000337,PH00197,PRV003,Cedar Grove Clinic,South West,2025-07-03,2025-07-04,Day-case surgery,K40.9,2690.69,2582.36,Partially paid,Post,No
+CLM0000338,PH00270,PRV002,Riverside Diagnostics,South East,2024-06-05,2024-07-03,Physiotherapy,M25.5,261.78,222.08,Paid,Member portal,No
+CLM0000339,PH00183,PRV010,Lakeside Surgical Centre,North East,2025-01-02,2025-01-13,Cataract procedure,H25.9,3305.71,3247.09,Partially paid,Provider portal,No
+CLM0000340,PH00182,PRV007,Kingswell Cardiology Group,Scotland,2024-03-08,2024-03-10,Cardiology review,I10,12300.00,3075.00,Partially paid,Provider portal,No
+CLM0000341,PH00223,PRV004,Westmoor Orthopaedics,West Midlands,2022-03-15,2022-04-01,MRI scan,M54.5,708.58,516.75,Paid,Post,No
+CLM0000342,PH00229,PRV001,Northbridge Private Hospital,London,2022-04-06,2022-05-04,Cardiology review,I10,648.01,500.48,Paid,Provider portal,No
+CLM0000343,PH00225,PRV005,Harbourview Specialist Centre,North West,2023-11-20,2023-12-13,Day-case surgery,K40.9,3232.46,2972.05,Paid,Provider portal,No
+CLM0000344,PH00131,PRV001,Northbridge Private Hospital,London,2023-02-24,2023-03-29,Cataract procedure,H25.9,3551.92,3393.17,Paid,Provider portal,No
+CLM0000345,PH00135,PRV007,Kingswell Cardiology Group,Scotland,2024-10-03,2024-11-01,Consultation,M25.5,570.66,506.92,Paid,Provider portal,No
+CLM0000346,PH00065,PRV006,Meadowlands Day Hospital,Yorkshire and the Humber,2023-08-20,2023-09-08,Cancer treatment,C50.9,11935.27,10537.99,Partially paid,Provider portal,No
+CLM0000347,PH00053,PRV006,Meadowlands Day Hospital,Yorkshire and the Humber,2022-03-19,2022-03-25,MRI scan,M54.5,761.64,687.55,Paid,Member portal,No
+CLM0000348,PH00049,PRV008,Oakfield Imaging Centre,East of England,2023-11-23,2023-12-02,Physiotherapy,M25.5,241.16,236.35,Paid,Provider portal,No
+CLM0000349,PH00165,PRV009,Southbank Physiotherapy Network,London,2023-02-12,2023-02-15,Cardiology review,I10,235.10,175.78,Paid,Member portal,No
+CLM0000350,PH00230,PRV008,Oakfield Imaging Centre,East of England,2023-06-27,2023-08-01,Day-case surgery,K40.9,2115.31,2051.49,Paid,Member portal,No
+CLM0000351,PH00057,PRV001,Northbridge Private Hospital,London,2022-11-15,2022-11-18,Mental health therapy,F41.9,637.76,615.17,Paid,Member portal,No
+CLM0000352,PH00255,PRV003,Cedar Grove Clinic,South West,2022-12-11,2022-12-28,Cancer treatment,C50.9,6573.63,5087.17,Paid,Member portal,No
+CLM0000353,PH00116,PRV006,Meadowlands Day Hospital,Yorkshire and the Humber,2024-05-29,2024-06-18,Minor surgery,L98.9,995.85,765.56,Paid,Member portal,No
+CLM0000354,PH00088,PRV005,Harbourview Specialist Centre,North West,2025-09-26,2025-10-23,Mental health therapy,F41.9,295.96,283.02,Paid,Member portal,No
+CLM0000355,PH00270,PRV003,Cedar Grove Clinic,South West,2024-01-09,2024-01-15,Day-case surgery,K40.9,4396.24,3508.36,Paid,Member portal,No
+CLM0000356,PH00073,PRV009,Southbank Physiotherapy Network,London,2022-06-13,2022-06-16,Cataract procedure,H25.9,3090.19,2520.46,Paid,Provider portal,No
+CLM0000357,PH00020,PRV002,Riverside Diagnostics,South East,2022-09-16,2022-09-17,Physiotherapy,M25.5,183.16,152.53,Paid,Provider portal,No
+CLM0000358,PH00074,PRV007,Kingswell Cardiology Group,Scotland,2024-07-11,2024-08-09,Minor surgery,L98.9,1019.41,788.65,Partially paid,Telephone,No
+CLM0000359,PH00168,PRV003,Cedar Grove Clinic,South West,2024-07-09,2024-08-06,Day-case surgery,K40.9,3304.70,3208.91,Partially paid,Member portal,No
+CLM0000360,PH00135,PRV002,Riverside Diagnostics,South East,2022-12-18,2023-01-22,MRI scan,M54.5,887.78,789.20,Paid,Member portal,No
+CLM0000361,PH00245,PRV007,Kingswell Cardiology Group,Scotland,2023-01-31,2023-02-07,Physiotherapy,M25.5,353.49,274.12,Partially paid,Member portal,No
+CLM0000362,PH00120,PRV010,Lakeside Surgical Centre,North East,2025-07-03,2025-07-08,Cardiology review,I10,746.18,550.70,Paid,Provider portal,Yes
+CLM0000363,PH00032,PRV009,Southbank Physiotherapy Network,London,2022-09-20,2022-10-06,Minor surgery,L98.9,2311.75,2109.41,Paid,Member portal,No
+CLM0000364,PH00086,PRV008,Oakfield Imaging Centre,East of England,2023-08-21,2023-08-30,Cardiology review,I10,567.39,442.42,Paid,Member portal,No
+CLM0000365,PH00070,PRV009,Southbank Physiotherapy Network,London,2023-02-19,2023-02-24,Mental health therapy,F41.9,396.77,342.35,Paid,Member portal,No
+CLM0000366,PH00018,PRV006,Meadowlands Day Hospital,Yorkshire and the Humber,2024-06-16,2024-07-21,Minor surgery,L98.9,2745.37,2228.66,Partially paid,Provider portal,No
+CLM0000367,PH00045,PRV007,Kingswell Cardiology Group,Scotland,2025-08-10,2025-08-19,Cardiology review,I10,630.31,473.61,Paid,Provider portal,No
+CLM0000368,PH00107,PRV005,Harbourview Specialist Centre,North West,2024-07-27,2024-08-09,Cancer treatment,C50.9,8992.65,8890.70,Paid,Provider portal,No
+CLM0000369,PH00045,PRV008,Oakfield Imaging Centre,East of England,2025-03-09,2025-04-10,Consultation,M25.5,505.88,494.10,Partially paid,Member portal,No
+CLM0000370,PH00134,PRV002,Riverside Diagnostics,South East,2025-01-09,2025-01-20,Cardiology review,I10,639.65,617.71,Paid,Member portal,No
+CLM0000371,PH00137,PRV008,Oakfield Imaging Centre,East of England,2023-10-19,2023-11-19,Mental health therapy,F41.9,260.69,251.69,Paid,Member portal,No
+CLM0000372,PH00040,PRV004,Westmoor Orthopaedics,West Midlands,2024-01-01,2024-01-18,Cardiology review,I10,419.94,380.46,Paid,Telephone,No
+CLM0000373,PH00113,PRV010,Lakeside Surgical Centre,North East,2022-10-31,2022-12-01,Cataract procedure,H25.9,2988.55,2548.69,Partially paid,Provider portal,No
+CLM0000374,PH00184,PRV007,Kingswell Cardiology Group,Scotland,2024-09-22,2024-10-17,Minor surgery,L98.9,1900.02,1680.81,Paid,Telephone,Yes
+CLM0000375,PH00116,PRV009,Southbank Physiotherapy Network,London,2024-03-04,2024-04-04,Mental health therapy,F41.9,352.79,337.81,Paid,Member portal,No
+CLM0000376,PH00218,PRV008,Oakfield Imaging Centre,East of England,2022-10-01,2022-11-01,Cardiology review,I10,402.05,385.72,Paid,Member portal,No
+CLM0000377,PH00090,PRV002,Riverside Diagnostics,South East,2022-06-10,2022-06-23,MRI scan,M54.5,771.23,647.33,Withdrawn,Telephone,No
+CLM0000378,PH00079,PRV002,Riverside Diagnostics,South East,2022-02-08,2022-03-11,Day-case surgery,K40.9,2783.37,2301.72,Paid,Telephone,Yes
+CLM0000379,PH00293,PRV009,Southbank Physiotherapy Network,London,2025-12-20,2025-12-29,Physiotherapy,M25.5,199.31,178.90,Paid,Provider portal,No
+CLM0000380,PH00014,PRV007,Kingswell Cardiology Group,Scotland,2025-12-18,2026-01-02,Minor surgery,L98.9,2552.37,2334.58,Paid,Provider portal,No
+CLM0000381,PH00100,PRV009,Southbank Physiotherapy Network,London,2022-12-12,2023-01-07,Cataract procedure,H25.9,3513.77,2953.07,Declined,Telephone,No
+CLM0000382,PH00139,PRV008,Oakfield Imaging Centre,East of England,2023-04-24,2023-05-09,Cataract procedure,H25.9,3830.55,3273.29,Paid,Telephone,No
+CLM0000383,PH00181,PRV008,Oakfield Imaging Centre,East of England,2024-07-11,2024-07-26,MRI scan,M54.5,860.26,709.53,Paid,Member portal,No
+CLM0000384,PH00286,PRV003,Cedar Grove Clinic,South West,2022-09-06,2022-09-26,Consultation,M25.5,260.45,208.80,Paid,Telephone,No
+CLM0000385,PH00077,PRV001,Northbridge Private Hospital,London,2022-09-21,2022-10-12,Mental health therapy,F41.9,434.32,371.11,Declined,Member portal,No
+CLM0000386,PH00100,PRV003,Cedar Grove Clinic,South West,2024-08-22,2024-09-21,Cataract procedure,H25.9,2818.56,2426.49,Paid,Telephone,No
+CLM0000387,PH00069,PRV001,Northbridge Private Hospital,London,2022-07-22,2022-07-25,Mental health therapy,F41.9,828.55,754.02,Paid,Post,No
+CLM0000388,PH00063,PRV004,Westmoor Orthopaedics,West Midlands,2022-03-15,2022-04-04,MRI scan,M54.5,562.56,432.71,Paid,Member portal,No
+CLM0000389,PH00236,PRV009,Southbank Physiotherapy Network,London,2024-11-25,2024-12-23,Cancer treatment,C50.9,8882.95,7297.28,Declined,Provider portal,No
+CLM0000390,PH00222,PRV008,Oakfield Imaging Centre,East of England,2023-08-15,2023-08-28,Consultation,M25.5,520.03,504.22,Paid,Telephone,Yes
+CLM0000391,PH00060,PRV009,Southbank Physiotherapy Network,London,2024-09-20,2024-10-15,Physiotherapy,M25.5,407.43,309.92,Paid,Post,No
+CLM0000392,PH00222,PRV006,Meadowlands Day Hospital,Yorkshire and the Humber,2024-03-03,2024-04-02,Physiotherapy,M25.5,372.99,270.17,Partially paid,Provider portal,No
+CLM0000393,PH00259,PRV003,Cedar Grove Clinic,South West,2025-05-30,2025-06-28,Physiotherapy,M25.5,133.84,119.06,Partially paid,Provider portal,No
+CLM0000394,PH00106,PRV006,Meadowlands Day Hospital,Yorkshire and the Humber,2022-04-22,2022-05-26,Cardiology review,I10,319.95,288.66,Paid,Provider portal,No
+CLM0000395,PH00136,PRV007,Kingswell Cardiology Group,Scotland,2024-06-19,2024-07-06,Minor surgery,L98.9,2069.08,1616.62,Paid,Member portal,No
+CLM0000396,PH00060,PRV008,Oakfield Imaging Centre,East of England,2024-08-28,2024-09-21,Cataract procedure,H25.9,4165.19,4038.62,Paid,Provider portal,No
+CLM0000397,PH00068,PRV003,Cedar Grove Clinic,South West,2023-12-05,2023-12-11,Cardiology review,I10,545.08,518.40,Paid,Member portal,No
+CLM0000398,PH00156,PRV006,Meadowlands Day Hospital,Yorkshire and the Humber,2025-04-30,2025-05-17,Physiotherapy,M25.5,94.03,71.89,Paid,Provider portal,No
+CLM0000399,PH00069,PRV005,Harbourview Specialist Centre,North West,2024-01-24,2024-02-27,Consultation,M25.5,584.76,540.83,Partially paid,Provider portal,No
+CLM0000400,PH00198,PRV010,Lakeside Surgical Centre,North East,2023-05-17,2023-06-06,Minor surgery,L98.9,2620.61,2296.85,Paid,Telephone,No
+CLM0000401,PH00235,PRV009,Southbank Physiotherapy Network,London,2022-05-15,2022-06-01,Cataract procedure,H25.9,1943.16,1421.57,Withdrawn,Provider portal,No
+CLM0000402,PH00121,PRV006,Meadowlands Day Hospital,Yorkshire and the Humber,2023-05-04,2023-06-07,Day-case surgery,K40.9,2792.27,2658.35,Paid,Provider portal,No
+CLM0000403,PH00036,PRV006,Meadowlands Day Hospital,Yorkshire and the Humber,2023-08-01,2023-09-05,Physiotherapy,M25.5,105.41,101.00,Paid,Telephone,No
+CLM0000404,PH00245,PRV004,Westmoor Orthopaedics,West Midlands,2024-12-20,2024-12-27,Consultation,M25.5,502.92,466.00,Paid,Member portal,No
+CLM0000405,PH00280,PRV007,Kingswell Cardiology Group,Scotland,2023-10-25,2023-11-15,Physiotherapy,M25.5,351.86,325.73,Paid,Member portal,No
+CLM0000406,PH00234,PRV006,Meadowlands Day Hospital,Yorkshire and the Humber,2022-11-22,2022-12-13,Day-case surgery,K40.9,2403.87,1945.88,Partially paid,Member portal,No
+CLM0000407,PH00259,PRV002,Riverside Diagnostics,South East,2025-02-10,2025-02-26,Day-case surgery,K40.9,3520.23,2599.14,Partially paid,Provider portal,No
+CLM0000408,PH00181,PRV003,Cedar Grove Clinic,South West,2023-03-06,2023-03-19,MRI scan,M54.5,872.95,805.16,Paid,Provider portal,No
+CLM0000409,PH00282,PRV003,Cedar Grove Clinic,South West,2023-09-10,2023-10-04,Physiotherapy,M25.5,166.37,144.93,Paid,Provider portal,Yes
+CLM0000410,PH00251,PRV005,Harbourview Specialist Centre,North West,2025-08-02,2025-08-22,Cardiology review,I10,472.55,405.83,Paid,Member portal,No
+CLM0000411,PH00083,PRV008,Oakfield Imaging Centre,East of England,2023-07-29,2023-08-03,Cancer treatment,C50.9,7987.05,7245.14,Partially paid,Provider portal,No
+CLM0000412,PH00121,PRV006,Meadowlands Day Hospital,Yorkshire and the Humber,2023-10-16,2023-10-26,Cancer treatment,C50.9,9132.71,6952.09,Paid,Member portal,No
+CLM0000413,PH00065,PRV004,Westmoor Orthopaedics,West Midlands,2023-04-04,2023-04-25,Minor surgery,L98.9,1089.59,967.12,Paid,Member portal,No
+CLM0000414,PH00127,PRV005,Harbourview Specialist Centre,North West,2025-08-06,2025-08-11,Minor surgery,L98.9,1730.26,1277.91,Partially paid,Member portal,Yes
+CLM0000415,PH00092,PRV007,Kingswell Cardiology Group,Scotland,2022-03-27,2022-04-27,Minor surgery,L98.9,1347.87,1204.70,Declined,Provider portal,No
+CLM0000416,PH00270,PRV006,Meadowlands Day Hospital,Yorkshire and the Humber,2024-12-15,2024-12-30,Consultation,M25.5,612.76,591.92,Paid,Provider portal,Yes
+CLM0000417,PH00150,PRV008,Oakfield Imaging Centre,East of England,2024-04-27,2024-05-30,Physiotherapy,M25.5,316.05,305.81,Paid,Member portal,Yes
+CLM0000418,PH00071,PRV006,Meadowlands Day Hospital,Yorkshire and the Humber,2024-01-25,2024-01-29,Mental health therapy,F41.9,117.59,87.97,Declined,Member portal,No
+CLM0000419,PH00100,PRV006,Meadowlands Day Hospital,Yorkshire and the Humber,2025-11-27,2025-12-28,Cancer treatment,C50.9,6724.26,6520.03,Paid,Member portal,No
+CLM0000420,PH00220,PRV010,Lakeside Surgical Centre,North East,2025-02-07,2025-03-12,Minor surgery,L98.9,2046.19,1824.75,Withdrawn,Provider portal,No
+CLM0000421,PH00029,PRV001,Northbridge Private Hospital,London,2024-10-21,2024-11-25,Cardiology review,I10,628.14,596.36,Paid,Member portal,No
+CLM0000422,PH00266,PRV004,Westmoor Orthopaedics,West Midlands,2022-09-07,2022-09-19,Day-case surgery,K40.9,1772.70,1535.26,Paid,Member portal,No
+CLM0000423,PH00095,PRV006,Meadowlands Day Hospital,Yorkshire and the Humber,2024-09-06,2024-09-20,Cardiology review,I10,516.19,451.83,Paid,Member portal,No
+CLM0000424,PH00163,PRV002,Riverside Diagnostics,South East,2025-07-27,2025-08-28,Cataract procedure,H25.9,3279.32,3226.37,Paid,Provider portal,No
+CLM0000425,PH00239,PRV010,Lakeside Surgical Centre,North East,2025-10-07,2025-11-08,Cardiology review,I10,413.63,396.40,Paid,Member portal,No
+CLM0000426,PH00081,PRV010,Lakeside Surgical Centre,North East,2025-07-15,2025-07-22,Consultation,M25.5,406.87,398.58,Paid,Member portal,No
+CLM0000427,PH00249,PRV010,Lakeside Surgical Centre,North East,2024-01-08,2024-01-10,MRI scan,M54.5,488.60,486.23,Partially paid,Provider portal,No
+CLM0000428,PH00010,PRV004,Westmoor Orthopaedics,West Midlands,2024-12-11,2024-12-21,Cardiology review,I10,571.79,435.06,Paid,Provider portal,No
+CLM0000429,PH00282,PRV009,Southbank Physiotherapy Network,London,2023-07-18,2023-08-16,Mental health therapy,F41.9,207.81,193.04,Declined,Telephone,No
+CLM0000430,PH00070,PRV010,Lakeside Surgical Centre,North East,2025-09-08,2025-10-10,Cataract procedure,H25.9,4048.00,3847.74,Declined,Member portal,No
+CLM0000431,PH00188,PRV006,Meadowlands Day Hospital,Yorkshire and the Humber,2023-05-23,2023-06-17,Cataract procedure,H25.9,3378.41,3003.72,Paid,Member portal,No
+CLM0000432,PH00022,PRV006,Meadowlands Day Hospital,Yorkshire and the Humber,2023-01-21,2023-01-30,Physiotherapy,M25.5,140.79,110.59,Paid,Member portal,No
+CLM0000433,PH00205,PRV005,Harbourview Specialist Centre,North West,2025-08-17,2025-08-26,Cancer treatment,C50.9,7748.15,7026.92,Paid,Member portal,No
+CLM0000434,PH00182,PRV001,Northbridge Private Hospital,London,2025-10-18,2025-11-14,MRI scan,M54.5,824.86,710.35,Paid,Provider portal,No
+CLM0000435,PH00023,PRV002,Riverside Diagnostics,South East,2023-07-10,2023-07-30,Cardiology review,I10,364.25,314.92,Paid,Member portal,Yes
+CLM0000436,PH00009,PRV001,Northbridge Private Hospital,London,2022-03-04,2022-03-11,Consultation,M25.5,575.46,532.67,Paid,Provider portal,No
+CLM0000437,PH00074,PRV001,Northbridge Private Hospital,London,2023-06-19,2023-07-01,Mental health therapy,F41.9,527.54,485.50,Partially paid,Member portal,No
+CLM0000438,PH00066,PRV007,Kingswell Cardiology Group,Scotland,2022-03-11,2022-04-12,Minor surgery,L98.9,1658.11,1352.73,Paid,Telephone,Yes
+CLM0000439,PH00283,PRV010,Lakeside Surgical Centre,North East,2022-09-08,2022-09-24,Cardiology review,I10,726.45,562.79,Paid,Post,No
+CLM0000440,PH00179,PRV004,Westmoor Orthopaedics,West Midlands,2025-04-18,2025-04-19,Cancer treatment,C50.9,9031.30,6577.11,Declined,Member portal,No
+CLM0000441,PH00032,PRV001,Northbridge Private Hospital,London,2024-03-15,2024-04-08,Cardiology review,I10,346.43,325.13,Paid,Telephone,No
+CLM0000442,PH00039,PRV001,Northbridge Private Hospital,London,2023-07-11,2023-07-31,Mental health therapy,F41.9,141.40,107.10,Paid,Provider portal,No
+CLM0000443,PH00208,PRV005,Harbourview Specialist Centre,North West,2025-09-01,2025-09-14,Cancer treatment,C50.9,7670.80,6848.89,Paid,Member portal,No
+CLM0000444,PH00057,PRV005,Harbourview Specialist Centre,North West,2024-12-12,2025-01-16,Physiotherapy,M25.5,396.33,366.09,Paid,Provider portal,No
+CLM0000445,PH00149,PRV006,Meadowlands Day Hospital,Yorkshire and the Humber,2024-01-28,2024-02-02,Physiotherapy,M25.5,306.70,251.22,Paid,Member portal,No
+CLM0000446,PH00228,PRV005,Harbourview Specialist Centre,North West,2025-06-28,2025-07-31,Consultation,M25.5,556.34,502.01,Paid,Member portal,No
+CLM0000447,PH00166,PRV001,Northbridge Private Hospital,London,2024-03-13,2024-03-29,Minor surgery,L98.9,2681.84,1944.19,Paid,Member portal,Yes
+CLM0000448,PH00281,PRV008,Oakfield Imaging Centre,East of England,2025-07-07,2025-08-07,MRI scan,M54.5,685.75,591.31,Paid,Member portal,No
+CLM0000449,PH00138,PRV006,Meadowlands Day Hospital,Yorkshire and the Humber,2023-07-01,2023-07-11,Physiotherapy,M25.5,159.19,116.25,Paid,Provider portal,No
+CLM0000450,PH00124,PRV008,Oakfield Imaging Centre,East of England,2023-10-03,2023-10-25,Consultation,M25.5,488.69,390.25,Partially paid,Provider portal,No
+CLM0000451,PH00101,PRV006,Meadowlands Day Hospital,Yorkshire and the Humber,2024-10-08,2024-10-26,Physiotherapy,M25.5,170.39,143.22,Partially paid,Member portal,No
+CLM0000452,PH00088,PRV009,Southbank Physiotherapy Network,London,2025-12-02,2025-12-07,Physiotherapy,M25.5,344.42,337.14,Paid,Member portal,Yes
+CLM0000453,PH00126,PRV009,Southbank Physiotherapy Network,London,2024-08-12,2024-09-01,Cancer treatment,C50.9,9449.98,8114.46,Paid,Member portal,No
+CLM0000454,PH00049,PRV009,Southbank Physiotherapy Network,London,2025-02-03,2025-02-10,Cataract procedure,H25.9,2600.79,1902.17,Paid,Telephone,No
+CLM0000455,PH00030,PRV005,Harbourview Specialist Centre,North West,2024-07-03,2024-07-09,Physiotherapy,M25.5,138.37,119.62,Partially paid,Provider portal,Yes
+CLM0000456,PH00053,PRV002,Riverside Diagnostics,South East,2024-08-06,2024-09-08,Physiotherapy,M25.5,409.60,337.97,Paid,Post,No
+CLM0000457,PH00298,PRV005,Harbourview Specialist Centre,North West,2022-08-25,2022-09-06,Mental health therapy,F41.9,246.48,200.11,Paid,Provider portal,No
+CLM0000458,PH00064,PRV001,Northbridge Private Hospital,London,2023-09-08,2023-10-11,Cardiology review,I10,727.30,552.73,Paid,Provider portal,No
+CLM0000459,PH00128,PRV007,Kingswell Cardiology Group,Scotland,2022-06-20,2022-07-15,Mental health therapy,F41.9,259.22,203.35,Paid,Member portal,No
+CLM0000460,PH00058,PRV005,Harbourview Specialist Centre,North West,2024-03-30,2024-04-29,Consultation,M25.5,578.65,545.16,Withdrawn,Member portal,No
+CLM0000461,PH00266,PRV009,Southbank Physiotherapy Network,London,2023-10-21,2023-10-31,Physiotherapy,M25.5,161.60,148.47,Paid,Provider portal,No
+CLM0000462,PH00184,PRV005,Harbourview Specialist Centre,North West,2022-07-05,2022-07-13,Cancer treatment,C50.9,10597.34,9701.78,Paid,Provider portal,No
+CLM0000463,PH00282,PRV002,Riverside Diagnostics,South East,2025-06-27,2025-07-13,Minor surgery,L98.9,1419.23,1401.14,Paid,Provider portal,No
+CLM0000464,PH00170,PRV006,Meadowlands Day Hospital,Yorkshire and the Humber,2025-05-05,2025-05-10,MRI scan,M54.5,676.39,625.37,Partially paid,Provider portal,No
+CLM0000465,PH00026,PRV004,Westmoor Orthopaedics,West Midlands,2023-11-05,2023-11-24,MRI scan,M54.5,774.72,751.58,Declined,Member portal,No
+CLM0000466,PH00016,PRV003,Cedar Grove Clinic,South West,2024-12-29,2025-01-31,Consultation,M25.5,382.00,283.68,Paid,Provider portal,No
+CLM0000467,PH00206,PRV001,Northbridge Private Hospital,London,2023-10-10,2023-11-09,Physiotherapy,M25.5,130.76,95.97,Partially paid,Member portal,No
+CLM0000468,PH00070,PRV003,Cedar Grove Clinic,South West,2025-01-13,2025-02-13,Physiotherapy,M25.5,227.06,207.86,Paid,Provider portal,No
+CLM0000469,PH00102,PRV009,Southbank Physiotherapy Network,London,2023-12-28,2024-01-28,MRI scan,M54.5,724.98,721.41,Paid,Member portal,No
+CLM0000470,PH00242,PRV007,Kingswell Cardiology Group,Scotland,2022-04-21,2022-05-08,Day-case surgery,K40.9,4658.79,3360.42,Declined,Member portal,No
+CLM0000471,PH00290,PRV008,Oakfield Imaging Centre,East of England,2022-01-14,2022-01-18,Day-case surgery,K40.9,4517.88,3971.04,Paid,Provider portal,No
+CLM0000472,PH00037,PRV002,Riverside Diagnostics,South East,2025-01-28,2025-02-26,Minor surgery,L98.9,1996.33,1995.53,Paid,Provider portal,No
+CLM0000473,PH00040,PRV009,Southbank Physiotherapy Network,London,2023-11-20,2023-12-25,Minor surgery,L98.9,1542.56,1203.48,Paid,Telephone,No
+CLM0000474,PH00288,PRV008,Oakfield Imaging Centre,East of England,2025-09-08,2025-10-12,Minor surgery,L98.9,2043.81,1993.78,Partially paid,Member portal,No
+CLM0000475,PH00282,PRV005,Harbourview Specialist Centre,North West,2022-09-03,2022-09-20,Consultation,M25.5,298.05,269.47,Partially paid,Member portal,No
+CLM0000476,PH00215,PRV006,Meadowlands Day Hospital,Yorkshire and the Humber,2025-07-29,2025-08-20,Cataract procedure,H25.9,2798.31,2752.68,Declined,Provider portal,No
+CLM0000477,PH00064,PRV007,Kingswell Cardiology Group,Scotland,2023-07-16,2023-07-24,Cardiology review,I10,835.42,733.87,Partially paid,Telephone,No
+CLM0000478,PH00212,PRV010,Lakeside Surgical Centre,North East,2025-04-16,2025-05-01,Day-case surgery,K40.9,1818.64,1727.05,Paid,Provider portal,No
+CLM0000479,PH00236,PRV009,Southbank Physiotherapy Network,London,2023-02-02,2023-03-05,Cardiology review,I10,740.15,636.84,Partially paid,Provider portal,No
+CLM0000480,PH00040,PRV007,Kingswell Cardiology Group,Scotland,2022-09-20,2022-10-21,Consultation,M25.5,568.76,492.10,Paid,Member portal,No
+CLM0000481,PH00069,PRV006,Meadowlands Day Hospital,Yorkshire and the Humber,2023-12-13,2023-12-17,Mental health therapy,F41.9,100.92,95.58,Paid,Member portal,No
+CLM0000482,PH00242,PRV005,Harbourview Specialist Centre,North West,2024-12-01,2024-12-22,MRI scan,M54.5,579.36,466.91,Paid,Provider portal,No
+CLM0000483,PH00022,PRV010,Lakeside Surgical Centre,North East,2023-03-24,2023-03-26,Cardiology review,I10,756.28,686.03,Paid,Member portal,No
+CLM0000484,PH00231,PRV006,Meadowlands Day Hospital,Yorkshire and the Humber,2022-12-09,2022-12-15,Cataract procedure,H25.9,2641.94,2448.18,Partially paid,Member portal,No
+CLM0000485,PH00186,PRV006,Meadowlands Day Hospital,Yorkshire and the Humber,2025-03-10,2025-03-14,Day-case surgery,K40.9,4737.38,4595.19,Paid,Provider portal,No
+CLM0000486,PH00179,PRV004,Westmoor Orthopaedics,West Midlands,2024-02-01,2024-02-20,Physiotherapy,M25.5,313.00,230.06,Paid,Provider portal,No
+CLM0000487,PH00194,PRV009,Southbank Physiotherapy Network,London,2023-05-24,2023-06-18,Mental health therapy,F41.9,203.72,185.49,Partially paid,Member portal,No
+CLM0000488,PH00183,PRV004,Westmoor Orthopaedics,West Midlands,2022-03-15,2022-03-27,Day-case surgery,K40.9,3674.57,3463.06,Paid,Provider portal,No
+CLM0000489,PH00108,PRV007,Kingswell Cardiology Group,Scotland,2025-12-28,2026-01-26,Day-case surgery,K40.9,4496.47,3958.08,Paid,Provider portal,No
+CLM0000490,PH00218,PRV006,Meadowlands Day Hospital,Yorkshire and the Humber,2023-05-18,2023-06-06,Minor surgery,L98.9,1954.11,1509.47,Paid,Provider portal,No
+CLM0000491,PH00140,PRV009,Southbank Physiotherapy Network,London,2022-05-17,2022-05-19,Mental health therapy,F41.9,573.50,494.05,Paid,Provider portal,No
+CLM0000492,PH00132,PRV001,Northbridge Private Hospital,London,2024-07-04,2024-07-19,Cataract procedure,H25.9,2362.83,1905.01,Declined,Member portal,No
+CLM0000493,PH00160,PRV006,Meadowlands Day Hospital,Yorkshire and the Humber,2024-01-28,2024-02-28,Minor surgery,L98.9,1012.14,888.29,Paid,Provider portal,No
+CLM0000494,PH00030,PRV004,Westmoor Orthopaedics,West Midlands,2023-01-03,2023-01-16,Cardiology review,I10,252.82,190.64,Paid,Member portal,No
+CLM0000495,PH00253,PRV004,Westmoor Orthopaedics,West Midlands,2023-05-12,2023-05-19,Physiotherapy,M25.5,400.77,357.75,Paid,Member portal,No
+CLM0000496,PH00149,PRV009,Southbank Physiotherapy Network,London,2022-09-16,2022-10-15,Day-case surgery,K40.9,2636.70,2204.09,Paid,Provider portal,No
+CLM0000497,PH00238,PRV003,Cedar Grove Clinic,South West,2025-06-19,2025-06-24,Consultation,M25.5,507.23,484.27,Partially paid,Provider portal,No
+CLM0000498,PH00112,PRV001,Northbridge Private Hospital,London,2024-08-27,2024-09-02,Cataract procedure,H25.9,3705.66,3280.09,Paid,Provider portal,No
+CLM0000499,PH00251,PRV004,Westmoor Orthopaedics,West Midlands,2023-02-27,2023-03-23,MRI scan,M54.5,782.26,610.59,Paid,Member portal,No
+CLM0000500,PH00076,PRV009,Southbank Physiotherapy Network,London,2022-08-12,2022-09-09,Mental health therapy,F41.9,451.59,398.70,Paid,Member portal,No
+CLM0000501,PH00089,PRV001,Northbridge Private Hospital,London,2022-04-20,2022-05-12,Cancer treatment,C50.9,9912.93,9608.99,Paid,Telephone,No
+CLM0000502,PH00167,PRV003,Cedar Grove Clinic,South West,2023-11-21,2023-12-06,Cancer treatment,C50.9,8328.51,7453.17,Paid,Member portal,No
+CLM0000503,PH00156,PRV009,Southbank Physiotherapy Network,London,2024-07-13,2024-08-08,Minor surgery,L98.9,1542.77,1148.06,Partially paid,Provider portal,No
+CLM0000504,PH00015,PRV007,Kingswell Cardiology Group,Scotland,2023-12-30,2024-01-07,Cataract procedure,H25.9,3466.05,2878.88,Paid,Provider portal,No
+CLM0000505,PH00087,PRV004,Westmoor Orthopaedics,West Midlands,2024-03-30,2024-04-23,Cardiology review,I10,596.29,490.90,Partially paid,Member portal,Yes
+CLM0000506,PH00297,PRV007,Kingswell Cardiology Group,Scotland,2025-01-24,2025-02-21,Consultation,M25.5,368.46,324.91,Declined,Provider portal,No
+CLM0000507,PH00141,PRV006,Meadowlands Day Hospital,Yorkshire and the Humber,2022-11-28,2022-12-20,Cancer treatment,C50.9,4640.11,4492.29,Paid,Provider portal,No
+CLM0000508,PH00285,PRV008,Oakfield Imaging Centre,East of England,2025-11-19,2025-11-25,MRI scan,M54.5,865.63,635.01,Paid,Member portal,No
+CLM0000509,PH00034,PRV003,Cedar Grove Clinic,South West,2023-10-31,2023-11-09,Physiotherapy,M25.5,209.38,192.57,Paid,Member portal,No
+CLM0000510,PH00012,PRV010,Lakeside Surgical Centre,North East,2022-06-10,2022-06-12,Day-case surgery,K40.9,4385.18,3577.69,Paid,Provider portal,No
+CLM0000511,PH00062,PRV010,Lakeside Surgical Centre,North East,2025-03-22,2025-04-19,Cancer treatment,C50.9,7532.88,6965.60,Paid,Member portal,No
+CLM0000512,PH00055,PRV006,Meadowlands Day Hospital,Yorkshire and the Humber,2023-01-05,2023-01-21,Minor surgery,L98.9,1544.43,1263.50,Paid,Provider portal,No
+CLM0000513,PH00136,PRV006,Meadowlands Day Hospital,Yorkshire and the Humber,2023-01-07,2023-02-08,Mental health therapy,F41.9,651.81,575.24,Partially paid,Member portal,No
+CLM0000514,PH00214,PRV004,Westmoor Orthopaedics,West Midlands,2025-02-17,2025-03-24,Cancer treatment,C50.9,5997.89,5414.88,Paid,Provider portal,No
+CLM0000515,PH00085,PRV004,Westmoor Orthopaedics,West Midlands,2025-02-25,2025-03-29,Mental health therapy,F41.9,891.38,756.01,Paid,Member portal,No
+CLM0000516,PH00116,PRV008,Oakfield Imaging Centre,East of England,2023-12-25,2024-01-23,Minor surgery,L98.9,1757.31,1590.88,Declined,Member portal,No
+CLM0000517,PH00157,PRV007,Kingswell Cardiology Group,Scotland,2024-06-25,2024-07-03,Day-case surgery,K40.9,1446.20,1270.92,Paid,Member portal,No
+CLM0000518,PH00069,PRV005,Harbourview Specialist Centre,North West,2022-03-10,2022-04-13,Day-case surgery,K40.9,3084.76,2779.23,Paid,Member portal,No
+CLM0000519,PH00256,PRV005,Harbourview Specialist Centre,North West,2023-08-26,2023-09-18,Consultation,M25.5,625.60,523.68,Paid,Provider portal,No
+CLM0000520,PH00294,PRV006,Meadowlands Day Hospital,Yorkshire and the Humber,2024-11-29,2024-12-09,MRI scan,M54.5,924.06,754.53,Paid,Member portal,No
+CLM0000521,PH00265,PRV006,Meadowlands Day Hospital,Yorkshire and the Humber,2022-02-17,2022-03-17,Cardiology review,I10,735.99,631.17,Paid,Member portal,No
+CLM0000522,PH00232,PRV005,Harbourview Specialist Centre,North West,2022-04-12,2022-04-20,Mental health therapy,F41.9,872.00,769.40,Paid,Provider portal,No
+CLM0000523,PH00020,PRV007,Kingswell Cardiology Group,Scotland,2024-06-05,2024-06-18,Mental health therapy,F41.9,498.60,466.08,Paid,Post,No
+CLM0000524,PH00002,PRV002,Riverside Diagnostics,South East,2022-10-01,2022-10-24,Minor surgery,L98.9,1390.53,1157.84,Paid,Telephone,No
+CLM0000525,PH00082,PRV003,Cedar Grove Clinic,South West,2023-10-26,2023-11-14,Mental health therapy,F41.9,136.60,98.74,Paid,Member portal,No
+CLM0000526,PH00019,PRV010,Lakeside Surgical Centre,North East,2024-02-15,2024-03-11,MRI scan,M54.5,818.32,605.64,Paid,Provider portal,No
+CLM0000527,PH00122,PRV003,Cedar Grove Clinic,South West,2023-03-08,2023-04-09,Cancer treatment,C50.9,5891.15,4569.21,Paid,Member portal,No
+CLM0000528,PH00085,PRV001,Northbridge Private Hospital,London,2025-05-04,2025-05-20,Consultation,M25.5,458.72,374.07,Paid,Member portal,No
+CLM0000529,PH00263,PRV005,Harbourview Specialist Centre,North West,2023-07-12,2023-08-03,MRI scan,M54.5,833.48,702.16,Partially paid,Member portal,No
+CLM0000530,PH00221,PRV008,Oakfield Imaging Centre,East of England,2025-07-15,2025-07-30,Physiotherapy,M25.5,243.40,185.17,Paid,Provider portal,No
+CLM0000531,PH00180,PRV002,Riverside Diagnostics,South East,2024-05-19,2024-05-27,Minor surgery,L98.9,2243.71,2149.34,Paid,Provider portal,No
+CLM0000532,PH00001,PRV009,Southbank Physiotherapy Network,London,2023-07-14,2023-07-24,Mental health therapy,F41.9,771.57,608.90,Paid,Telephone,No
+CLM0000533,PH00201,PRV006,Meadowlands Day Hospital,Yorkshire and the Humber,2024-08-11,2024-08-26,Cataract procedure,H25.9,2170.46,1772.32,Paid,Provider portal,No
+CLM0000534,PH00111,PRV006,Meadowlands Day Hospital,Yorkshire and the Humber,2025-12-07,2026-01-05,Mental health therapy,F41.9,794.99,793.16,Declined,Member portal,No
+CLM0000535,PH00098,PRV001,Northbridge Private Hospital,London,2022-06-25,2022-07-15,MRI scan,M54.5,527.24,398.92,Declined,Member portal,No
+CLM0000536,PH00075,PRV008,Oakfield Imaging Centre,East of England,2022-04-08,2022-04-11,Cancer treatment,C50.9,8735.08,6783.74,Paid,Provider portal,No
+CLM0000537,PH00223,PRV005,Harbourview Specialist Centre,North West,2023-09-24,2023-10-28,Day-case surgery,K40.9,3254.02,3218.83,Paid,Provider portal,No
+CLM0000538,PH00185,PRV008,Oakfield Imaging Centre,East of England,2022-03-04,2022-03-27,Cardiology review,I10,615.23,468.13,Paid,Member portal,No
+CLM0000539,PH00298,PRV010,Lakeside Surgical Centre,North East,2024-10-24,2024-10-29,Day-case surgery,K40.9,4496.86,3242.13,Paid,Provider portal,No
+CLM0000540,PH00069,PRV010,Lakeside Surgical Centre,North East,2022-09-01,2022-09-16,Physiotherapy,M25.5,415.23,329.27,Paid,Provider portal,No
+CLM0000541,PH00254,PRV010,Lakeside Surgical Centre,North East,2024-10-26,2024-11-18,Mental health therapy,F41.9,453.06,427.29,Paid,Member portal,No
+CLM0000542,PH00195,PRV007,Kingswell Cardiology Group,Scotland,2024-01-25,2024-02-01,Cancer treatment,C50.9,7165.58,6459.78,Paid,Member portal,No
+CLM0000543,PH00075,PRV006,Meadowlands Day Hospital,Yorkshire and the Humber,2024-11-29,2025-01-01,Cardiology review,I10,278.40,228.31,Withdrawn,Provider portal,No
+CLM0000544,PH00098,PRV006,Meadowlands Day Hospital,Yorkshire and the Humber,2025-12-08,2026-01-12,Day-case surgery,K40.9,3487.02,3016.56,Declined,Member portal,No
+CLM0000545,PH00115,PRV006,Meadowlands Day Hospital,Yorkshire and the Humber,2025-05-19,2025-05-31,Minor surgery,L98.9,1250.03,1166.66,Partially paid,Member portal,No
+CLM0000546,PH00246,PRV002,Riverside Diagnostics,South East,2022-01-26,2022-02-06,Physiotherapy,M25.5,380.30,341.88,Paid,Provider portal,Yes
+CLM0000547,PH00214,PRV005,Harbourview Specialist Centre,North West,2024-05-17,2024-06-08,Physiotherapy,M25.5,312.90,308.53,Paid,Member portal,No
+CLM0000548,PH00213,PRV010,Lakeside Surgical Centre,North East,2023-11-25,2023-11-28,Cancer treatment,C50.9,11707.99,10111.13,Withdrawn,Member portal,No
+CLM0000549,PH00230,PRV005,Harbourview Specialist Centre,North West,2024-02-11,2024-03-05,Minor surgery,L98.9,2489.11,2242.29,Paid,Provider portal,No
+CLM0000550,PH00049,PRV009,Southbank Physiotherapy Network,London,2024-01-09,2024-01-12,Consultation,M25.5,625.78,540.16,Withdrawn,Post,No
+CLM0000551,PH00243,PRV006,Meadowlands Day Hospital,Yorkshire and the Humber,2023-07-22,2023-07-27,MRI scan,M54.5,464.47,461.59,Paid,Provider portal,No
+CLM0000552,PH00144,PRV006,Meadowlands Day Hospital,Yorkshire and the Humber,2024-05-26,2024-06-15,Cardiology review,I10,674.19,516.58,Declined,Member portal,No
+CLM0000553,PH00269,PRV005,Harbourview Specialist Centre,North West,2024-10-13,2024-10-22,Minor surgery,L98.9,1515.91,1510.57,Paid,Member portal,No
+CLM0000554,PH00248,PRV009,Southbank Physiotherapy Network,London,2023-03-17,2023-04-12,MRI scan,M54.5,860.18,721.98,Paid,Member portal,No
+CLM0000555,PH00063,PRV004,Westmoor Orthopaedics,West Midlands,2024-05-26,2024-06-28,MRI scan,M54.5,544.41,484.00,Paid,Member portal,No
+CLM0000556,PH00120,PRV010,Lakeside Surgical Centre,North East,2023-07-19,2023-08-12,Consultation,M25.5,233.83,175.10,Declined,Member portal,Yes
+CLM0000557,PH00131,PRV002,Riverside Diagnostics,South East,2023-10-06,2023-10-08,MRI scan,M54.5,482.89,411.42,Paid,Provider portal,No
+CLM0000558,PH00220,PRV005,Harbourview Specialist Centre,North West,2024-05-19,2024-06-12,Physiotherapy,M25.5,409.34,362.09,Paid,Member portal,No
+CLM0000559,PH00068,PRV008,Oakfield Imaging Centre,East of England,2022-01-10,2022-02-09,Cancer treatment,C50.9,9716.10,8261.96,Paid,Member portal,No
+CLM0000560,PH00216,PRV004,Westmoor Orthopaedics,West Midlands,2025-02-15,2025-03-05,Minor surgery,L98.9,2580.34,2520.08,Paid,Provider portal,No
+CLM0000561,PH00023,PRV008,Oakfield Imaging Centre,East of England,2025-04-10,2025-05-11,Physiotherapy,M25.5,192.89,153.91,Paid,Member portal,No
+CLM0000562,PH00233,PRV006,Meadowlands Day Hospital,Yorkshire and the Humber,2025-07-06,2025-07-12,Minor surgery,L98.9,1223.68,988.28,Paid,Member portal,No
+CLM0000563,PH00009,PRV009,Southbank Physiotherapy Network,London,2024-07-23,2024-08-26,MRI scan,M54.5,720.94,566.35,Declined,Provider portal,No
+CLM0000564,PH00281,PRV001,Northbridge Private Hospital,London,2025-12-20,2026-01-10,Cancer treatment,C50.9,2518.92,2171.12,Partially paid,Post,No
+CLM0000565,PH00084,PRV010,Lakeside Surgical Centre,North East,2024-06-20,2024-07-01,Cancer treatment,C50.9,6992.08,5156.78,Partially paid,Provider portal,No
+CLM0000566,PH00187,PRV010,Lakeside Surgical Centre,North East,2023-01-19,2023-01-23,Physiotherapy,M25.5,192.28,175.97,Paid,Member portal,No
+CLM0000567,PH00148,PRV003,Cedar Grove Clinic,South West,2025-08-13,2025-08-18,MRI scan,M54.5,548.16,407.44,Paid,Provider portal,No
+CLM0000568,PH00068,PRV005,Harbourview Specialist Centre,North West,2023-08-27,2023-09-11,Day-case surgery,K40.9,4968.79,4095.77,Paid,Post,No
+CLM0000569,PH00074,PRV002,Riverside Diagnostics,South East,2024-12-26,2025-01-05,Mental health therapy,F41.9,156.20,136.81,Paid,Member portal,No
+CLM0000570,PH00010,PRV007,Kingswell Cardiology Group,Scotland,2024-09-26,2024-10-22,Day-case surgery,K40.9,3601.82,3018.27,Paid,Post,No
+CLM0000571,PH00182,PRV001,Northbridge Private Hospital,London,2024-05-22,2024-05-23,Cardiology review,I10,507.35,415.17,Paid,Provider portal,No
+CLM0000572,PH00050,PRV008,Oakfield Imaging Centre,East of England,2025-11-28,2025-12-26,Cardiology review,I10,794.74,717.57,Paid,Provider portal,No
+CLM0000573,PH00094,PRV006,Meadowlands Day Hospital,Yorkshire and the Humber,2022-06-30,2022-08-04,Consultation,M25.5,490.86,389.81,Partially paid,Provider portal,No
+CLM0000574,PH00231,PRV006,Meadowlands Day Hospital,Yorkshire and the Humber,2023-06-01,2023-07-05,Consultation,M25.5,325.75,318.17,Partially paid,Member portal,No
+CLM0000575,PH00138,PRV010,Lakeside Surgical Centre,North East,2024-02-13,2024-03-13,Physiotherapy,M25.5,283.32,205.97,Paid,Member portal,No
+CLM0000576,PH00027,PRV006,Meadowlands Day Hospital,Yorkshire and the Humber,2024-05-22,2024-06-01,Consultation,M25.5,317.36,313.19,Paid,Provider portal,No
+CLM0000577,PH00027,PRV003,Cedar Grove Clinic,South West,2025-09-19,2025-10-12,Cardiology review,I10,633.01,495.90,Paid,Post,No
+CLM0000578,PH00002,PRV004,Westmoor Orthopaedics,West Midlands,2023-05-16,2023-05-26,Mental health therapy,F41.9,554.75,434.05,Partially paid,Member portal,No
+CLM0000579,PH00140,PRV009,Southbank Physiotherapy Network,London,2023-03-21,2023-04-04,Cancer treatment,C50.9,3224.63,2893.10,Partially paid,Member portal,No
+CLM0000580,PH00128,PRV009,Southbank Physiotherapy Network,London,2022-03-18,2022-04-09,Mental health therapy,F41.9,158.01,157.44,Paid,Member portal,No
+CLM0000581,PH00057,PRV008,Oakfield Imaging Centre,East of England,2025-12-30,2026-01-05,Day-case surgery,K40.9,2357.10,2225.82,Declined,Member portal,No
+CLM0000582,PH00138,PRV007,Kingswell Cardiology Group,Scotland,2025-11-12,2025-12-09,Mental health therapy,F41.9,879.93,743.33,Paid,Member portal,No
+CLM0000583,PH00155,PRV008,Oakfield Imaging Centre,East of England,2023-12-12,2023-12-17,Consultation,M25.5,585.91,520.41,Partially paid,Member portal,No
+CLM0000584,PH00218,PRV003,Cedar Grove Clinic,South West,2025-12-14,2026-01-02,Physiotherapy,M25.5,266.85,195.39,Partially paid,Member portal,No
+CLM0000585,PH00241,PRV001,Northbridge Private Hospital,London,2024-09-30,2024-10-05,Day-case surgery,K40.9,3714.26,3389.46,Paid,Provider portal,No
+CLM0000586,PH00099,PRV001,Northbridge Private Hospital,London,2023-02-08,2023-02-21,Physiotherapy,M25.5,383.50,280.35,Paid,Member portal,No
+CLM0000587,PH00172,PRV006,Meadowlands Day Hospital,Yorkshire and the Humber,2024-04-06,2024-04-20,Mental health therapy,F41.9,838.73,689.06,Paid,Member portal,No
+CLM0000588,PH00292,PRV002,Riverside Diagnostics,South East,2023-12-22,2024-01-09,MRI scan,M54.5,869.67,803.90,Paid,Provider portal,No
+CLM0000589,PH00019,PRV003,Cedar Grove Clinic,South West,2024-12-05,2024-12-13,Day-case surgery,K40.9,3164.58,2992.73,Paid,Member portal,No
+CLM0000590,PH00175,PRV002,Riverside Diagnostics,South East,2023-06-16,2023-06-25,Consultation,M25.5,582.25,551.85,Paid,Member portal,No
+CLM0000591,PH00190,PRV005,Harbourview Specialist Centre,North West,2024-10-28,2024-11-27,Physiotherapy,M25.5,266.11,208.49,Partially paid,Member portal,No
+CLM0000592,PH00024,PRV007,Kingswell Cardiology Group,Scotland,2024-12-19,2025-01-08,Physiotherapy,M25.5,207.37,189.96,Paid,Member portal,No
+CLM0000593,PH00213,PRV004,Westmoor Orthopaedics,West Midlands,2023-10-28,2023-11-13,Cardiology review,I10,354.08,346.57,Paid,Member portal,No
+CLM0000594,PH00224,PRV003,Cedar Grove Clinic,South West,2022-05-25,2022-05-27,Physiotherapy,M25.5,346.16,345.80,Paid,Provider portal,No
+CLM0000595,PH00102,PRV008,Oakfield Imaging Centre,East of England,2024-01-01,2024-01-26,Mental health therapy,F41.9,774.84,657.55,Paid,Member portal,No
+CLM0000596,PH00035,PRV008,Oakfield Imaging Centre,East of England,2023-06-07,2023-06-29,Cancer treatment,C50.9,3217.94,2401.81,Paid,Provider portal,No
+CLM0000597,PH00072,PRV003,Cedar Grove Clinic,South West,2022-06-28,2022-07-17,Physiotherapy,M25.5,407.55,382.06,Declined,Provider portal,No
+CLM0000598,PH00028,PRV009,Southbank Physiotherapy Network,London,2025-09-29,2025-10-05,Cancer treatment,C50.9,11627.21,9183.42,Partially paid,Member portal,No
+CLM0000599,PH00204,PRV008,Oakfield Imaging Centre,East of England,2023-03-15,2023-03-29,Cardiology review,I10,309.85,258.69,Paid,Member portal,No
+CLM0000600,PH00277,PRV002,Riverside Diagnostics,South East,2023-05-17,2023-06-18,MRI scan,M54.5,800.57,614.90,Partially paid,Provider portal,No
+CLM0000601,PH00035,PRV004,Westmoor Orthopaedics,West Midlands,2024-03-23,2024-03-30,Cancer treatment,C50.9,11994.72,9051.04,Paid,Telephone,No
+CLM0000602,PH00266,PRV004,Westmoor Orthopaedics,West Midlands,2023-12-10,2024-01-14,Mental health therapy,F41.9,514.66,491.76,Partially paid,Telephone,No
+CLM0000603,PH00292,PRV005,Harbourview Specialist Centre,North West,2022-03-08,2022-04-02,Mental health therapy,F41.9,237.24,190.46,Partially paid,Provider portal,No
+CLM0000604,PH00034,PRV009,Southbank Physiotherapy Network,London,2025-10-29,2025-11-13,MRI scan,M54.5,944.04,789.11,Declined,Member portal,No
+CLM0000605,PH00203,PRV006,Meadowlands Day Hospital,Yorkshire and the Humber,2024-05-14,2024-05-23,Physiotherapy,M25.5,160.38,145.47,Declined,Member portal,No
+CLM0000606,PH00145,PRV008,Oakfield Imaging Centre,East of England,2024-04-21,2024-05-05,Physiotherapy,M25.5,360.76,319.68,Paid,Provider portal,No
+CLM0000607,PH00169,PRV009,Southbank Physiotherapy Network,London,2025-07-24,2025-07-29,Cardiology review,I10,556.63,429.62,Paid,Telephone,No
+CLM0000608,PH00297,PRV009,Southbank Physiotherapy Network,London,2024-07-05,2024-07-21,Day-case surgery,K40.9,3840.51,3612.24,Partially paid,Member portal,No
+CLM0000609,PH00203,PRV009,Southbank Physiotherapy Network,London,2022-08-02,2022-08-08,Consultation,M25.5,211.27,210.08,Paid,Member portal,No
+CLM0000610,PH00116,PRV006,Meadowlands Day Hospital,Yorkshire and the Humber,2022-05-30,2022-06-15,Cataract procedure,H25.9,2321.10,1965.06,Paid,Member portal,No
+CLM0000611,PH00279,PRV007,Kingswell Cardiology Group,Scotland,2024-09-15,2024-09-23,Day-case surgery,K40.9,3236.35,3185.48,Paid,Provider portal,No
+CLM0000612,PH00292,PRV003,Cedar Grove Clinic,South West,2023-07-25,2023-08-02,Minor surgery,L98.9,2435.33,2382.46,Paid,Provider portal,No
+CLM0000613,PH00150,PRV009,Southbank Physiotherapy Network,London,2025-02-18,2025-02-22,Consultation,M25.5,202.64,151.77,Paid,Member portal,No
+CLM0000614,PH00160,PRV005,Harbourview Specialist Centre,North West,2024-12-14,2025-01-13,Cancer treatment,C50.9,3633.45,2767.56,Paid,Provider portal,No
+CLM0000615,PH00059,PRV009,Southbank Physiotherapy Network,London,2025-05-23,2025-06-02,Mental health therapy,F41.9,831.87,790.63,Paid,Post,No
+CLM0000616,PH00253,PRV002,Riverside Diagnostics,South East,2024-10-16,2024-10-26,Cardiology review,I10,691.88,685.02,Paid,Member portal,No
+CLM0000617,PH00204,PRV008,Oakfield Imaging Centre,East of England,2024-06-19,2024-06-22,Cardiology review,I10,561.76,476.10,Paid,Member portal,No
+CLM0000618,PH00041,PRV008,Oakfield Imaging Centre,East of England,2024-12-14,2025-01-11,Mental health therapy,F41.9,119.06,117.85,Declined,Provider portal,No
+CLM0000619,PH00106,PRV008,Oakfield Imaging Centre,East of England,2024-03-12,2024-03-29,Cardiology review,I10,230.45,224.09,Partially paid,Member portal,No
+CLM0000620,PH00085,PRV007,Kingswell Cardiology Group,Scotland,2022-01-29,2022-01-31,Cataract procedure,H25.9,1920.29,1529.54,Paid,Member portal,No
+CLM0000621,PH00247,PRV010,Lakeside Surgical Centre,North East,2024-11-22,2024-12-23,Cardiology review,I10,475.56,444.41,Paid,Provider portal,No
+CLM0000622,PH00173,PRV006,Meadowlands Day Hospital,Yorkshire and the Humber,2022-10-07,2022-10-20,Physiotherapy,M25.5,118.60,85.98,Partially paid,Provider portal,No
+CLM0000623,PH00063,PRV010,Lakeside Surgical Centre,North East,2024-01-17,2024-02-10,Minor surgery,L98.9,1018.99,1016.93,Partially paid,Provider portal,Yes
+CLM0000624,PH00003,PRV001,Northbridge Private Hospital,London,2025-11-08,2025-11-29,Physiotherapy,M25.5,157.09,137.21,Paid,Provider portal,No
+CLM0000625,PH00060,PRV010,Lakeside Surgical Centre,North East,2025-11-07,2025-12-09,Cataract procedure,H25.9,3762.30,3707.90,Paid,Provider portal,No
+CLM0000626,PH00260,PRV007,Kingswell Cardiology Group,Scotland,2022-04-22,2022-05-05,MRI scan,M54.5,880.99,634.88,Paid,Provider portal,No
+CLM0000627,PH00222,PRV002,Riverside Diagnostics,South East,2023-06-06,2023-06-22,Cataract procedure,H25.9,4017.71,3641.64,Partially paid,Provider portal,No
+CLM0000628,PH00117,PRV010,Lakeside Surgical Centre,North East,2023-09-21,2023-10-14,Cancer treatment,C50.9,2814.16,2079.12,Paid,Member portal,No
+CLM0000629,PH00232,PRV005,Harbourview Specialist Centre,North West,2025-07-10,2025-08-02,Minor surgery,L98.9,2356.67,2335.22,Paid,Member portal,No
+CLM0000630,PH00285,PRV009,Southbank Physiotherapy Network,London,2024-04-09,2024-04-10,Cardiology review,I10,532.40,420.17,Paid,Provider portal,No
+CLM0000631,PH00237,PRV007,Kingswell Cardiology Group,Scotland,2025-12-24,2025-12-30,Consultation,M25.5,476.88,431.26,Paid,Member portal,No
+CLM0000632,PH00277,PRV009,Southbank Physiotherapy Network,London,2023-06-12,2023-07-03,Day-case surgery,K40.9,2623.15,1995.04,Paid,Member portal,No
+CLM0000633,PH00202,PRV003,Cedar Grove Clinic,South West,2022-12-10,2022-12-23,Consultation,M25.5,408.38,357.12,Paid,Provider portal,No
+CLM0000634,PH00056,PRV003,Cedar Grove Clinic,South West,2024-08-17,2024-08-19,Cardiology review,I10,413.21,382.17,Paid,Member portal,No
+CLM0000635,PH00057,PRV004,Westmoor Orthopaedics,West Midlands,2025-07-11,2025-07-19,MRI scan,M54.5,621.70,504.95,Paid,Provider portal,No
+CLM0000636,PH00276,PRV003,Cedar Grove Clinic,South West,2025-01-03,2025-01-13,Consultation,M25.5,280.13,251.73,Paid,Provider portal,Yes
+CLM0000637,PH00056,PRV009,Southbank Physiotherapy Network,London,2022-02-25,2022-03-10,Cancer treatment,C50.9,8243.50,6601.15,Declined,Provider portal,No
+CLM0000638,PH00013,PRV008,Oakfield Imaging Centre,East of England,2025-01-20,2025-02-09,MRI scan,M54.5,718.88,551.82,Paid,Member portal,No
+CLM0000639,PH00125,PRV009,Southbank Physiotherapy Network,London,2024-08-02,2024-09-01,Minor surgery,L98.9,2498.22,2368.46,Partially paid,Member portal,Yes
+CLM0000640,PH00179,PRV003,Cedar Grove Clinic,South West,2024-11-19,2024-12-07,Day-case surgery,K40.9,3336.79,2414.52,Paid,Provider portal,Yes
+CLM0000641,PH00098,PRV002,Riverside Diagnostics,South East,2022-06-18,2022-07-10,Consultation,M25.5,350.52,292.73,Partially paid,Provider portal,No
+CLM0000642,PH00096,PRV002,Riverside Diagnostics,South East,2025-04-26,2025-04-27,Consultation,M25.5,354.38,268.86,Paid,Provider portal,No
+CLM0000643,PH00034,PRV005,Harbourview Specialist Centre,North West,2022-09-11,2022-10-06,MRI scan,M54.5,694.85,673.61,Declined,Provider portal,No
+CLM0000644,PH00038,PRV003,Cedar Grove Clinic,South West,2025-08-01,2025-08-28,Cancer treatment,C50.9,9137.86,8498.24,Paid,Provider portal,No
+CLM0000645,PH00280,PRV010,Lakeside Surgical Centre,North East,2023-10-14,2023-10-23,Minor surgery,L98.9,2401.23,2102.62,Paid,Member portal,No
+CLM0000646,PH00176,PRV009,Southbank Physiotherapy Network,London,2025-10-15,2025-10-18,Physiotherapy,M25.5,130.38,103.64,Declined,Provider portal,No
+CLM0000647,PH00127,PRV003,Cedar Grove Clinic,South West,2024-10-14,2024-11-06,Minor surgery,L98.9,1206.69,927.03,Partially paid,Member portal,No
+CLM0000648,PH00267,PRV004,Westmoor Orthopaedics,West Midlands,2025-09-06,2025-10-09,Consultation,M25.5,445.91,352.50,Paid,Member portal,No
+CLM0000649,PH00027,PRV007,Kingswell Cardiology Group,Scotland,2022-07-22,2022-07-29,Mental health therapy,F41.9,700.03,695.71,Paid,Provider portal,No
+CLM0000650,PH00298,PRV010,Lakeside Surgical Centre,North East,2024-06-16,2024-06-30,Physiotherapy,M25.5,181.74,148.44,Withdrawn,Member portal,No
+CLM0000651,PH00164,PRV004,Westmoor Orthopaedics,West Midlands,2024-06-18,2024-07-14,Physiotherapy,M25.5,410.52,397.78,Paid,Member portal,Yes
+CLM0000652,PH00280,PRV009,Southbank Physiotherapy Network,London,2025-02-20,2025-03-17,Cardiology review,I10,793.34,716.89,Paid,Post,No
+CLM0000653,PH00002,PRV007,Kingswell Cardiology Group,Scotland,2025-10-07,2025-10-26,Cataract procedure,H25.9,3565.35,3183.78,Paid,Member portal,No
+CLM0000654,PH00058,PRV004,Westmoor Orthopaedics,West Midlands,2024-07-22,2024-08-19,Cataract procedure,H25.9,2314.62,1891.13,Paid,Provider portal,No
+CLM0000655,PH00025,PRV007,Kingswell Cardiology Group,Scotland,2023-11-15,2023-12-06,Cataract procedure,H25.9,2914.08,2405.27,Paid,Provider portal,No
+CLM0000656,PH00071,PRV010,Lakeside Surgical Centre,North East,2025-04-23,2025-05-06,MRI scan,M54.5,832.37,600.10,Withdrawn,Member portal,No
+CLM0000657,PH00298,PRV010,Lakeside Surgical Centre,North East,2023-06-18,2023-07-03,Cardiology review,I10,672.74,516.42,Paid,Post,No
+CLM0000658,PH00009,PRV006,Meadowlands Day Hospital,Yorkshire and the Humber,2022-09-05,2022-09-06,Mental health therapy,F41.9,509.12,486.67,Paid,Member portal,Yes
+CLM0000659,PH00132,PRV006,Meadowlands Day Hospital,Yorkshire and the Humber,2025-05-16,2025-05-24,Consultation,M25.5,309.63,228.36,Partially paid,Telephone,No
+CLM0000660,PH00201,PRV010,Lakeside Surgical Centre,North East,2024-07-16,2024-07-17,Day-case surgery,K40.9,4611.18,4260.10,Partially paid,Member portal,No
+CLM0000661,PH00086,PRV003,Cedar Grove Clinic,South West,2023-09-29,2023-10-19,Consultation,M25.5,421.30,332.49,Partially paid,Provider portal,No
+CLM0000662,PH00027,PRV009,Southbank Physiotherapy Network,London,2024-10-05,2024-10-14,Cataract procedure,H25.9,1985.05,1901.89,Partially paid,Telephone,No
+CLM0000663,PH00216,PRV005,Harbourview Specialist Centre,North West,2025-11-25,2025-11-27,MRI scan,M54.5,945.52,685.19,Paid,Provider portal,No
+CLM0000664,PH00070,PRV001,Northbridge Private Hospital,London,2023-05-31,2023-06-09,Consultation,M25.5,212.37,170.32,Paid,Provider portal,No
+CLM0000665,PH00101,PRV007,Kingswell Cardiology Group,Scotland,2023-03-16,2023-03-21,Physiotherapy,M25.5,277.66,216.41,Paid,Provider portal,No
+CLM0000666,PH00283,PRV002,Riverside Diagnostics,South East,2022-06-01,2022-07-06,Minor surgery,L98.9,2174.19,1822.01,Paid,Provider portal,No
+CLM0000667,PH00284,PRV010,Lakeside Surgical Centre,North East,2024-05-13,2024-06-10,Day-case surgery,K40.9,3170.28,2988.21,Declined,Provider portal,No
+CLM0000668,PH00140,PRV004,Westmoor Orthopaedics,West Midlands,2022-03-23,2022-04-03,Physiotherapy,M25.5,386.47,336.45,Partially paid,Member portal,No
+CLM0000669,PH00094,PRV010,Lakeside Surgical Centre,North East,2025-11-09,2025-12-09,Physiotherapy,M25.5,126.24,119.71,Paid,Post,Yes
+CLM0000670,PH00012,PRV006,Meadowlands Day Hospital,Yorkshire and the Humber,2023-10-11,2023-11-05,Mental health therapy,F41.9,876.71,662.69,Paid,Provider portal,No
+CLM0000671,PH00272,PRV009,Southbank Physiotherapy Network,London,2023-04-15,2023-05-04,Mental health therapy,F41.9,835.92,630.87,Paid,Telephone,No
+CLM0000672,PH00217,PRV008,Oakfield Imaging Centre,East of England,2022-10-15,2022-10-23,Cataract procedure,H25.9,4007.11,3626.81,Declined,Member portal,No
+CLM0000673,PH00230,PRV003,Cedar Grove Clinic,South West,2024-01-15,2024-02-01,Day-case surgery,K40.9,4585.94,3355.64,Paid,Post,No
+CLM0000674,PH00212,PRV004,Westmoor Orthopaedics,West Midlands,2022-02-18,2022-03-22,MRI scan,M54.5,866.95,668.55,Paid,Provider portal,No
+CLM0000675,PH00277,PRV010,Lakeside Surgical Centre,North East,2022-05-17,2022-06-03,Physiotherapy,M25.5,335.30,325.23,Paid,Member portal,No
+CLM0000676,PH00174,PRV001,Northbridge Private Hospital,London,2023-09-12,2023-10-16,Cardiology review,I10,317.16,292.27,Paid,Provider portal,No
+CLM0000677,PH00269,PRV007,Kingswell Cardiology Group,Scotland,2023-12-28,2024-01-01,Physiotherapy,M25.5,339.35,271.92,Paid,Provider portal,Yes
+CLM0000678,PH00058,PRV007,Kingswell Cardiology Group,Scotland,2022-07-08,2022-08-07,Physiotherapy,M25.5,171.70,125.45,Paid,Member portal,No
+CLM0000679,PH00020,PRV006,Meadowlands Day Hospital,Yorkshire and the Humber,2022-08-28,2022-10-01,Mental health therapy,F41.9,291.46,257.74,Partially paid,Provider portal,Yes
+CLM0000680,PH00111,PRV009,Southbank Physiotherapy Network,London,2025-12-26,2025-12-31,Day-case surgery,K40.9,1513.53,1208.53,Paid,Member portal,Yes
+CLM0000681,PH00022,PRV009,Southbank Physiotherapy Network,London,2025-08-05,2025-09-01,Mental health therapy,F41.9,240.23,224.06,Paid,Member portal,No
+CLM0000682,PH00200,PRV009,Southbank Physiotherapy Network,London,2022-06-06,2022-07-10,Minor surgery,L98.9,1673.10,1374.20,Paid,Provider portal,Yes
+CLM0000683,PH00177,PRV002,Riverside Diagnostics,South East,2025-04-06,2025-05-02,Minor surgery,L98.9,1513.75,1440.40,Paid,Provider portal,No
+CLM0000684,PH00189,PRV005,Harbourview Specialist Centre,North West,2024-05-24,2024-05-26,Mental health therapy,F41.9,669.36,594.45,Paid,Provider portal,No
+CLM0000685,PH00028,PRV004,Westmoor Orthopaedics,West Midlands,2023-10-18,2023-10-28,Minor surgery,L98.9,990.30,970.44,Paid,Provider portal,Yes
+CLM0000686,PH00240,PRV003,Cedar Grove Clinic,South West,2024-11-21,2024-12-07,Consultation,M25.5,243.31,199.74,Paid,Provider portal,No
+CLM0000687,PH00274,PRV005,Harbourview Specialist Centre,North West,2025-03-14,2025-03-20,Day-case surgery,K40.9,3074.00,2629.06,Paid,Member portal,No
+CLM0000688,PH00110,PRV009,Southbank Physiotherapy Network,London,2022-05-25,2022-06-29,Mental health therapy,F41.9,701.31,516.33,Declined,Provider portal,No
+CLM0000689,PH00176,PRV004,Westmoor Orthopaedics,West Midlands,2025-01-14,2025-02-13,Cataract procedure,H25.9,3464.23,3014.17,Paid,Telephone,Yes
+CLM0000690,PH00185,PRV007,Kingswell Cardiology Group,Scotland,2024-11-24,2024-11-25,MRI scan,M54.5,693.67,598.75,Paid,Telephone,No
+CLM0000691,PH00168,PRV003,Cedar Grove Clinic,South West,2024-03-25,2024-04-04,Mental health therapy,F41.9,410.00,313.20,Declined,Provider portal,No
+CLM0000692,PH00195,PRV004,Westmoor Orthopaedics,West Midlands,2022-09-23,2022-09-25,Minor surgery,L98.9,1913.15,1468.52,Paid,Member portal,No
+CLM0000693,PH00166,PRV006,Meadowlands Day Hospital,Yorkshire and the Humber,2024-07-23,2024-08-16,MRI scan,M54.5,664.82,595.99,Partially paid,Provider portal,No
+CLM0000694,PH00031,PRV007,Kingswell Cardiology Group,Scotland,2025-05-02,2025-06-04,Physiotherapy,M25.5,352.71,291.59,Paid,Member portal,No
+CLM0000695,PH00275,PRV009,Southbank Physiotherapy Network,London,2023-11-18,2023-11-30,Day-case surgery,K40.9,4238.02,3219.20,Paid,Member portal,No
+CLM0000696,PH00134,PRV003,Cedar Grove Clinic,South West,2022-01-20,2022-01-26,MRI scan,M54.5,483.43,406.71,Paid,Provider portal,No
+CLM0000697,PH00173,PRV008,Oakfield Imaging Centre,East of England,2025-04-04,2025-04-21,Mental health therapy,F41.9,283.89,255.45,Paid,Member portal,No
+CLM0000698,PH00288,PRV004,Westmoor Orthopaedics,West Midlands,2025-10-09,2025-10-30,Day-case surgery,K40.9,3251.61,2546.48,Declined,Member portal,No
+CLM0000699,PH00149,PRV005,Harbourview Specialist Centre,North West,2025-06-25,2025-07-02,Day-case surgery,K40.9,1430.39,1316.32,Paid,Member portal,No
+CLM0000700,PH00164,PRV002,Riverside Diagnostics,South East,2024-12-05,2025-01-07,Cataract procedure,H25.9,2236.35,2162.91,Paid,Provider portal,No
+CLM0000701,PH00274,PRV003,Cedar Grove Clinic,South West,2025-08-18,2025-09-22,Cataract procedure,H25.9,2903.70,2512.32,Partially paid,Telephone,No
+CLM0000702,PH00009,PRV008,Oakfield Imaging Centre,East of England,2024-05-26,2024-05-28,MRI scan,M54.5,651.49,565.21,Paid,Provider portal,No
+CLM0000703,PH00045,PRV009,Southbank Physiotherapy Network,London,2022-08-29,2022-09-22,Mental health therapy,F41.9,301.13,245.96,Paid,Member portal,No
+CLM0000704,PH00271,PRV002,Riverside Diagnostics,South East,2023-11-20,2023-11-22,Cataract procedure,H25.9,2387.91,1805.40,Partially paid,Telephone,No
+CLM0000705,PH00233,PRV005,Harbourview Specialist Centre,North West,2024-09-10,2024-09-13,Minor surgery,L98.9,2270.65,2143.80,Paid,Telephone,Yes
+CLM0000706,PH00063,PRV006,Meadowlands Day Hospital,Yorkshire and the Humber,2022-10-28,2022-11-12,Cardiology review,I10,525.95,424.26,Declined,Member portal,No
+CLM0000707,PH00090,PRV006,Meadowlands Day Hospital,Yorkshire and the Humber,2024-10-22,2024-11-23,Mental health therapy,F41.9,433.68,425.97,Paid,Provider portal,No
+CLM0000708,PH00168,PRV007,Kingswell Cardiology Group,Scotland,2022-10-24,2022-11-17,Cancer treatment,C50.9,7992.77,6365.51,Paid,Post,No
+CLM0000709,PH00267,PRV005,Harbourview Specialist Centre,North West,2022-02-18,2022-03-12,Physiotherapy,M25.5,378.88,344.79,Paid,Provider portal,No
+CLM0000710,PH00255,PRV003,Cedar Grove Clinic,South West,2024-09-16,2024-09-29,Cancer treatment,C50.9,7022.01,5835.73,Paid,Provider portal,No
+CLM0000711,PH00154,PRV003,Cedar Grove Clinic,South West,2022-06-03,2022-06-24,Cardiology review,I10,447.45,401.44,Paid,Provider portal,No
+CLM0000712,PH00031,PRV004,Westmoor Orthopaedics,West Midlands,2023-04-21,2023-05-22,Consultation,M25.5,221.32,211.32,Paid,Provider portal,No
+CLM0000713,PH00156,PRV009,Southbank Physiotherapy Network,London,2023-11-08,2023-11-16,Cataract procedure,H25.9,2918.36,2683.32,Paid,Member portal,No
+CLM0000714,PH00200,PRV005,Harbourview Specialist Centre,North West,2023-01-02,2023-01-26,Cancer treatment,C50.9,4417.79,4160.81,Declined,Provider portal,No
+CLM0000715,PH00048,PRV009,Southbank Physiotherapy Network,London,2023-02-02,2023-02-26,Cardiology review,I10,661.05,508.99,Paid,Provider portal,No
+CLM0000716,PH00173,PRV001,Northbridge Private Hospital,London,2022-06-03,2022-07-04,Cancer treatment,C50.9,4337.83,4191.60,Partially paid,Provider portal,No
+CLM0000717,PH00046,PRV002,Riverside Diagnostics,South East,2025-07-28,2025-08-02,Physiotherapy,M25.5,381.14,283.94,Paid,Post,No
+CLM0000718,PH00243,PRV002,Riverside Diagnostics,South East,2023-05-13,2023-06-05,Day-case surgery,K40.9,3733.03,3452.24,Withdrawn,Member portal,No
+CLM0000719,PH00153,PRV001,Northbridge Private Hospital,London,2022-11-26,2022-12-27,Physiotherapy,M25.5,310.28,238.92,Paid,Provider portal,No
+CLM0000720,PH00015,PRV005,Harbourview Specialist Centre,North West,2022-09-01,2022-09-22,Physiotherapy,M25.5,162.20,144.04,Paid,Provider portal,No
+CLM0000721,PH00176,PRV006,Meadowlands Day Hospital,Yorkshire and the Humber,2024-06-08,2024-06-15,MRI scan,M54.5,489.32,421.18,Paid,Member portal,No
+CLM0000722,PH00266,PRV009,Southbank Physiotherapy Network,London,2022-03-29,2022-04-13,Cancer treatment,C50.9,4885.92,3701.31,Declined,Provider portal,No
+CLM0000723,PH00167,PRV010,Lakeside Surgical Centre,North East,2023-11-03,2023-11-07,MRI scan,M54.5,815.69,741.40,Paid,Member portal,No
+CLM0000724,PH00100,PRV001,Northbridge Private Hospital,London,2025-07-09,2025-08-02,Minor surgery,L98.9,2351.91,1747.21,Paid,Provider portal,No
+CLM0000725,PH00280,PRV006,Meadowlands Day Hospital,Yorkshire and the Humber,2024-12-27,2024-12-28,MRI scan,M54.5,469.29,397.99,Paid,Provider portal,No
+CLM0000726,PH00079,PRV009,Southbank Physiotherapy Network,London,2023-07-24,2023-08-07,Consultation,M25.5,556.04,534.43,Partially paid,Member portal,No
+CLM0000727,PH00289,PRV006,Meadowlands Day Hospital,Yorkshire and the Humber,2024-10-06,2024-11-02,Minor surgery,L98.9,994.71,926.50,Paid,Member portal,No
+CLM0000728,PH00259,PRV006,Meadowlands Day Hospital,Yorkshire and the Humber,2025-08-18,2025-08-25,Minor surgery,L98.9,2108.63,1825.00,Declined,Telephone,No
+CLM0000729,PH00155,PRV008,Oakfield Imaging Centre,East of England,2024-04-08,2024-05-10,Cataract procedure,H25.9,2033.23,1736.17,Paid,Member portal,No
+CLM0000730,PH00187,PRV009,Southbank Physiotherapy Network,London,2022-06-26,2022-07-30,Cancer treatment,C50.9,5711.11,5229.31,Paid,Member portal,No
+CLM0000731,PH00202,PRV006,Meadowlands Day Hospital,Yorkshire and the Humber,2024-02-12,2024-03-09,Cardiology review,I10,432.92,317.56,Paid,Provider portal,No
+CLM0000732,PH00233,PRV006,Meadowlands Day Hospital,Yorkshire and the Humber,2024-01-04,2024-02-06,Cataract procedure,H25.9,2981.25,2399.07,Paid,Member portal,No
+CLM0000733,PH00099,PRV010,Lakeside Surgical Centre,North East,2025-01-24,2025-02-26,Cardiology review,I10,796.19,713.03,Paid,Member portal,No
+CLM0000734,PH00271,PRV005,Harbourview Specialist Centre,North West,2024-01-18,2024-02-12,Physiotherapy,M25.5,177.05,133.81,Paid,Member portal,No
+CLM0000735,PH00012,PRV009,Southbank Physiotherapy Network,London,2025-11-15,2025-12-10,Physiotherapy,M25.5,184.38,135.85,Paid,Member portal,No
+CLM0000736,PH00210,PRV007,Kingswell Cardiology Group,Scotland,2024-05-28,2024-05-30,Consultation,M25.5,459.75,436.13,Paid,Telephone,No
+CLM0000737,PH00287,PRV009,Southbank Physiotherapy Network,London,2024-08-20,2024-09-14,Physiotherapy,M25.5,174.92,160.83,Paid,Provider portal,No
+CLM0000738,PH00082,PRV007,Kingswell Cardiology Group,Scotland,2025-08-19,2025-09-07,Physiotherapy,M25.5,331.81,254.53,Declined,Provider portal,No
+CLM0000739,PH00052,PRV001,Northbridge Private Hospital,London,2024-04-30,2024-05-09,Cataract procedure,H25.9,1853.12,1525.19,Paid,Member portal,No
+CLM0000740,PH00077,PRV009,Southbank Physiotherapy Network,London,2022-12-14,2022-12-17,Cataract procedure,H25.9,3306.38,2964.70,Paid,Member portal,No
+CLM0000741,PH00012,PRV005,Harbourview Specialist Centre,North West,2023-05-17,2023-06-13,Day-case surgery,K40.9,3315.29,3255.49,Paid,Provider portal,No
+CLM0000742,PH00092,PRV008,Oakfield Imaging Centre,East of England,2023-06-23,2023-07-13,Cancer treatment,C50.9,3602.91,2687.27,Paid,Member portal,No
+CLM0000743,PH00157,PRV003,Cedar Grove Clinic,South West,2023-09-16,2023-10-16,Minor surgery,L98.9,1999.27,1648.77,Declined,Member portal,No
+CLM0000744,PH00237,PRV008,Oakfield Imaging Centre,East of England,2022-02-14,2022-03-12,Cataract procedure,H25.9,2868.17,2837.12,Declined,Member portal,No
+CLM0000745,PH00036,PRV004,Westmoor Orthopaedics,West Midlands,2025-11-04,2025-12-09,Consultation,M25.5,371.69,313.59,Paid,Post,No
+CLM0000746,PH00024,PRV010,Lakeside Surgical Centre,North East,2024-07-31,2024-08-24,MRI scan,M54.5,814.87,773.22,Paid,Provider portal,No
+CLM0000747,PH00058,PRV008,Oakfield Imaging Centre,East of England,2023-08-13,2023-09-05,Minor surgery,L98.9,2191.15,1776.10,Partially paid,Member portal,No
+CLM0000748,PH00179,PRV010,Lakeside Surgical Centre,North East,2023-03-01,2023-03-08,Mental health therapy,F41.9,427.21,426.39,Declined,Member portal,No
+CLM0000749,PH00206,PRV008,Oakfield Imaging Centre,East of England,2025-04-09,2025-04-13,Consultation,M25.5,486.63,460.08,Paid,Member portal,No
+CLM0000750,PH00268,PRV005,Harbourview Specialist Centre,North West,2022-02-17,2022-02-19,MRI scan,M54.5,569.31,420.57,Paid,Provider portal,No
+CLM0000751,PH00107,PRV005,Harbourview Specialist Centre,North West,2025-09-13,2025-09-29,Cardiology review,I10,520.34,382.17,Paid,Provider portal,No
+CLM0000752,PH00083,PRV002,Riverside Diagnostics,South East,2025-01-06,2025-01-21,Consultation,M25.5,311.70,252.81,Declined,Member portal,No
+CLM0000753,PH00042,PRV001,Northbridge Private Hospital,London,2023-08-28,2023-09-30,Cancer treatment,C50.9,3283.64,2926.21,Declined,Member portal,No
+CLM0000754,PH00269,PRV009,Southbank Physiotherapy Network,London,2024-10-01,2024-10-02,Cardiology review,I10,599.49,503.81,Paid,Provider portal,No
+CLM0000755,PH00199,PRV002,Riverside Diagnostics,South East,2024-11-27,2024-12-05,Cancer treatment,C50.9,2879.55,2623.71,Paid,Provider portal,No
+CLM0000756,PH00170,PRV008,Oakfield Imaging Centre,East of England,2022-01-05,2022-01-11,Minor surgery,L98.9,1029.26,978.76,Partially paid,Post,No
+CLM0000757,PH00287,PRV007,Kingswell Cardiology Group,Scotland,2023-01-11,2023-02-15,Physiotherapy,M25.5,116.91,84.26,Paid,Provider portal,No
+CLM0000758,PH00014,PRV006,Meadowlands Day Hospital,Yorkshire and the Humber,2023-12-31,2024-01-01,Cardiology review,I10,480.67,427.75,Withdrawn,Member portal,No
+CLM0000759,PH00112,PRV005,Harbourview Specialist Centre,North West,2022-02-20,2022-03-25,Consultation,M25.5,507.42,429.82,Partially paid,Telephone,No
+CLM0000760,PH00170,PRV008,Oakfield Imaging Centre,East of England,2024-09-24,2024-10-01,Cataract procedure,H25.9,4126.17,3358.22,Paid,Member portal,No
+CLM0000761,PH00196,PRV006,Meadowlands Day Hospital,Yorkshire and the Humber,2023-10-03,2023-10-19,Day-case surgery,K40.9,3760.66,2759.64,Paid,Post,No
+CLM0000762,PH00004,PRV008,Oakfield Imaging Centre,East of England,2024-05-17,2024-05-22,Minor surgery,L98.9,2488.09,2015.73,Paid,Member portal,No
+CLM0000763,PH00031,PRV004,Westmoor Orthopaedics,West Midlands,2024-01-04,2024-01-07,Cardiology review,I10,446.37,375.36,Partially paid,Member portal,No
+CLM0000764,PH00279,PRV010,Lakeside Surgical Centre,North East,2023-06-05,2023-06-19,Cardiology review,I10,356.37,258.61,Paid,Provider portal,No
+CLM0000765,PH00015,PRV003,Cedar Grove Clinic,South West,2025-03-25,2025-04-21,Consultation,M25.5,572.97,420.18,Declined,Provider portal,No
+CLM0000766,PH00197,PRV004,Westmoor Orthopaedics,West Midlands,2024-09-16,2024-10-02,Minor surgery,L98.9,1824.40,1694.61,Paid,Member portal,No
+CLM0000767,PH00229,PRV008,Oakfield Imaging Centre,East of England,2023-01-29,2023-02-07,Physiotherapy,M25.5,105.38,101.85,Paid,Member portal,No
+CLM0000768,PH00020,PRV002,Riverside Diagnostics,South East,2024-01-29,2024-02-12,Day-case surgery,K40.9,3137.18,2688.14,Partially paid,Provider portal,No
+CLM0000769,PH00288,PRV003,Cedar Grove Clinic,South West,2024-03-24,2024-03-29,Day-case surgery,K40.9,1938.30,1726.78,Paid,Member portal,No
+CLM0000770,PH00286,PRV008,Oakfield Imaging Centre,East of England,2024-05-26,2024-06-14,Cataract procedure,H25.9,3645.30,3200.61,Paid,Member portal,No
+CLM0000771,PH00232,PRV007,Kingswell Cardiology Group,Scotland,2024-10-04,2024-10-05,Day-case surgery,K40.9,4201.42,3361.02,Partially paid,Telephone,No
+CLM0000772,PH00094,PRV001,Northbridge Private Hospital,London,2024-04-07,2024-05-10,MRI scan,M54.5,711.18,626.25,Partially paid,Member portal,No
+CLM0000773,PH00107,PRV008,Oakfield Imaging Centre,East of England,2024-04-20,2024-05-23,Cataract procedure,H25.9,3656.89,3571.92,Paid,Telephone,No
+CLM0000774,PH00045,PRV005,Harbourview Specialist Centre,North West,2022-01-06,2022-01-24,Cardiology review,I10,629.84,604.47,Paid,Post,No
+CLM0000775,PH00220,PRV004,Westmoor Orthopaedics,West Midlands,2025-05-28,2025-05-29,Mental health therapy,F41.9,857.38,850.51,Paid,Provider portal,No
+CLM0000776,PH00042,PRV003,Cedar Grove Clinic,South West,2025-04-27,2025-05-13,Mental health therapy,F41.9,688.41,680.10,Paid,Member portal,No
+CLM0000777,PH00104,PRV003,Cedar Grove Clinic,South West,2023-03-29,2023-04-01,Mental health therapy,F41.9,190.60,141.98,Paid,Member portal,Yes
+CLM0000778,PH00262,PRV007,Kingswell Cardiology Group,Scotland,2022-03-08,2022-03-23,Cataract procedure,H25.9,1928.47,1518.02,Partially paid,Provider portal,No
+CLM0000779,PH00196,PRV005,Harbourview Specialist Centre,North West,2022-09-24,2022-10-14,Cataract procedure,H25.9,3102.49,2269.70,Paid,Member portal,No
+CLM0000780,PH00146,PRV005,Harbourview Specialist Centre,North West,2025-01-12,2025-02-13,Mental health therapy,F41.9,806.36,688.01,Paid,Member portal,No
+CLM0000781,PH00193,PRV002,Riverside Diagnostics,South East,2024-01-01,2024-01-08,Minor surgery,L98.9,2488.48,2108.10,Paid,Member portal,No
+CLM0000782,PH00194,PRV008,Oakfield Imaging Centre,East of England,2022-06-09,2022-06-27,Mental health therapy,F41.9,697.86,575.41,Partially paid,Member portal,Yes
+CLM0000783,PH00284,PRV009,Southbank Physiotherapy Network,London,2024-01-14,2024-01-18,Day-case surgery,K40.9,1784.51,1701.94,Paid,Provider portal,No
+CLM0000784,PH00034,PRV007,Kingswell Cardiology Group,Scotland,2022-11-26,2022-12-17,MRI scan,M54.5,821.84,769.09,Paid,Member portal,No
+CLM0000785,PH00185,PRV004,Westmoor Orthopaedics,West Midlands,2025-03-08,2025-04-07,Mental health therapy,F41.9,808.87,644.35,Partially paid,Provider portal,No
+CLM0000786,PH00124,PRV001,Northbridge Private Hospital,London,2025-10-01,2025-10-24,Cancer treatment,C50.9,8831.65,8323.74,Withdrawn,Member portal,No
+CLM0000787,PH00093,PRV005,Harbourview Specialist Centre,North West,2024-02-19,2024-02-20,Cardiology review,I10,240.96,236.39,Paid,Provider portal,No
+CLM0000788,PH00099,PRV009,Southbank Physiotherapy Network,London,2022-08-14,2022-08-26,Cataract procedure,H25.9,2165.36,1691.32,Paid,Member portal,No
+CLM0000789,PH00166,PRV002,Riverside Diagnostics,South East,2023-10-26,2023-11-22,Minor surgery,L98.9,1428.97,1247.09,Partially paid,Member portal,No
+CLM0000790,PH00083,PRV009,Southbank Physiotherapy Network,London,2025-01-25,2025-02-23,Mental health therapy,F41.9,505.95,437.77,Paid,Member portal,No
+CLM0000791,PH00167,PRV009,Southbank Physiotherapy Network,London,2025-02-18,2025-02-20,Cardiology review,I10,845.12,649.88,Paid,Member portal,No
+CLM0000792,PH00247,PRV006,Meadowlands Day Hospital,Yorkshire and the Humber,2022-02-09,2022-02-18,Consultation,M25.5,332.26,286.53,Partially paid,Post,Yes
+CLM0000793,PH00126,PRV004,Westmoor Orthopaedics,West Midlands,2023-08-09,2023-08-21,Physiotherapy,M25.5,158.88,154.17,Paid,Member portal,No
+CLM0000794,PH00017,PRV005,Harbourview Specialist Centre,North West,2024-12-25,2025-01-21,Cardiology review,I10,795.30,581.01,Paid,Member portal,No
+CLM0000795,PH00279,PRV003,Cedar Grove Clinic,South West,2022-10-11,2022-10-25,Cardiology review,I10,503.35,456.66,Paid,Member portal,No
+CLM0000796,PH00199,PRV001,Northbridge Private Hospital,London,2025-05-16,2025-06-19,Cataract procedure,H25.9,1860.93,1359.57,Paid,Member portal,No
+CLM0000797,PH00001,PRV001,Northbridge Private Hospital,London,2022-02-11,2022-02-20,Physiotherapy,M25.5,193.40,163.18,Paid,Member portal,No
+CLM0000798,PH00112,PRV008,Oakfield Imaging Centre,East of England,2023-06-07,2023-06-28,Physiotherapy,M25.5,107.39,95.89,Paid,Member portal,No
+CLM0000799,PH00106,PRV004,Westmoor Orthopaedics,West Midlands,2025-01-21,2025-01-25,Physiotherapy,M25.5,227.33,183.30,Declined,Provider portal,No
+CLM0000800,PH00297,PRV005,Harbourview Specialist Centre,North West,2022-06-23,2022-06-24,Minor surgery,L98.9,1360.35,1126.23,Partially paid,Provider portal,No
