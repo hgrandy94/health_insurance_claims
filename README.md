@@ -8,7 +8,7 @@ This repository contains a deterministic, synthetic dataset for demonstrating hi
 
 - `policyholders.csv`: 300 synthetic policyholders and policy attributes.
 - `claims.csv`: 800 synthetic claims from 2022 through 2025. Join to policyholders using `policyholder_id`.
-- `claim_investigations.csv`: one investigation record per claim. Join to claims using `claim_id`.
+- `claim_investigations.csv`: investigation events, with one or more records per claim. Join to claims using `claim_id`.
 
 ### Power BI semantic model
 
@@ -17,12 +17,12 @@ The tables form a simple star schema. In Power BI, create these active relations
 | From | To | Cardinality | Join key |
 |---|---|---|---|
 | `policyholders` | `claims` | One-to-many | `policyholder_id` |
-| `claims` | `claim_investigations` | One-to-one currently | `claim_id` |
+| `claims` | `claim_investigations` | One-to-many | `claim_id` |
 
 ```mermaid
 erDiagram
 	policyholders ||--o{ claims : "policyholder_id"
-	claims ||--|| claim_investigations : "claim_id"
+	claims ||--o{ claim_investigations : "claim_id"
 
 	policyholders {
 		string policyholder_id PK
@@ -50,6 +50,8 @@ erDiagram
 	claim_investigations {
 		string investigation_id PK
 		string claim_id FK
+		integer review_sequence
+		string investigation_stage
 		date review_created_date
 		integer risk_score
 		string primary_flag
@@ -59,7 +61,7 @@ erDiagram
 	}
 ```
 
-Use `policyholders` for filtering and grouping, `claims` for financial and historical measures, and `claim_investigations` for fraud-risk analysis. The investigation table currently has one row per claim; a future production model could use one-to-many if a claim can have multiple review events.
+Use `policyholders` for filtering and grouping, `claims` for financial and historical measures, and `claim_investigations` for fraud-risk analysis. The investigation table contains multiple review events for selected claims, allowing reports to analyse investigation progression over time.
 
 The planted review patterns include high-value claims, repeated provider/member activity, duplicate-document signals, identity-mismatch signals, and simulated investigation outcomes. These are intentionally explainable patterns for dashboard demonstrations, not evidence about real people or providers.
 
