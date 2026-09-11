@@ -25,8 +25,6 @@ If you follow the examples from end to end, you will have:
 - Three report pages covering claims, providers, and investigations
 - A collection of prompts that report consumers can use to understand the data
 
-Allow approximately 60–90 minutes for this path, or spend the time experimenting with the areas that are most useful to you.
-
 ## 1. Prerequisites
 
 Before starting, confirm that:
