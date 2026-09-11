@@ -1,77 +1,59 @@
-# health_insurance_claims
+# Health Insurance Claims Power BI Copilot Hackathon
 
-## Synthetic Health Claims Demo
+This repository contains a deterministic, synthetic private health insurance dataset for a Microsoft Fabric and Power BI Copilot hackathon.
 
-This repository contains a deterministic, synthetic dataset for demonstrating historical private health claims analysis and fraud-investigation workflows in Power BI. It is not real customer, provider, or claims data, and it must not be used for real underwriting, claims decisions, or medical analysis.
+Participants will:
 
-### Tables
+1. Download the CSV files.
+2. Create a lakehouse in Microsoft Fabric.
+3. Upload the files and load them into lakehouse tables.
+4. Build a semantic model with the supplied relationships and measures.
+5. Use Power BI Copilot to create report pages and explore the data.
 
-- `policyholders.csv`: 300 synthetic policyholders and policy attributes.
-- `claims.csv`: 800 synthetic claims from 2022 through 2025. Join to policyholders using `policyholder_id`.
-- `claim_investigations.csv`: investigation events, with one or more records per claim. Join to claims using `claim_id`.
+## Start here
 
-### Power BI semantic model
+Follow the [Power BI Copilot hackathon instruction manual](./hackathon-guide/README.md). It includes:
 
-The tables form a simple star schema. In Power BI, create these active relationships with single-direction filtering:
+- Fabric and Copilot prerequisites
+- CSV download and lakehouse setup instructions
+- Table and semantic-model configuration
+- Recommended DAX measures
+- Three report-page exercises with example Copilot prompts
+- Ten prompts for report consumers
+- Validation checks and troubleshooting guidance
 
-| From | To | Cardinality | Join key |
-|---|---|---|---|
-| `policyholders` | `claims` | One-to-many | `policyholder_id` |
-| `claims` | `claim_investigations` | One-to-many | `claim_id` |
+The source files are in the [`data`](./data) folder:
+
+- [`policyholders.csv`](./data/policyholders.csv): 300 synthetic policyholders and policy attributes
+- [`claims.csv`](./data/claims.csv): 800 synthetic claims from 2022 through 2025
+- [`claim_investigations.csv`](./data/claim_investigations.csv): 938 investigation review events
+
+## Data model
+
+Create these active, single-direction relationships:
+
+| One side | Many side | Key |
+|---|---|---|
+| `policyholders` | `claims` | `policyholder_id` |
+| `claims` | `claim_investigations` | `claim_id` |
 
 ```mermaid
 erDiagram
-	policyholders ||--o{ claims : "policyholder_id"
-	claims ||--o{ claim_investigations : "claim_id"
-
-	policyholders {
-		string policyholder_id PK
-		string policy_number
-		string region
-		string plan_type
-		date cover_start_date
-		string cover_status
-		decimal annual_premium_gbp
-	}
-
-	claims {
-		string claim_id PK
-		string policyholder_id FK
-		string provider_id
-		string provider_name
-		date service_date
-		date submitted_date
-		string claim_type
-		decimal billed_amount_gbp
-		decimal approved_amount_gbp
-		string claim_status
-	}
-
-	claim_investigations {
-		string investigation_id PK
-		string claim_id FK
-		integer review_sequence
-		string investigation_stage
-		date review_created_date
-		integer risk_score
-		string primary_flag
-		string investigation_outcome
-		string duplicate_document_signal
-		string identity_mismatch_signal
-	}
+    policyholders ||--o{ claims : policyholder_id
+    claims ||--o{ claim_investigations : claim_id
 ```
 
-Use `policyholders` for filtering and grouping, `claims` for financial and historical measures, and `claim_investigations` for fraud-risk analysis. The investigation table contains multiple review events for selected claims, allowing reports to analyse investigation progression over time.
+Use `policyholders` for customer and policy attributes, `claims` for financial and historical analysis, and `claim_investigations` for review-stage and risk analysis.
 
-The planted review patterns include high-value claims, repeated provider/member activity, duplicate-document signals, identity-mismatch signals, and simulated investigation outcomes. These are intentionally explainable patterns for dashboard demonstrations, not evidence about real people or providers.
+## Important data notice
 
-### Regenerate
+All records are synthetic. They do not represent real customers, providers, claims, diagnoses, or investigations. Use the data only for learning and demonstrations, not for underwriting, claims decisions, fraud allegations, medical analysis, or other real-world decisions.
 
-Run `python generate_dataset.py` to recreate all three CSVs with the same values. The generator uses a fixed seed so relationships and results remain stable between runs.
+The planted patterns are deliberately explainable and include high-value claims, repeated provider/member activity, duplicate-document signals, identity-mismatch signals, and simulated investigation outcomes.
 
-### Research basis
+## Research basis
 
-The synthetic field choices are informed by the general UK insurance and healthcare context described by the Association of British Insurers' fraud guidance and NHS hospital guidance:
+The synthetic field choices are informed by the general UK insurance and healthcare context described by:
 
-- https://www.abi.org.uk/products-and-issues/topics-and-issues/fraud/
-- https://www.nhs.uk/nhs-services/hospitals/going-into-hospital/
+- [Association of British Insurers fraud guidance](https://www.abi.org.uk/products-and-issues/topics-and-issues/fraud/)
+- [NHS hospital guidance](https://www.nhs.uk/nhs-services/hospitals/going-into-hospital/)
