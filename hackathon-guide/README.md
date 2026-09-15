@@ -10,7 +10,7 @@ The hackathon is intentionally open-ended: you are welcome to use the data and C
 
 Try approaching the data from more than one perspective:
 
-- **Report developer:** Prepare the semantic model, ask Copilot to generate or explain DAX, create report pages and visuals, refine layouts, and improve the model so Copilot can understand it more accurately.
+- **Report developer:** Prepare the semantic model, ask Copilot to generate or explain DAX, use Copilot to create and edit report pages, adjust formatting manually, and improve the model so Copilot can understand it more accurately.
 - **Report consumer:** Explore an existing report using natural-language questions, request summaries and comparisons, ask for supporting evidence, challenge an answer, and follow interesting findings with more specific questions.
 
 Switch between the personas during the session. For example, ask a question as a consumer, notice that the report cannot answer it clearly, then return to the developer role to add a measure or visual. Experiment with your wording, compare Copilot responses, and keep asking follow-up questions. The aim is to discover both what Copilot can do and where human judgement and model design are still important.
@@ -262,6 +262,10 @@ The three pages below demonstrate one possible report. You are encouraged to cha
 
 From the semantic model, select **Create report** and open the Copilot pane. Add one page at a time. Copilot may choose different visual types between runs, so prompts should state the business goal, required measures, breakdowns, filters, and layout.
 
+> **Copilot editing capabilities:** According to Microsoft's [Create and Edit Power BI Reports with Copilot](https://learn.microsoft.com/en-us/power-bi/create-reports/copilot-create-reports) guidance, Copilot can add, delete, and change visuals on an existing report page, including changing a visual's type or fields. You can also undo and redo recent Copilot actions.
+>
+> **Know the limitations:** Copilot does not support custom visuals or styling and formatting changes. Changing a complex visual can also cause some detail or formatting to be lost, so check every result and make presentation changes manually. Report creation and editing require the semantic model's Q&A feature switch to be enabled and are not supported for real-time streaming models, live connections to Analysis Services, or semantic models with implicit measures disabled.
+
 ### Page 1: Claims overview
 
 Goal: Explain overall volume, cost, status, and historical movement.
@@ -270,9 +274,7 @@ Use this prompt:
 
 > Create a report page titled "Claims Overview". Add KPI cards for Total Claims, Total Billed Amount, Total Approved Amount, Approval Rate, and Average Approved Claim. Add a monthly line chart of Total Claims by service_date, a clustered bar chart of Total Approved Amount by claim_type, and a donut chart of Total Claims by claim_status. Add slicers for service_date, plan_type, and region. Use GBP formatting for amount measures and sort time chronologically.
 
-Then refine it:
-
-> Improve this page for an executive audience. Keep the five KPI cards in one row, use concise titles, remove redundant legends, and highlight claim types with high approved amounts. Do not change the measures.
+**Prompt challenge:** Ask Copilot to adapt the page for an executive audience by removing a lower-priority visual or changing a visual type or its fields. Compare the result with the original, use undo if needed, and make any layout or formatting changes manually.
 
 Verify that policyholder slicers filter claims visuals. This confirms that the `policyholders`-to-`claims` relationship works.
 
@@ -284,9 +286,7 @@ Use this prompt:
 
 > Create a report page titled "Provider and Operations". Add a bar chart showing Total Approved Amount by provider_name, a scatter chart comparing Total Claims and Average Approved Claim by provider_name, a column chart of Average Submission Lag Days by submission_channel, and a matrix with provider_name, provider_region, Total Claims, Total Billed Amount, Total Approved Amount, and Approval Rate. Add slicers for claim_type, provider_region, provider_region_match, and submission_channel. Show the top 10 providers by Total Approved Amount where a visual needs a limit.
 
-Then refine it:
-
-> Add a short narrative summary that describes the largest providers, approval-rate differences, and submission-lag patterns visible under the current filters. Use neutral language and do not imply fraud or poor performance.
+**Prompt challenge:** Ask Copilot to add a narrative summary about the largest providers, approval-rate differences, and submission-lag patterns. Request neutral language that does not imply fraud or poor performance, then check how well the new visual reflects the current filters.
 
 Check that the narrative changes when slicers change. Treat the narrative as a draft and verify each statement against the visuals.
 
@@ -298,22 +298,20 @@ Use this prompt:
 
 > Create a report page titled "Investigation Analysis". Add KPI cards for Average Risk Score, High Risk Claims, and SIU Referred Claims. Add a column chart of distinct claims by primary_flag, a stacked bar chart of investigation records by investigation_stage and investigation_outcome, a line chart of investigation records by review_created_date, and a table containing claim_id, provider_name, claim_type, risk_score, primary_flag, investigation_outcome, duplicate_document_signal, and identity_mismatch_signal. Add slicers for risk_score, primary_flag, investigation_stage, and investigation_outcome. Use the title "Simulated investigation indicators" above the detail table.
 
-Then refine it:
-
-> Apply conditional formatting to risk_score in the detail table, with higher scores more visually prominent. Keep all wording neutral and descriptive because the data and outcomes are synthetic.
+**Prompt challenge:** Ask Copilot to change one of the existing charts to a different visual type or adjust its fields while keeping the wording neutral and descriptive. Then format `risk_score` manually if you want higher scores to be more visually prominent, because Copilot does not support styling or formatting changes.
 
 Verify that selecting a policyholder, claim type, or provider filters investigation visuals through both relationships.
 
 ### If Copilot cannot create a requested page
 
-Break the request into smaller prompts:
+Simplify or reword the original prompt. You can also build the page incrementally:
 
-1. Ask for the page and KPI cards.
-2. Ask for one chart at a time.
-3. Ask for slicers.
-4. Ask for layout and formatting changes.
+1. Ask Copilot to create the page and KPI cards.
+2. Ask it to add one visual at a time.
+3. Ask it to change a visual type or adjust its fields.
+4. Add slicers, layout changes, and formatting manually where needed.
 
-You can also build or correct any visual manually. Copilot is an assistant, not a replacement for model validation.
+If page creation remains unavailable, check the Q&A feature switch and confirm that the semantic model does not use one of the unsupported connection or model configurations listed above. Copilot is an assistant, not a replacement for model validation.
 
 ## 9. Consumer prompts: understand the report
 
