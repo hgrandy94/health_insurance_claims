@@ -37,30 +37,7 @@ Before starting, confirm that:
 
 Copilot availability depends on your tenant, region, capacity, licensing, and administrator settings. If the Copilot button is missing, ask your event facilitator before continuing.
 
-## 2. Download the CSV files
-
-The files are located in the repository's [`data`](../data) folder:
-
-- [`policyholders.csv`](../data/policyholders.csv)
-- [`claims.csv`](../data/claims.csv)
-- [`claim_investigations.csv`](../data/claim_investigations.csv)
-
-### Option A: Download the repository
-
-1. On the repository page, select **Code**.
-2. Select **Download ZIP**.
-3. Extract the ZIP file.
-4. Open the `data` folder and confirm that all three CSV files are present.
-
-### Option B: Download files individually
-
-1. Open a CSV file from the list above.
-2. Select **Download raw file**.
-3. Repeat for all three files.
-
-Keep the filenames unchanged. They will become the table names used throughout this guide.
-
-## 3. Create a Fabric lakehouse
+## 2. Create a Fabric lakehouse
 
 Fabric labels can change slightly over time, but the workflow remains the same.
 
@@ -72,7 +49,58 @@ Fabric labels can change slightly over time, but the workflow remains the same.
 6. Select **Create**.
 7. Wait for the Lakehouse explorer to open.
 
-## 4. Upload the CSV files as lakehouse files
+## 3. Choose a data-ingestion option
+
+You can use the supplied Fabric notebook to download and convert the data automatically, or download and load the files manually. Both options create the same three tables used throughout the rest of this guide.
+
+### Option A: Use the automated notebook
+
+Download [`Notebook CSV to Delta.ipynb`](../Notebook%20CSV%20to%20Delta.ipynb), or download the repository ZIP so that the notebook is available on your computer. Continue with **Option A** in section 4. You do not need to download the CSV files separately.
+
+### Option B: Download and load the CSV files manually
+
+The CSV files are located in the repository's [`data`](../data) folder:
+
+- [`policyholders.csv`](../data/policyholders.csv)
+- [`claims.csv`](../data/claims.csv)
+- [`claim_investigations.csv`](../data/claim_investigations.csv)
+
+#### Download the repository
+
+1. On the repository page, select **Code**.
+2. Select **Download ZIP**.
+3. Extract the ZIP file.
+4. Open the `data` folder and confirm that all three CSV files are present.
+
+#### Download files individually
+
+1. Open a CSV file from the list above.
+2. Select **Download raw file**.
+3. Repeat for all three files.
+
+Keep the filenames unchanged. They will become the table names used throughout this guide. Continue with **Option B** in section 4.
+
+## 4. Ingest the CSV data
+
+Follow only the option you selected in section 3.
+
+### Option A: Run the automated notebook
+
+1. Return to the workspace containing `HealthInsuranceClaims`.
+2. Import [`Notebook CSV to Delta.ipynb`](../Notebook%20CSV%20to%20Delta.ipynb) as a Fabric notebook.
+3. In the notebook's Lakehouse explorer, add `HealthInsuranceClaims` and set it as the default lakehouse.
+4. Restart the Spark session if Fabric prompts you to do so.
+5. Select **Run all**.
+6. Confirm that the notebook reports that it downloaded the demo files.
+7. Refresh the Lakehouse explorer and confirm that all three CSV files appear under **Files** and all three tables appear under **Tables**.
+
+The first code cell downloads files only when they are not already present in the default lakehouse. The second code cell reads each CSV with headers and inferred schemas, then writes a managed Delta table in overwrite mode. Rerunning the notebook therefore keeps the existing files but replaces the table contents.
+
+If the notebook reports that no default lakehouse was found, confirm that `HealthInsuranceClaims` is attached and set as the default, restart the session, and run the notebook again.
+
+After the three tables appear, skip Option B and continue with section 5.
+
+### Option B: Upload and load the files manually
 
 1. In the Lakehouse explorer, locate the **Files** section.
 2. Select the ellipsis (`...`) beside **Files**, then select **Upload** > **Upload files**.
@@ -87,7 +115,9 @@ Uploading a file does not create a queryable table. Complete the next section fo
 
 ## 5. Load the files into tables
 
-For each CSV file:
+If you used the automated notebook, use this section only to verify the expected table names, row counts, and data types. The notebook has already created the tables.
+
+If you chose manual ingestion, complete these steps for each CSV file:
 
 1. Select the ellipsis (`...`) beside the file.
 2. Select **Load to tables** > **New table**.
