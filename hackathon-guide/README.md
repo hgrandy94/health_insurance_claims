@@ -189,9 +189,9 @@ Clear names, types, formats, and relationships give Copilot better model context
 
 ## 7. Add useful measures
 
-The measures below are a useful starting point, not a required list. Try asking Copilot to generate the DAX from a plain-English business question before looking at the reference definition. You can also change a measure, ask Copilot to explain unfamiliar DAX, or invent measures for questions you want the report to answer.
+The measures below are a useful starting point, not a required list. For the quickest route, create the measures from the reference definitions. If you want to practise building DAX with Copilot, try the optional challenge after the examples.
 
-Create any measures you want to explore. If you use the examples below, add the first group to the `claims` table. Compare Copilot-generated DAX with the reference definition before saving it.
+Create any measures you want to explore. If you use the examples below, add the first group to the `claims` table.
 
 ```DAX
 Total Claims =
@@ -259,17 +259,19 @@ CALCULATE(
 
 Format `Approval Rate` as a percentage, the amount measures as GBP currency, and the other measures as whole or decimal numbers as appropriate.
 
-### Measure-building Copilot prompts
+### Optional challenge: Generate DAX with Copilot
 
-Try asking Copilot:
+Instead of copying one or more reference definitions, describe the business calculation to Copilot in plain English. You can also ask Copilot to explain unfamiliar DAX, change an existing measure, or suggest measures for a question you want the report to answer.
+
+Try prompts such as:
 
 - `Write a measure named Total Approved Amount that sums approved_amount_gbp. Format it as GBP currency.`
 - `Create a measure for approved amount divided by billed amount. It must safely handle division by zero.`
 - `Create a distinct count of claims whose investigation risk score is at least 60.`
 - `Explain this DAX measure in plain English and identify any filter-context issues: [paste measure].`
-- `Suggest three additional measures for monitoring claim cost, processing time, and investigation risk using only fields in this model. Do not create calculated columns.`
+- `Suggest three additional measures for monitoring claim cost, processing time, and investigation risk using only fields in this model. Do not create calculated columns. Explain why each measure could be useful.`
 
-Always review generated DAX for the correct table, column, aggregation, and filter behavior.
+Compare generated DAX with the relevant reference definition where one is provided. Always review it for the correct table, column, aggregation, filter behavior, and treatment of blanks or division by zero before saving it.
 
 ### Checkpoint
 
@@ -364,6 +366,22 @@ Useful follow-up prompts include:
 - `Which visual or measure supports this answer?`
 - `Rephrase this for a non-technical audience without losing the caveats.`
 - `What can this dataset not tell us?`
+
+### Go further
+
+Do not stop at a summary. Ask Copilot to recommend where further investigation could be valuable, then challenge each recommendation by requesting evidence, comparisons, and caveats. Treat recommendations as starting points for analysis rather than conclusions.
+
+Try two or three of these:
+
+1. `Based on the current report, recommend three areas that deserve further investigation. Rank them by potential business impact, cite the values or trends behind each recommendation, and state what additional data or checks would be needed before taking action.`
+2. `Look across providers, claim types, regions, and plan types for combinations with unusually high average claim values or large gaps between billed and approved amounts. Recommend where I should drill down first, compare each result with an appropriate baseline, and avoid implying wrongdoing.`
+3. `Review submission lag, risk scores, investigation flags, and outcomes together. Suggest three operational questions or hypotheses worth testing next. For each one, give the supporting evidence, an alternative explanation, and a useful next analysis or data point. Do not infer causation from an association.`
+
+Follow a recommendation into the detail:
+
+- `Break that result down by month and claim type. Does the pattern persist or come from a small number of claims?`
+- `What evidence in this report could contradict your recommendation?`
+- `What additional measure, visual, or data field would help test this properly?`
 
 ## 10. Final validation checklist
 
