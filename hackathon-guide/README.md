@@ -189,9 +189,42 @@ Clear names, types, formats, and relationships give Copilot better model context
 
 ## 7. Add useful measures
 
-The measures below are a useful starting point, not a required list. For the quickest route, create the measures from the reference definitions. If you want to practise building DAX with Copilot, try the optional challenge after the examples.
+The measures below are a useful starting point, not a required list. For the quickest route, create them from the reference definitions with **New measure**. To generate and test them together with Copilot, use the optional DAX Query view route.
 
-Create any measures you want to explore. If you use the examples below, add the first group to the `claims` table.
+### Where to create the measures
+
+Create these measures in the **Health Insurance Claims semantic model**, not in the lakehouse, a notebook, SQL query editor, or the report Copilot prompt box. The simplest method is to use **New measure**:
+
+1. In your Fabric workspace, open the `Health Insurance Claims` **semantic model**.
+2. Select **Open data model** or **Edit data model** to open the semantic model editor.
+3. In the **Data** pane, select the table that will contain the measure:
+   - Use `claims` for the first seven measures, from `Total Claims` through `Average Submission Lag Days`.
+   - Use `claim_investigations` for the final three measures, from `Average Risk Score` through `SIU Referred Claims`.
+4. Select **New measure** from the ribbon. If it is not visible, right-click the target table and select **New measure**.
+5. Paste one complete measure definition, including its name and the `=` sign, into the formula bar.
+6. Select the checkmark or press **Enter** to save it, then repeat these steps for the next measure.
+
+> **Check before pasting:** For this method, you should see a formula bar for a new measure associated with the selected table. If the editor shows a query window or a **Run** button, you are in **DAX Query view** and must use the alternative syntax below.
+
+### Optional Copilot route: Generate and test the measures
+
+You can avoid creating every measure individually by using Copilot in [DAX Query view](https://learn.microsoft.com/en-us/power-bi/transform-model/dax-query-view). Microsoft documents how to [write DAX queries with Copilot](https://learn.microsoft.com/en-us/dax/dax-copilot), including generating a query from natural language, running it before keeping it, revising it conversationally, and asking Copilot to explain it.
+
+1. From the semantic model's menu in the workspace, select **Write DAX queries**.
+2. Create a new query tab and open **Copilot**, or press **Ctrl+I**.
+3. Paste the following prompt:
+
+> Write a DAX query for this semantic model using `DEFINE MEASURE`. Define these measures in the stated tables: in `claims`, create `Total Claims` as a distinct count of `claim_id`, `Total Billed Amount` as the sum of `billed_amount_gbp`, `Total Approved Amount` as the sum of `approved_amount_gbp`, `Approval Rate` as approved amount divided safely by billed amount, `Average Approved Claim` as approved amount divided safely by total claims, `Declined Claims` as total claims filtered to `claim_status` equal to "Declined", and `Average Submission Lag Days` as the average number of days from `service_date` to `submitted_date`. In `claim_investigations`, create `Average Risk Score` as the average of `risk_score`, `High Risk Claims` as a distinct count of `claim_id` where `risk_score` is at least 60, and `SIU Referred Claims` as a distinct count of `claim_id` where `investigation_outcome` equals "Referred to SIU". Add an `EVALUATE ROW` statement that returns Total Claims, Total Billed Amount, Total Approved Amount, Approval Rate, Average Risk Score, and SIU Referred Claims so I can validate them. Use existing measures when one measure references another.
+
+4. Select **Run** in the Copilot response and inspect the results. The unfiltered values should match the checkpoint below.
+5. If the query fails or a value is wrong, ask Copilot to explain the relevant measure and correct the query. Review the proposed changes before accepting them.
+6. Select **Keep query** when the query works.
+7. Select **Update model with changes** to add all the query-scoped measures to the semantic model. Without this step, the measures exist only in the query.
+8. In the model editor, apply the percentage, currency, whole-number, and decimal formats described below; Copilot's DAX query does not replace this formatting step.
+
+Copilot checks generated query syntax and may retry once, but it can still produce incorrect DAX. Verify the table, column, aggregation, filter behavior, and checkpoint values before updating the model.
+
+> A standalone definition such as `Total Claims = DISTINCTCOUNT(claims[claim_id])` is valid in the **New measure** formula bar, but not in DAX Query view. DAX Query view requires `DEFINE MEASURE` and an `EVALUATE` statement.
 
 ```DAX
 Total Claims =
@@ -259,19 +292,15 @@ CALCULATE(
 
 Format `Approval Rate` as a percentage, the amount measures as GBP currency, and the other measures as whole or decimal numbers as appropriate.
 
-### Optional challenge: Generate DAX with Copilot
+### Go further with DAX Copilot
 
-Instead of copying one or more reference definitions, describe the business calculation to Copilot in plain English. You can also ask Copilot to explain unfamiliar DAX, change an existing measure, or suggest measures for a question you want the report to answer.
+After creating the reference measures, use Copilot to understand or extend the model:
 
-Try prompts such as:
-
-- `Write a measure named Total Approved Amount that sums approved_amount_gbp. Format it as GBP currency.`
-- `Create a measure for approved amount divided by billed amount. It must safely handle division by zero.`
-- `Create a distinct count of claims whose investigation risk score is at least 60.`
-- `Explain this DAX measure in plain English and identify any filter-context issues: [paste measure].`
+- `Explain the measures in this query in plain English and identify any filter-context or division-by-zero issues.`
+- `Modify the EVALUATE statement to compare Total Claims, Total Approved Amount, and Average Approved Claim by claim_type.`
 - `Suggest three additional measures for monitoring claim cost, processing time, and investigation risk using only fields in this model. Do not create calculated columns. Explain why each measure could be useful.`
 
-Compare generated DAX with the relevant reference definition where one is provided. Always review it for the correct table, column, aggregation, filter behavior, and treatment of blanks or division by zero before saving it.
+Run and validate each generated query before keeping it or updating the model.
 
 ### Checkpoint
 
@@ -425,6 +454,10 @@ Check that:
 ### Totals are unexpectedly high
 
 Do not sum claim amounts from the investigation table. A claim can have more than one investigation event. Use measures from `claims`, and use `DISTINCTCOUNT` when counting claims from `claim_investigations`.
+
+### The syntax for 'Claims' is incorrect
+
+You have probably pasted `Total Claims = ...` directly into **DAX Query view**. Either return to the semantic model editor and create it through `claims` > **New measure**, or wrap it in a complete `DEFINE MEASURE` and `EVALUATE` query as shown above. If you use DAX Query view, select **Update model with changes** after testing to add the measure permanently to the semantic model.
 
 ### Copilot uses the wrong field
 
