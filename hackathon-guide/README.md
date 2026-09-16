@@ -178,7 +178,7 @@ If Fabric detects a many-to-many relationship, first check that the correct colu
 
 In the model editor:
 
-1. Format GBP fields as currency with two decimal places.
+1. Format GBP fields as currency. 
 2. Format date fields as dates rather than date/time.
 3. Give measures clear business names.
 4. If the model editor supports descriptions, add short descriptions to tables and measures.
