@@ -178,12 +178,11 @@ If Fabric detects a many-to-many relationship, first check that the correct colu
 
 In the model editor:
 
-1. Set identifier columns to **Do not summarize**.
-2. Format GBP fields as currency with two decimal places.
-3. Format date fields as dates rather than date/time.
-4. Give measures clear business names.
-5. If the model editor supports descriptions, add short descriptions to tables and measures.
-6. Hide technical columns from report view only when they are not useful to participants.
+1. Format GBP fields as currency. 
+2. Format date fields as dates rather than date/time.
+3. Give measures clear business names.
+4. If the model editor supports descriptions, add short descriptions to tables and measures.
+5. Hide technical columns from report view only when they are not useful to participants.
 
 Clear names, types, formats, and relationships give Copilot better model context.
 
@@ -435,12 +434,16 @@ Now switch from report developer to report consumer. Open Copilot from the finis
 2. `How have claim volume and total approved amount changed over time? Call out any unusually high or low periods.`
 3. `Which claim types account for the largest approved amounts, and is that because of claim volume or average claim size?`
 4. `Compare billed and approved amounts by claim type. Where are the largest absolute and percentage differences?`
+
+   Example response:
+
+   ![Example Copilot response comparing billed and approved amounts by claim type](imgs/consumer-prompt-example.png)
+
 5. `Which regions and plan types have the highest claim volumes? Include the values and explain the active filters.`
 6. `Which providers have the highest approved amounts? Also show their claim counts so I can distinguish volume from average cost.`
 7. `How does submission lag vary by submission channel and claim type?`
-8. `What patterns are associated with high investigation risk scores? Describe associations only; do not infer causation or wrongdoing.`
-9. `How many distinct claims were referred to SIU, and which primary flags occur most often for those claims?`
-10. `Explain what the current report filters are and how they affect the figures on this page.`
+8. `How many distinct claims were referred to SIU, and which primary flags occur most often for those claims?`
+9. `Explain what the current report filters are and how they affect the figures on this page.`
 
 Useful follow-up prompts include:
 
