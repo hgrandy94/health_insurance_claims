@@ -435,6 +435,11 @@ Now switch from report developer to report consumer. Open Copilot from the finis
 2. `How have claim volume and total approved amount changed over time? Call out any unusually high or low periods.`
 3. `Which claim types account for the largest approved amounts, and is that because of claim volume or average claim size?`
 4. `Compare billed and approved amounts by claim type. Where are the largest absolute and percentage differences?`
+
+   Example response:
+
+   ![Example Copilot response comparing billed and approved amounts by claim type](imgs/consumer-prompt-example.png)
+
 5. `Which regions and plan types have the highest claim volumes? Include the values and explain the active filters.`
 6. `Which providers have the highest approved amounts? Also show their claim counts so I can distinguish volume from average cost.`
 7. `How does submission lag vary by submission channel and claim type?`
