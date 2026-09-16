@@ -55,7 +55,7 @@ You can use the supplied Fabric notebook to download and convert the data automa
 
 ### Option A: Use the automated notebook
 
-Download [`Notebook CSV to Delta.ipynb`](../Notebook%20CSV%20to%20Delta.ipynb), or download the repository ZIP so that the notebook is available on your computer. Continue with **Option A** in section 4. You do not need to download the CSV files separately.
+Download [`Notebook CSV to Delta.ipynb`](../notebooks/Notebook%20CSV%20to%20Delta.ipynb), or download the repository ZIP so that the notebook is available on your computer. Continue with **Option A** in section 4. You do not need to download the CSV files separately.
 
 ### Option B: Download and load the CSV files manually
 
@@ -98,7 +98,7 @@ The first code cell downloads files only when they are not already present in th
 
 If the notebook reports that no default lakehouse was found, confirm that `HealthInsuranceClaims` is attached and set as the default, restart the session, and run the notebook again.
 
-After the three tables appear, skip Option B and continue with section 5.
+After the three tables appear, **skip Option B and section 5, continue from section 6.**
 
 ### Option B: Upload and load the files manually
 
