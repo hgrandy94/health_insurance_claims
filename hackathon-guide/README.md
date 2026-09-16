@@ -443,9 +443,8 @@ Now switch from report developer to report consumer. Open Copilot from the finis
 5. `Which regions and plan types have the highest claim volumes? Include the values and explain the active filters.`
 6. `Which providers have the highest approved amounts? Also show their claim counts so I can distinguish volume from average cost.`
 7. `How does submission lag vary by submission channel and claim type?`
-8. `What patterns are associated with high investigation risk scores? Describe associations only; do not infer causation or wrongdoing.`
-9. `How many distinct claims were referred to SIU, and which primary flags occur most often for those claims?`
-10. `Explain what the current report filters are and how they affect the figures on this page.`
+8. `How many distinct claims were referred to SIU, and which primary flags occur most often for those claims?`
+9. `Explain what the current report filters are and how they affect the figures on this page.`
 
 Useful follow-up prompts include:
 
