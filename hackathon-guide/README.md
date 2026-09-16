@@ -195,6 +195,8 @@ Use **Copilot in DAX Query view** to generate and test the measures for this exe
 
 Complete this step in Copilot within [DAX Query view](https://learn.microsoft.com/en-us/power-bi/transform-model/dax-query-view). Microsoft documents how to [write DAX queries with Copilot](https://learn.microsoft.com/en-us/dax/dax-copilot), including generating a query from natural language, running it before keeping it, revising it conversationally, and asking Copilot to explain it.
 
+![Copilot open in Power BI DAX Query view](imgs/copilot-dax-query-view.png)
+
 1. From the semantic model's menu in the workspace, select **Write DAX queries**.
 2. Create a new query tab and open **Copilot**, or press **Ctrl+I**.
 3. Paste the following prompt:
@@ -203,9 +205,16 @@ Complete this step in Copilot within [DAX Query view](https://learn.microsoft.co
 
 4. Select **Run** in the Copilot response and inspect the results. The unfiltered values should match the checkpoint below.
 5. If the query fails or a value is wrong, ask Copilot to explain the relevant measure and correct the query. Review the proposed changes before accepting them.
-6. Select **Keep query** when the query works.
-7. Select **Update model with changes** to add all the query-scoped measures to the semantic model. Without this step, the measures exist only in the query.
+6. Select **Keep query** when the query works. Confirm that the generated DAX now appears in the query editor and contains a `DEFINE` block with one `MEASURE` declaration for each measure.
+7. Check the **Update model with changes** button. Its count should show the new or changed measures. Select it, review the listed changes, and confirm the update to add those measures to the semantic model.
+
+   ![DAX Query view showing ten measures ready to add with Update model with changes](imgs/update-model-with-changes.png)
+
 8. In the model editor, apply the percentage, currency, whole-number, and decimal formats described below; Copilot's DAX query does not replace this formatting step.
+
+> **Run does not update the model.** **Run** only tests the query, and **Keep query** only copies it into the query editor. The measures become permanent only after **Update model with changes** completes successfully.
+>
+> If **Update model with changes** still shows `(0)`, first confirm that you selected **Keep query** and that the editor contains `DEFINE MEASURE` declarations. A count of zero can also mean that identical measures already exist. If the declarations are present but the measures are missing from the model, confirm that you have write permission and that the workspace allows semantic-model editing.
 
 Copilot checks generated query syntax and may retry once, but it can still produce incorrect DAX. Verify the table, column, aggregation, filter behavior, and checkpoint values before updating the model.
 
