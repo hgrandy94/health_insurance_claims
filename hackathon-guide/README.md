@@ -178,12 +178,11 @@ If Fabric detects a many-to-many relationship, first check that the correct colu
 
 In the model editor:
 
-1. Set identifier columns to **Do not summarize**.
-2. Format GBP fields as currency with two decimal places.
-3. Format date fields as dates rather than date/time.
-4. Give measures clear business names.
-5. If the model editor supports descriptions, add short descriptions to tables and measures.
-6. Hide technical columns from report view only when they are not useful to participants.
+1. Format GBP fields as currency with two decimal places.
+2. Format date fields as dates rather than date/time.
+3. Give measures clear business names.
+4. If the model editor supports descriptions, add short descriptions to tables and measures.
+5. Hide technical columns from report view only when they are not useful to participants.
 
 Clear names, types, formats, and relationships give Copilot better model context.
 
